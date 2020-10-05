@@ -1,8 +1,8 @@
-# 飞跃——雨课堂网课助手(RainClassroom-Assistant)
+# 雨课堂网课助手(RainClassroom-Assistant)
 
 ## 项目综述
 
-- 飞跃——雨课堂网课助手(RainClassroom-Assistant)
+- 雨课堂网课助手(RainClassroom-Assistant)
 - 本项目采用 Python 开发
 - 版本截止目前为止迭代了5个大版本（2020-06-20）
 - 项目功能：1.挂机签到；2.课件答题；3.直播答题；4.考试答题（兼容新旧版本考试系统）
