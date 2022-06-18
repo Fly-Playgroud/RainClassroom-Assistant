@@ -1,0 +1,51 @@
+TIPS:
+----------------------------------------------------------------------------------------------
+
+1- If you want that HM NIS Edit be the default editor for NSIS files press the F11 key for open
+   the configuration window and press the button located at the bottom of the window. Also you 
+   can do this by passing the /RADE option to the command line.
+
+2- For avoid the default edit window appears when HM NIS Edit is opened: pass /nde to the command line.
+
+3- You can drag a file icon from the explorer to the HM NIS Edit window to open the file.
+
+4- Thanks to the SynEdit exporters you can export the script text to HTML or RTF files format by
+   selecting the "Save as..." item in the "File" menu and selecting the format in the
+   "Save file as type:" Combo Box.
+
+5- If you want to avoid a usage command hint appears when the mouse is moved over the script
+   text: Press the F11 key for open the configuration window, select Editor|Options tab and
+   uncheck the "Show command usage hint" option. Then the usage command hint will be show only 
+   if you press the Control key.
+
+6- You can change the default sections in the Wizard: in the language file you are using
+   locate the DefaultWizardSections value and add the names of the sections separates by a
+   semicolon. Example: DefaultWizardSections=Main Section;Section two;Section tree
+
+7- If a error or warning occurs while script compilation, you can double click the line in the
+   Log Box and then the file where the error or warning occurs will be opened and the line
+   highlighted. For example if the compiler do the next output:
+
+        MakeNSIS v2.0b3 - Copyright 1999-2003 Nullsoft, Inc.
+          . . .
+          . . .
+        !include: "D:\Prueva\Untitled 02.nsh"
+        Invalid command: !wbarning
+        !include: error in script: "D:\Prueva\Untitled 02.nsh" on line 9
+        Error in script "D:\Prueva\PRUEVAAA.nsi" on line 6 -- aborting creation process
+
+   then if at the Log Box you double click the line "!include: error in script..."  the file
+   D:\Prueva\Untitled 02.nsh will be opened and the line 9 highlighted, or if you double click
+   the line "Error in script..." the file D:\Prueva\PRUEVAAA.nsi will be opened and the line 6
+   highlighted.
+   
+8- You can open an include file into the editor by double clicking the line where the 
+   !include directive is located.
+   
+9- For open InstallOptions pages in text mode by default: Press the F11 key for open the 
+   configuration window and uncheck then "Open .ini file in design mode" option. Also you 
+   can change between design mode and text mode by pressing the F12 key.
+   
+10- Now you can create plugins for add more wizards or functionality. To learn how to create
+    plugins see the example plugins located at the $INSTDIR\Plugins\ExDll directory,
+    Delphi and C examples are available.

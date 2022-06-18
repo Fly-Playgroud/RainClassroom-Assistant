@@ -1,0 +1,546 @@
+; HM NIS EDIT 2.0.1 hungarian messages.
+
+; Translator: gLes <gLes@pro.hu>
+; Translator URL: http://www.gles.hu
+
+[Fonts]
+DialogFontName=MS Shell Dlg
+DialogFontSize=8
+DefaultEditorFont=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1038
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=&Fájl
+EditMenu=&Szerkesztés
+SearchMenu=&Keresés
+ViewMenu=&Nézet
+FormatMenu=&Formátum
+ToolsMenu=&Eszközök
+NSISMenu=&NSIS
+WindowMenu=&Ablak
+HelpMenu=&Súgó
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=Új &üres szkript|Ctrl+N|Új üres szkript létrehozása
+TemplateFile=&Új szkript sablon alapján...|Ctrl+T|Új szkript létrehozása már létezõ fájl alapján
+WizardFile=Új szkript varázslóval...|Ctrl+W|Új szkript létrehozása varázsló segítségével
+NewIOFile=Új &telepítési beállítások fájl|Ctrl+I|Új telepítési beállítások fájl létrehozása (egyéni oldal)
+FileOpen=Meg&nyitás...|Ctrl+O|Már létezõ szkript megnyitása
+Reopen=&Korábban megnyitott fájlok
+FileSave=&Mentés|Ctrl+S|Az aktív szkript mentése
+n_FileSaveAll=Az összes mentése||Az összes módosított fájl mentése
+FileSaveAs=Mentés má&sként...||Az aktív szkript mentése új néven vagy exportálása HTML vagy RTF formátumba
+FilePrint=&Nyomtatás|Ctrl+P|Az aktív szkript nyomtatása
+FileConfigPrint=Oldalbeállítás...||
+FileExit=&Kilépés|Alt+F4|Kilépés a programból
+
+; Edit menu
+EditUndo=&Visszavonás|Ctrl+Z|Utolsó mûvelet visszavonása
+EditRedo=&Ismét|Shift+Ctrl+Z|Elõzõleg visszavont mûvelet megismétlése
+EditCut=&Kivágás|Ctrl+X|A kijelölt szöveg kivágása a vágólapra
+EditCopy=&Másolás|Ctrl+C|A kijelölt szöveg másolása a vágólapra
+EditCopyAsHTML=Másolás HTML-ként||A kijelt szöveg másolása a vágólapra HTML formátumban
+EditPaste=&Beillesztés|Ctrl+V|A vágólap tartalmának beillesztése
+EditSelectAll=&Az összes kijelölése|Ctrl+A|Az egész szkript kijelölése
+
+; Search menu
+EditFind=&Keresés...|Ctrl+F|Szöveg keresése az aktív szkripten belül
+EditFindNext=Köve&tkezõ keresése|F3|A keresett szöveg következõ elõfordulása a szövegen belül
+EditReplace=&Csere...|Ctrl+R|A keresett szöveg elõfordulásainak cseréje más szövegre
+SearchGotoLine=&Ugrás sorhoz...|F2|Ugrás a megadott sorhoz
+ToggleBookmark=Kö&nyvjelzõ ki/bekapcsolása
+GotoBookmark=U&grás könyvjelzõhöz
+Bookmark=Könyvjelzõ
+
+; View menu
+ToolBarsMenu=Eszköztárak
+ViewBrowser=Böngészõ|F4|Böngészõ megjelenítése/elrejtése
+ViewWindowList=Ablak lista|F5|Megnyitott fájlok listájának megjelenítése/elrejtése
+ViewIOPanel=&Telepítési beállítások vezérlõk|F6|Telepítési beállítások panel megjelenítése/elrejtése
+ViewStatusBar=&Állapotsor|F7|Állapotsor megjelenítése/elrejtése
+ViewLogBox=Konzol|F8|Elõzmények panel megjelenítése/elrejtése
+ViewSpecialChars=Speciális karakterek|F10|Megjeleníti a sortöréseket, szóközöket és tabulátorokat speciális szimbólumokkal
+IOToggleDesignMode=Tervezõ mód ki/bekapcsolása|F12|Váltás a tervezõ mód vagy a szöveges szerkesztés között telepítési beállítások készítésénél
+ViewOptions=&Beállítások...|F11|A beállítások ablak megjelenítése
+
+; Format menu
+FormatIndent=&Behúzás növelése|Shift+Ctrl+I|A kijelölt sorok behúzásának növelése
+FormatUnIndent=Behúzás &csökkenétése|Shift+Ctrl+U|A kijelölt sorok behúzásának csökkentése
+FormatUpperCase=Csupa &NAGYBETÛ|Ctrl+U|A kijelölt szöveg NAGYBETÛSSÉ alakítása
+FormatLowerCase=Csupa &kisbetû|Ctrl+L|A kijelölt szöveg kisbetûssé alakítása
+FormatToggleCase=Nagybetû-kisbetû c&sere|Ctrl+H|A kijelölt szövegben átalakítja a Nagybetûket kisbetûkké és fordítva
+FormatQuoteSelection=&Idézõjelbe zárás|Ctrl+Q|A kijelölt szöveg idézõjelek közé zárása
+n_FormatWordWrap=&Hosszú sorok tördelése
+
+; Tools menu
+ToolsInsertColor=&Szín beszúrása...|Shift+F5|Bekérdez egy színt és beilleszti a kódját az aktív szkriptbe
+ToolsInsertFile=&Fájlnév beillesztése...|Shift+F6|Bekérdez egy fájlt és beilleszti a nevét az aktív szkriptbe
+CodeTemplates=Kód sablonok
+ToolsEditCodeTemplate=&Kód sablonok szerkesztése...
+
+; NSIS menu
+NSISCompileWithProfile=Fordítás profillal
+NSISEditCompProfiles=Fordítási profilok szerkesztése||
+NSISCompil=Szkript &lefordítása|Ctrl+F9|Az aktív szkript lefordítása
+NSISCompilRun=Lefordítás, majd &futattás|Shift+F9|Az aktív szkript lefordítása, majd futtatása
+NSISStopCompile=Fordítás megszakítása|Esc|A szkript fordításának megszakítása
+NSISExec=&Telepítõ futtatása|F9|Az aktív szkript futtatása
+NSISConfig=&Konfiguráció...|Ctrl+F11|Lefordítási útvonal megváltoztatása, szimbólumok definiálása és a fordító beállítása
+
+; Window menu
+WindowCascade=Lépcsõzetes elrendezés||
+WindowTileHorizontal=Vízszintes elrendezés||
+WindowTileVertical=Függõleges elrendezés||
+WindowArrangle=Ikonok elrendezése||
+WindowPrior=Elõzõ ablak||
+WindowNext=Következõ ablak||
+WindowList=Ablak lista
+WindowClose=Ablak bezárása
+WindowShow=Ablak megjelenítése
+WindowSMU=&Váltás a legtöbbet használtak közt|Ctrl+Shift+W|
+
+
+; Help menu
+HelpNSIS=NSIS súgó
+HelpAbout=Névjegy...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=HM NIS Edit honlap||http://hmne.sourceforge.net/|41
+URLLink2=NSIS hivatalos oldal||http://www.nullsoft.com/free/nsis/|41
+URLLink3=NSIS fejlesztõi oldal||http://nsis.sourceforge.net/|41
+URLLink4=NSIS fórum||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+URLLink5=-
+URLLink6=gLes honlapja||http://www.gles.hu/|41
+;URLLink7=Custom link 2||http://pagetoshow2.com/|45
+
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Menü
+TBStandardCaption=Szokásos
+TBEditCaption=Szerkesztés
+TBViewCaption=Nézet
+TBSearchCaption=Keresés
+TBFormatCaption=Formátum
+TBNSISCaption=NSIS
+TBWindowCaption=Ablakok
+IOPanelCaption=Telepítési beállítások vezérlõk
+Browser=Böngészõ
+MoreButtons=Több gomb
+
+; Status bar
+CaretPos=Oszlop: %d - Sor: %d
+Modified=Módosítva
+Insert=Beillesztés
+Overwrite=Átírás
+n_ReadOnly=Csak olvasható
+
+; Open file captions
+OpenTemplateCaption=Sablon megnyitása
+OpenScriptCaption=Szkript megnyitása
+
+; IO designer
+BringToFront=&Elõrehozás
+SendToBack=&Hátraküldés
+Delete=&Törlés|Ctrl+Del|
+SetTabOrder=&Tabulátor sorrend...
+ResizeWinto=&Ablak átméretezése
+ResizeItems=Modern felület|300/140;Klasszikus felület|266/130
+
+; TabOrder dialog
+TabOrderCaption=Tab sorrend
+Up=&Fel
+Down=&Le
+
+; File filters
+AllFileFilter=Minden fájl (*.*)|*.*
+NSISFileFilter=NSIS fájlok (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Futtatható fájlok (*.exe)|*.exe
+HTMLFileFilter=HTML fájlok (*.htm, *.html)|*.htm;*.html
+INIFileFilter=Telepítési beállítás fájlok (*.ini)|*.ini
+IconFileFilter=Ikon fájlok (*.ico) |*.ico
+LicFileFilter=Licenc fájlok (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=NSIS fejléc fájlok (*.nsh)|*.nsh
+RTFFileFilter=RichText fájlok (*.rtf)|*.rtf
+TextFileFilter=Egyszerû szövegfájlok (*.txt)|*.txt
+CHMFileFilter=CHM fájlok (*.chm)|*.chm
+HelpFileFilter=Súgó fájlok (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=TeX fájlok (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Hiba
+InformationDlgCaption=Információ
+QuestionDlgCaption=Megerõsítés
+WarningDlgCaption=Figyelmeztetés
+
+; Buttons
+OK=OK
+Cancel=Mégse
+Next=Tovább >
+Back=< Vissza
+Finish=Befejezés
+Apply=Alkalmaz
+
+; About box
+AboutBoxCaption=Névjegy
+
+; Find window
+FindTextCaption=Szöveg keresése
+FindText=Keresendõ szöveg:
+SearchOptions=Beállítások
+CaseSensitive=Kis- és nagybetûk megkülönböztetése
+WholeWordOnly=Csak teljes szavak
+SearchFromCursor=Keresés a kurzortól
+SearchSelectedOnly=Csak a kijelölésben
+Forward=Elõre
+Backward=Vissza
+
+; Replace window
+ReplaceTextCaption=Szöveg cseréje
+ReplaceText=Kicserélendõ szöveg:
+ReplaceAll=Az összes cseréje
+
+; Goto line window
+GotoLineCaption=Ugrás sorhoz
+GotoLinePrompt=A sor száma:
+
+; Options window
+EnvironmentConfigPage=Környezet
+EditorConfigPage=Szerkesztõ
+CompilerConfigPage=Fordító
+PluginsConfigPage=Bõvítmények
+
+; Options window Environment Config Page
+GeneralOptions=Általános beállítások
+ShowSplashScreen=Üdvözlõképernyõ megjelenítése
+ShowWelcomeDialog=Üdvözlõablak megjelenítése
+MultipleInstances=Több példány futtatásának engedélyeze
+OpenIniFilesIn=INI fájlok megnyitása tervezõ módban
+OpenFilesOnStartup=Utoljára megnyitott fájlok betöltése indításkor
+UseDefBrowser=Alapértelmezett böngészõ használata
+Lang=&Nyelv:
+BrowserHome=Böngészõ kezdõlap:
+ToolBarOptions=Eszköztár beállítások
+TBSmoothDrag=Eszköztárak finom mozgatása
+PanelSmoothDrag=Panelek finom mozgatása
+TBTheme=Eszköztár stílus:
+Default=Alapértelmezett
+OfficeXP=OfficeXP
+Stripes=Vonalkás
+FileAssoc=Fájl társítások
+DefaultEditor=&Társítás alapértelmezett szerkesztõként NSIS fájlokhoz
+SuccessfullyRegister=HM NIS Edit sikeresen társítva alapértelmezett szerkesztõként
+
+IOGridOptions=Telepítési beállítások tervezõ
+DisplayGrid=Rács megjelenítése
+SnapToGrid=Rácsra tartás
+GridX=Rács méret X:
+GridY=Rács méret Y:
+CtrlDims=Vezérlõk mérete mint:
+RightBottom=jobb/alsó oldal
+WidthHeight=szélesség/magasság
+Both=Mindkettõ
+Other=Egyéb
+SaveOptionsIn=Beállítások mentése:
+Registry=registry-be
+
+; Options window Editor Config Page
+DisplayPage=Megjelenítés
+OptionsPage=Beállítások
+HighlighterPage=Színek
+
+; Options window Editor Display Page
+Gutter=Oldalsáv
+GutterVisible=Látható
+GutterShowLineNumbers=Sorszámok mutatása
+GutterStartAtZero=Kezdés nullánál
+GutterShowLeaderZeros=Kezdõ nullák megjelenítése
+GutterFont=Oldalsáv betûtípusa:
+GutterColor=Oldalsáv színe:
+Font=Betûtípus
+RightEdge=Jobb sarok
+EdgeColumn=Sarok oszlop:
+EdgeColor=Sarok szín:
+LineTabSpacing=Sortávolság / Tabulátor távolság
+ExtraLines=Extra sorok:
+TabWidth=Tabulátor szélesség:
+Bookmarks=Könyvjelzõk
+BookmarkKeys=Könyvjelzõ kulcsok
+BookmarksVisible=Látható könyvjelzõk
+EditorFont=Szerkesztõ betûtípusa
+
+; Options window Editor Options Page
+AutoIndent=Automatikus behúzás|Ugyanannyi behúzást hoz létre a kurzorral új sorban, mint amennyi a fölötte lévõ sorban van
+DragAndDropEditing=Fogd és vidd szerkesztés|Engedélyezi, hogy egérrel mozgathassa a kijelölt szöveget a dokumentumon belül egy másik helyre
+HalfPageScroll=Fél oldal görgetése|Page up-pal, ill. Page down-nal való görgetéskor csak fél oldalt görgessen egyszerre
+ScrollByOneLess=Görgetés egyel kevesebbre|Kényszeríti a görgetést, hogy egyel visszább menjen
+ScrollPastEOF=Görgetés a fájl végén túl|Engedélyezi a kurzornak, hogy túlmenjen a fájlvége jelen
+ScrollPastEOL=Görgetés a sor végén túl|Engedélyezi a kurzornak, hogy túlmenjen egy sor utolsó karakterén az ott lévõ üres területre
+ShowScrollHint=Görgetési gyorstipp megjelenítése|Függõleges görgetésnél gyorstippablakban megjeleníti a látható sorok számait
+SmartTabs=Okos tabulátorok|Tabuláláskor a kurzor az elsõ nem-üres karakterhez ugrik az elõzõ sorban
+TabsToSpaces=Szóközök tabulátor helyett|Átalakítja a tabulátor karaktert a Tabulátor szélességnél megadott számú szóközre
+TrimTrailingSpaces=Kilépõ szóközök törlése|A sorvégén lévõ össze szóköz törölve lesz és nem lesz elmentve
+AltSetsColumnMode=Alt oszlopmódot jelent|Az Alt gomb nyomvatartásával a kijelölés oszlopos formában fog mûködni
+KeepCaretX=Kurzorjel oszlopban tartása|Sorok közti mozgás során a kurzor megtartja X pozícióját
+ScrollHintFollows=A görgetési gyorstipp kövesse az egeret|A görgetési gyorstipp követi az egérkurzort függõleges görgetésnél
+GroupUndo=Csoportos visszavonás|Mûveletek visszavonásánál/megismétlésénél egy mûveletként kezeli a folyamatos hasonló típusú apróbb mûveleteket, ahelyett, hogy azokat egyenként vonná vissza/ismételné meg
+SmartTabDelete=Okos tabulátor törlés|Hasonló az okos tabulátorokhoz, csak karakterek törlésénél
+RightMouseMoves=A jobb egérgomb is mozgatja a kurzort|Amikor a környezeti menühöz a jobb egérgombot használjuk, akkor ugorjon oda a szöveg kurzor is, ahova kattintottunk
+EnhanceHomeKey=Home billentyû bõvítése|Kibõvíti a Home billentyû funkcióját, a Visual Studio-hoz hasonlóan
+HideShowScrollbars=Görgetõsávok szükség szerint látszanak|Ha engedélyezi, akkor a görgetõsávok csak akkor láthatóak, ha szükség van rájuk. Ha engedélyezte a fájl vége jelen való túllépést, akkor a vízszintes görgetõsáv mindig látható (a MaxLength-et használja inkább)
+DisableScrollArrows=Görgetõ nyilak letiltása|Letiltja a görgetõnyilakat, ha már nem lehet abba az irányba görgetni
+ShowSpecialChars=Speciális karakterek megjelenítése|Megjeleníti a sortöréseket, szóközöket és tabulátorokat speciális szimbólumokkal
+UndoAfterSave=Visszavonás mentés &után|Mentés után engedélyzi a mûveletek visszavonását
+ViewUsageHints=Parancs használatáról gyorstipp|Ha be van kapcsolva, akkor megjelenik egy gyorstipp a parancs használatáról, ha az egérkurzor fölé kerül
+
+Caret=Kurzorjel
+InsertCaret=Beszúró kurzor:
+OverwriteCaret=Átíró kurzor:
+VerticalLine=Függõleges vonal
+HorizontalLine=Vízszintes vonal
+HalfBlock=Fél blokk
+Block=Blokk
+
+; Options window Editor Highlighter Page
+UseHighlighter=&Szintaktikai színezés
+Element= Elem 
+TextAttri=Szöveg tulajdonságok
+Color=Színek:
+Foreground=Elõtér
+Background=Háttér
+FontStyle=Betû stílus
+Bold=&Félkövér
+Italic=Dõlt
+Underline=Aláhúzott
+HighlightVarsInsideStrings=&Változók kihangsúlyozása karakterláncokon belül
+
+; Options window compiler options Page
+Paths= Útvonalak
+Compiler=&Fordító:
+Help=&Súgó:
+Options=Beállítások
+NoConfigFile=Letiltja a konfigurációs fájl (nsisconf.nsh) hozzáadását.
+NoConsole=A(z) "%s" egy érvénytelen parancssori program.
+NOCD=&Ne engedje, hogy az aktuális könyvtárt az .nsi fájléra állítsa át
+SaveScriptsBeforeCompile=Save scripts before compile
+Simbols=&Szimbólumok
+SimbolColumn=Szimbólum
+ValueColumn=Érték
+AddSimbol=Hozzáadás
+EditSimbol=Szerkesztés
+DeleteSimbol=Törlés
+EditSimbolCaption=Szimbólum szerkesztése
+Simbol=&Szimbólum:
+Value=&Érték:
+DuplicateSymbol=Már létezik ilyen nevû szimbólum
+UseIntegratedBrowser4Help=Beépített böngészõ használata a súgóhoz
+
+; Compiler profiles
+n_NewProfileCaption=Új fordítási profil
+n_NewProfilePrompt=Adja meg az új fordítási profil nevét:
+n_ProfileExists=Már létezik "%s" nevû fordítási profil
+n_CompilerProfilesCaption=Fordítási profilok
+n_AddProfile=Új profil
+n_EditProfile=Szerkesztés
+n_RenameProfile=Átnevezés
+n_DeleteProfile=Törlés
+n_EditCompileProfileCaption=%s fordítási profil szerkesztése
+
+
+; Options window plugins config page
+PluginConfig=&Konfigurálás
+PluginAbout=&Névjegy
+
+; Code templates
+CodeTemplateCaption=Kód sablonok szerkesztése
+TemplateNames=Sablon neve
+NewTemplate=Új sablon
+EditTemplatePrompt=&Írja be a sablon nevét:
+EditTemplate=Sablon szerkesztése
+AutoCompleteShortCut=&Autóm. kieg. bill. parancs
+TemplateCode=Sablon kód
+DuplicateTemplateName=Már létezik "%s" nevû sablon
+
+; Welcome window
+EmptyScript=Új &üres szkript létrehozása
+WizardScript=Új szkript létrehozása a &Szkript Varázsló segítségével
+OpenExistingFile=Létezõ fájl &megnyitása
+MoreFiles=További fájlok...
+NoShowSartup=&Ne jelenjen meg többet ez az ablak
+OpenFile= Fájl megnyitása
+
+; Filter editor
+EditFilterCaption=Szerkesztés szûrõ
+FilterDescription=Szûrõ leírása:
+Filter=Szûrõ:
+AddFilter=&Hozzáadás
+RemoveFilter=&Eltávolítás
+
+
+; Messages
+FileModified=Egy másik alkalmazás frissítette a(z) "%s" fájlt. Újratölti?
+NoCompiler=Mielõtt lefordíthatná a szkriptet, be kell állítania az NSIS fordítót
+NoDocs=Mielõtt megtekinthetné az NSIS dokumentációt be kell állítania az NSIS súgófájlját
+OpenFileError=Nem lehet megnyitni a fájlt: %s
+NoCloseCompiling=Nem lehet kilépni szkriptek fordítása közben.$nlMeg szeretné szakítani a fordítást?
+Untitled=Névtelen %.2d
+EditTextCaption=Szöveg szerkesztése
+EditListitemsCaption=Lista elem szerkesztése
+n_StopCompilePrompt=Biztosan meg szeretné szakítani a fordítást?
+n_CompileCanceled=A fordítás a felhasználó által megszakítva.
+
+; Ask save dialog
+n_AskSaveDialogCaption=Save Changes
+n_AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+n_Yes=&Yes
+n_No=&No
+n_SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=Fájl bejegyzés szerkesztése
+EditFileCaption=Fájl bejegyzés szerkesztése
+EditGroup=Csoport szerkesztése
+EditLink=Parancsikon szerkesztése
+EditLinkCaption=Parancsikon szerkesztése
+FileColumn=Fájl
+FilelLnkColumn=Parancsikon
+FilesSubTitle=Kérem adja meg az alkalmazásához tartózó fájlokat
+FilesTitle=Alkalmazás fájlok
+AddFiles=&Fájlok hozzáadása
+AddLink=Új parancsikon
+AppInfoSubTitle=Kérem adjon meg némi alapinformációt az alkalmazásáról.
+AppInfoTitle=Alkalmazás információk
+AppName=&Az alkalmazás neve:
+AppPublisher=Az alkalmazás &készítõje:
+AppVersion=Az alkalmazás &verziója:
+AppWeb=Az alkalmazás &honlapja:
+ChangeInstallDir=A felhasználó megváltoztathatja a telepítés &helyét
+ChangeStartMenuDir=A felhasználó megváltoztathatja a &Start menü könyvtár helyét
+ComponentText=Válassza ki a telepítendõ összetevõket és törölje a kijelölést azok mellõl, melyeket nem szeretne telepíteni:
+CompScript=Szkript le&fordítása
+Compress=&Tömörítés:
+CompressBZip2=bzip2
+CompressNone=Nincs
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=Konfiguráció
+CreateUninstallIcon=&Eltávolítás ikon létrehozása a Start menüben
+CreateWebIcon=Internet-parancsikon létrehozása a Start menüben
+DefaultAppName=Az én alkalmazásom
+DefaultAppPublisher=Az én cégem Kft.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.encegem.hu
+DefaultCompress=zlib
+DefaultExeInst=Setup.exe
+DefaultGUI=Modern
+DefaultGroup=MainGroup
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Klasszikus gombok
+DefaultLangInst=Hungarian
+DefaultUninstPrompt=Biztosan teljesen el szeretné távolítani a(z) [NAME]-t és az annak összes összetevõjét?
+DefaultUninstSuccesMsg=A(z) [NAME] sikeresen el lett távolítva a számítógépérõl.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\útvonal\Fõprogram.exe|$INSTDIR;c:\útvonal\Példa.fájl|$INSTDIR
+DefaultWizardLicFile=c:\licencútvonala\Azénszoftverlicencem.txt
+DefaultWizardSections=Fõszakasz
+DeleteFile=&Fájl eltávolítása
+DeleteGroup=Csoport eltávolítása
+DeleteLink=Parancsikon eltávolítása
+Description=&Leírás
+Dest=&Célkönyvtár:
+DirDest=&Célkönyvtár:
+DirDestColumn=Célkönyvtár
+DirText=A telepítõ a(z) [NAME]-t a következõ könyvtárba fogja telepíteni.$\r$\n$\r$\nMásik könyvtár választásához kattintson a Tallózás gombra.
+ExeInst=&Telepítõ fájl:
+ExecFinishSubTitle=Adja meg a mûveleteket, melyek sikeres telepítés esetén fognak végrehajtódni
+ExecFinishTitle=Végrehajtás telepítés után
+ExecProgram=&Program:
+ExecProgramParams=P&araméterek:
+ExecReadme=&Olvassel:
+ExitWizardPrompt=Az NSIS Szkript Varázsló nem fejezõdött be. Ha most kilép, akkor az új szkript nem fog létre jönni.$nl$nlBiztosan kilép az NSIS Szkript Varázslóból?
+FinishLabel1=Varázsló befejezve
+FinishLabel2=Sikeresen befejezte a varázslót.
+FinishLabel3=A varázsló bezárásához és az új szkript létrehozásához kattintson a Befejezés gombra.
+GUI=GUI:
+GUIClassic=Klasszikus
+GUIModern=Modern
+GUINone=Nincs
+IconsSubTitle=Adja meg, mely ikonok legyenek létrehozva az alkalmazásához.
+IconsTitle=Alkalmazás ikonok
+IfFileExists=&Ha létezik a fájl
+InsertFileCaption=Fájlnév beszúrása
+InstallDir=Az &alkalmazás alapértelmezett könyvtára:
+InstallIcon=&Telepítõ ikon:
+LFSCheckBox=Jelölõnégyzet
+LFSRadioButtons=Választógombok
+LangInst=&Telepítõ nyelv:
+LicenceFile=&Licenc fájl
+LicenceSubTitle=Kérem adja meg az alkalmazása könyvtár és licenc információit.
+LicenceTitle=Alkalmazás könyvtár és licenc
+LicenseForceSelection= Válassza ki, hogy a felhasználó hogy fogadja el a licencszerzõdést
+LicenseText=Ha elfogadja a szerzõdés minden pontját, akkor válassza az Elfogadom-ot a folytatáshoz. A(z) [NAME] telepítéséhez el kell fogadnia a licencszerzõdést
+LinkDestColumn=Célfájl
+ModifyName=Név módosítása
+ModifyNamePrompt=Írja be a csoport nevét:
+NewFile= Új fájl
+NewFileCaption=Új fájl
+NewGroup=Új csoport
+NewGroupPrompt=Írja be a csoport nevét
+NoAppName=Kérem adja meg az alkalmazás nevét.
+NoCompress=Kérem adja meg a tömörítés típusát
+NoDir=Kérem adja meg az alkalmazás alapértelmezett könyvtárát.
+NoExeInst=Kérem adja meg a telepítõ fájlnevét.
+NoFoundText="%s" nem található.
+NoGUI=Kérem adja meg a kezelõfelület (GUI) típusát.
+NoLFS=Klasszikus gomb
+NoLang=Kérem adja meg a telepítõ nyelvét.
+NoLinkName=Kérem adja meg a parancsikon nevét.
+NoSymbolName=Kérem adja meg a szimbólum nevét
+NoSymbolSpaces=Ne használjon szóközt szimbólumok nevében
+NoValidIOControl=A(z) "%s" nem egy érvényes telepítési beállítások vezérlõ
+NoValidIOIni=A(z) "%s" nem egy érvényes telepítési beállítások fájl
+NoVersion=Kérem adja meg az alakalmazás verzióját.
+OptionsSubTitle=Kérem adja meg a beállításokat a telepítõjéhez.
+OptionsTitle=Telepítõ beállításai
+OrgDile=&Forrás fájl:
+OverwriteIfNewer=Fölülírás ha újabb
+OverwriteOff=Sose írjon fölül
+OverwriteOn=Mindig írjon fölül
+OverwriteTry=Próbáljon meg fölülírni
+RelativePaths=&Fájlútvonalak átalakítása relítav útvanalakká
+SaveChanges=Szeretné menteni a(z) "%s" fájlban történt változásokat?
+SaveScript=&Szkript mentése
+SelectInstallComponents=&A felhasználó kiválaszthatja a telepítendõ összetevõket
+SelectModeMenu=Mód kiválasztása
+ShortCut=&Parancsikon:
+StartMenuDir=Alkalmazás &Start menül könyvtár neve
+StartupCaption=Üdvözlet
+UninstPrompt=&Eltávolítást megerõsítõ kérdés:
+UninstSuccesMsg=Sikeres eltávolítás &üzenet:
+UninstallIcon=Eltávolító &ikonja:
+UninstallSubTitle=Kérem adja meg az Eltávolító tulajdonságait.
+UninstallTitle=Eltávolító
+UseUninstaller=Eltávolító használata
+WelcomeLabel1=Üdvözli az NSIS Szkript Varázsló
+WelcomeLabel2=Ez a varázsló végigvezeti Önt egy új NSIS szkript fájl létrehozásának folyamatán. A végeredményként kapott szkript fájlt közvetlenül lefordíthatja, vagy elmentheti a lemezre késõbbi használatra.
+WelcomeLabel3=Ez a varázsló nem fedi le a Nullsoft telepítõ rendszer összes lehetõségét. Tekintse meg a dokumentációt, hogy megtudja hogyan kell Nullsoft telepítõ rendszerhez szkriptfájlokat írni!
+WelcomeLabel4=Kattintson a Tovább-ra a folytatáshoz, vagy a Mégsé-re a varázslóból való kilépéshez.
+WizardCaption=NSIS Szkript Varázsló

@@ -1,0 +1,536 @@
+; HM NIS EDIT 2.0 greek messages.
+
+; Translator: Makidis N. Michael
+; Translator URL: http://dias.aueb.gr/~p3010094/
+
+
+[Strings]
+; Settings
+LangID=1032
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=&Αρχείο
+EditMenu=&Επεξεργασία
+SearchMenu=&Αναζήτηση
+ViewMenu=&Προβολή
+FormatMenu=&Μορφή
+ToolsMenu=&Εργαλεία
+NSISMenu=&NSIS
+WindowMenu=Πα&ράθυρο
+HelpMenu=&Βοήθεια
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=&Δημιουργία άδειου αρχείου|Ctrl+N|Δημιουργία νέου, άδειου αρχείου
+TemplateFile=Δημιουργία αρχείου από &πρότυπο|Ctrl+T|Δημιουργία νέου αρχείου βασισμένου στο κείμενο ενός υπάρχοντος αρχείου
+WizardFile=Δημιουργία αρχείου με τον &Οδηγό|Ctrl+W|Δημιουργία νέου αρχείου με βοήθεια από τον οδηγό
+NewIOFile=Δημιουργία αρχείου για &Install Options|Ctrl+I|Δημιουργία αρχείου για Install Options (προσαρμοσμένη σελίδα)
+FileOpen=&’νοιγμα|Ctrl+O|’νοιγμα υπάρχοντος αρχείου
+Reopen=’&νοιγμα ξανά
+FileSave=Απο&θήκευση|Ctrl+S|Αποθήκευση του ενεργού αρχείου
+FileSaveAll=Αποθήκευση όλων||Αποθήκευση όλων των τροποποιημένων αρχείων
+FileSaveAs=Αποθήκευση &ως...||Αποθήκευση του ενεργού αρχείου με νέο όνομα, ή εξαγωγή σε HTML ή RTF
+FilePrint=&Εκτύπωση|Ctrl+P|Εκτύπωση του ενεργού αρχείου
+FileConfigPrint=Διαμόρφωση εκτύπωσης||Καθορισμός παραμέτρων εκτύπωσης
+FileExit=Έ&ξοδος|Alt+F4|Έξοδος από την εφαρμογή
+
+; Edit menu
+EditUndo=&Αναίρεση|Ctrl+Z|Αναίρεση της τελευταίας ενέργειας
+EditRedo=&Επανάληψη|Shift+Ctrl+Z|Επανάληψη της τελευταίας αναιρεμένης ενέργειας
+EditCut=Α&ποκοπή|Ctrl+X|Αποκοπή της επιλεγμένης περιοχής στο Πρόχειρο
+EditCopy=Α&ντιγραφή|Ctrl+C|Αντιγραφή της επιλεγμένης περιοχής στο Πρόχειρο
+EditCopyAsHTML=Αντιγραφή &ως HTML||Αντιγραφή της επιλεγμένης περιοχής στο Πρόχειρο σε μορφή HTML
+EditPaste=Επ&ικόληση|Ctrl+V|Επικόληση των περιεχομένων του Πρόχειρου
+EditSelectAll=Επι&λογή όλων|Ctrl+A|Επιλογή ολόκληρου του αρχείου
+
+; Search menu
+EditFind=&Εύρεση|Ctrl+F|Εύρεση κειμένου στο ενεργό αρχείο
+EditFindNext=Εύρεση &ξανά|F3|Εύρεση της επόμενης εμφάνισης του κειμένου αναζήτησης
+EditReplace=&Αντικατάσταση|Ctrl+R|Αντικατάσταση εμφανίσεων του κειμένου αναζήτησης
+SearchGotoLine=&Μετάβαση σε αριθμό γραμμής...|F2|Μετάβαση στον καθορισμένο αριθμό γραμμής
+ToggleBookmark=Ενέ&ργ./Απενεργ. σελιδοδεικτών
+GotoBookmark=Μετάβαση σε &σελιδοδείκτες
+Bookmark=Σελιδοδείκτης
+
+; View menu
+ToolBarsMenu=Γραμμές εργαλείων
+ViewBrowser=&Πλοηγός|F4|Εμφάνιση/Απόκρυψη του πλοηγού του ιστού (WWW)
+ViewWindowList=&Λίστα παραθύρων|F5|Εμφάνιση/Απόκρυψη της λίστας των ανοιχτών αρχείων
+ViewIOPanel=Στοιχεία ελέγχου για &Install Options|F6|Εμφάνιση/Απόκρυψη του πλαισίου του InstallOptions
+ViewStatusBar=Γραμμή &κατάστασης|F7|Εμφάνιση/Απόκρυψη της γραμμής κατάστασης
+ViewLogBox=Πλαίσιο πλ&ηροφοριών|F8|Εμφάνιση/Απόκρυψη του πλαισίου πληροφοριών
+ViewSpecialChars=Ει&δικοί χαρακτήρες|F10|Εμφάνιση των αλλαγών γραμμών, των κενών και των στηλοθετών με ειδικούς χαρακτήρες
+IOToggleDesignMode=Ενέ&ργ./Απενεργ. κατάστασης σχεδίασης|F12|Αλλαγή μεταξύ κατάστασης σχεδίασης ή κατάστασης επεξεργασίας κειμένου στις σελίδες InstallOptions
+ViewOptions=&Επιλογές|F11|Εμφάνιση του πλαισίου διαλόγου ρυθμίσεων
+
+; Format menu
+FormatIndent=&Αύξηση εσοχής περιοχής|Shift+Ctrl+I|Αύξηση εσοχής των επιλεγμένων γραμμών
+FormatUnIndent=&Μείωση εσοχής περιοχής|Shift+Ctrl+U|Μείωση εσοχής των επιλεγμένων γραμμών
+FormatUpperCase=&Κεφαλαία|Ctrl+U|Αλλαγή της επιλεγμένης περιοχής σε κεφαλαία
+FormatLowerCase=&Πεζά|Ctrl+L|Αλλαγή της επιλεγμένης περιοχής σε πεζά (μικρά)
+FormatToggleCase=Α&ντιστροφή πεζών/κεφαλαίων|Ctrl+H|Αντιστροφή των χαρακτήρων (πεζά/κεφαλαία) της επιλεγμένης περιοχής
+FormatQuoteSelection=Προσθήκη &εισαγωγικών|Ctrl+Q|Προσθήκη εισαγωγικών στην επιλεγμένη περιοχή
+FormatWordWrap=Ανα&δίπλωση λέξεων
+
+; Tools menu
+ToolsInsertColor=Εισαγωγή &χρώματος|Shift+F5|Προτροπή για επιλογή χρώματος και εισαγωγή της αριθμητικής του τιμής
+ToolsInsertFile=Εισαγωγή ονόματος &αρχείου|Shift+F6|Προτροπή για επιλογή αρχείου και εισαγωγή του ονόματός του
+CodeTemplates=&Πρότυπα κώδικα
+ToolsEditCodeTemplate=&Επεξεργασία προτύπων κώδικα
+
+; NSIS menu
+NSISCompileWithProfile=Προφίλ μεταγλώττισης
+NSISEditCompProfiles=Επεξεργασία των προφίλ μεταγλώττισης||
+NSISCompil=&Μεταγλώττιση αρχείου|Ctrl+F9|Μεταγλώττιση του ενεργού αρχείου
+NSISCompilRun=Με&ταγλώττιση και Εκτέλεση|Shift+F9|Μεταγλώττιση και εκτέλεση του ενεργού αρχείου
+NSISStopCompile=Διακοπή Μεταγλώττισης|Esc|Διακοπή της διαδικασίας μεταγλώττισης
+NSISExec=&Εκτέλεση|F9|Εκτέλεση του ενεργού αρχείου
+NSISConfig=&Ρυθμίσεις|Ctrl+F11|Αλλαγή της διαδρομής μεταγλώττισης, ορισμός συμβόλων και ρύθμιση επιλογών του μεταγλωττιστή
+
+; Window menu
+WindowCascade=Σε &παράθεση||
+WindowTileHorizontal=Τακτοποίηση &οριζόντια||
+WindowTileVertical=Τακτοποίηση &κάθετα||
+WindowArrangle=&Διευθέτηση||
+WindowPrior=Π&ροηγούμενο παράθυρο||
+WindowNext=&Επόμενο παράθυρο||
+WindowList=Λίστα παραθύρων
+WindowClose=Κλεί&σιμο παραθύρου
+WindowShow=Ε&μφάνιση παραθύρου
+WindowSMU=Εμφάνιση παραθ. χρησιμ. προηγουμένως|Shift+Ctrl+W|
+
+
+; Help menu
+HelpNSIS=Βοήθεια για το NSIS
+HelpAbout=Περί...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=Αρχική σελίδα του HM NIS Edit||http://hmne.sourceforge.net/|41
+URLLink2=Επίσημη σελίδα του NSIS||http://nsis.sourceforge.net/|41
+URLLink3=Forum του NSIS||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+URLLink4=-
+URLLink5=Ιστοσελίδα του Μακίδη Μιχάλη (ελληνική μετάφραση)||http://dias.aueb.gr/~p3010094/|41
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Μενού
+TBStandardCaption=Βασική
+TBEditCaption=Επεξεργασία
+TBViewCaption=Προβολή
+TBSearchCaption=Αναζήτηση
+TBFormatCaption=Μορφοποίηση
+TBNSISCaption=NSIS
+TBWindowCaption=Παράθυρα
+IOPanelCaption=Στοιχ. ελ. για InstallOptions
+Browser=Πλοηγός
+MoreButtons=Περισσότερα κουμπιά
+
+; Status bar
+CaretPos=Στ.: %d - Γρ.: %d
+Modified=Τροποποιημένο
+Insert=Εισαγωγή
+Overwrite=Αντικατάστ.
+ReadOnly=Μόνο ανάγν.
+
+; Open file captions
+OpenTemplateCaption=’νοιγμα προτύπου
+OpenScriptCaption=’νοιγμα αρχείου
+
+; IO designer
+BringToFront=Μεταφορά σε &πρώτο πλάνο
+SendToBack=Μεταφορά στο &φόντο
+Delete=&Διαγραφή|Ctrl+Del|
+SetTabOrder=Σειρά των &Tabs...
+ResizeWinto=Αλλαγή &μεγέθους σχεδιστή
+ResizeItems=Μοντέρνο UI|300/140;Κλασικό UI|266/130
+
+; TabOrder dialog
+TabOrderCaption=Σειρά των Tabs
+Up=&Πάνω
+Down=&Κάτω
+
+; File filters
+AllFileFilter=Όλα τα αρχεία (*.*)|*.*
+NSISFileFilter=Αρχεία του NSIS (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Εκτελέσιμα αρχεία (*.exe)|*.exe
+HTMLFileFilter=Αρχεία HTML (*.htm, *.html)|*.htm;*.html
+INIFileFilter=Αρχεία του Install options (*.ini)|*.ini
+IconFileFilter=Αρχεία εικονιδίων (*.ico)|*.ico
+LicFileFilter=Αρχεία αδειών χρήσης (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=Αρχεία κεφαλίδας του NSIS (*.nsh)|*.nsh
+RTFFileFilter=Αρχεία κειμένου RTF (*.rtf)|*.rtf
+TextFileFilter=Αρχεία απλού κειμένου (*.txt)|*.txt
+CHMFileFilter=Αρχεία βοήθειας CHM (*.chm)|*.chm
+HelpFileFilter=Αρχεία βοήθειας (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=Αρχεία TeX (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Σφάλμα
+InformationDlgCaption=Πληροφορία
+QuestionDlgCaption=Επιβεβαίωση
+WarningDlgCaption=Προειδοποίηση
+
+; Buttons
+OK=OK
+Cancel=’κυρο
+Next=Επόμενο >
+Back=< Πίσω
+Finish=Τέλος
+Apply=Εφαρμογή
+
+; About box
+AboutBoxCaption=Περί
+
+; Find window
+FindTextCaption=Εύρεση κειμένου
+FindText=Κείμενο για αναζήτηση
+SearchOptions=Επιλογές
+CaseSensitive=Διαφορά πεζών/κεφαλαίων
+WholeWordOnly=Εύρεση ολόκληρης λέξης
+SearchFromCursor=Εύρεση από το δρομέα
+SearchSelectedOnly=Επιλεγμένη περιοχή μόνο
+Forward=Προς τα εμπρός
+Backward=Προς τα πίσω
+
+; Replace window
+ReplaceTextCaption=Αντικατάσταση κειμένου
+ReplaceText=Κείμενο για αντικατάσταση
+ReplaceAll=Αντικατάσταση όλων
+
+; Goto line window
+GotoLineCaption=Μετάβαση σε αριθμό γραμμής
+GotoLinePrompt=Εισαγωγή αριθμού γραμμής:
+
+; Options window
+EnvironmentConfigPage=Περιβάλλον
+EditorConfigPage=Συντάκτης
+CompilerConfigPage=Μεταγλωττιστής
+PluginsConfigPage=Προσθήκες (Plugins)
+
+; Options window Environment Config Page
+GeneralOptions=Γενικές επιλογές
+ShowSplashScreen=Εμφάνιση οθόνης τίτλου
+ShowWelcomeDialog=Εμφάνιση παραθύρου καλωσορίσματος
+MultipleInstances=Πολλαπλά στιγμιότυπα εφαρμογής
+OpenIniFilesIn=’νοιγμα αρχείων .ini σε κατάσταση σχεδ.
+OpenFilesOnStartup=’νοιγμα προηγούμ. αρχείων στην εκκίνηση
+UseDefBrowser=Χρήση προεπιλεγμένου πλοηγού
+Lang=&Γλώσσα:
+BrowserHome=Αρχική σελίδα πλοηγού:
+ToolBarOptions=Επιλογές γραμμών εργαλείων
+TBSmoothDrag=Ομαλή μεταφορά στις γραμμές εργαλ.
+PanelSmoothDrag=Ομαλή μεταφορά στα πλαίσια εργαλείων
+TBTheme=Στυλ γραμμών εργ.:
+Default=Προεπιλεγμένο
+OfficeXP=Office XP
+Stripes=Ρίγες
+FileAssoc=Συσχέτιση αρχείων
+DefaultEditor=&Ρύθμιση ως ο προεπιλεγμένος επεξεργαστής για αρχεία του NSIS
+SuccessfullyRegister=Το HM NIS Edit ρυθμίστηκε επιτυχώς ως προεπιλεγμένος επεξεργαστής
+IOGridOptions=Σχεδιαστής αρχείων InstallOptions
+DisplayGrid=Εμφάνιση πλέγματος
+SnapToGrid=Κύλιση (snap) μόνο στο πλέγμα
+GridX=Μέγεθος πλέγμ. X:
+GridY=Μέγεθος πλέγμ. Y:
+CtrlDims=Εμφάνιση μεγέθ. στοιχείων ελ. ως:
+RightBottom=Δεξιά/Κάτω
+WidthHeight=Πλάτος/Ύψος
+Both=Και τα δύο
+Other=’λλο
+SaveOptionsIn=Αποθήκευση ρυθμίσεων σε:
+Registry=Μητρώο
+
+; Options window Editor Config Page
+DisplayPage=Εμφάνιση
+OptionsPage=Επιλογές
+HighlighterPage=Χρώματα
+
+; Options window Editor Display Page
+Gutter=Περιθώριο
+GutterVisible=Εμφάνιση περιθωρίου
+GutterShowLineNumbers=Αρίθμηση γραμμών
+GutterStartAtZero=Έναρξη αρίθμησης από το μηδέν
+GutterShowLeaderZeros=Εμφάνιση αρχικών μηδενικών
+GutterFont=Γραμματοσειρά περιθωρ.
+GutterColor=Χρώμα περιθωρίου:
+Font=Γραμματοσ.
+RightEdge=Δεξιά πλευρά
+EdgeColumn=Στήλη πλευράς:
+EdgeColor=Χρώμα πλευράς:
+LineTabSpacing=Διάστημα γραμμών / στηλοθετών
+ExtraLines=Επιπλέον γραμμές:
+TabWidth=Πλάτος στηλοθέτη:
+Bookmarks=Σελιδοδείκτες
+BookmarkKeys=Κλειδιά σελιδοδεικτών
+BookmarksVisible=Εμφάνιση σελιδοδεικτών
+EditorFont=Χρώμα συντάκτη
+
+; Options window Editor Options Page
+AutoIndent=Αυτόματη αύξηση εσοχής|Αυτόματη αύξηση εσοχής νέας γραμμής, ώστε να είναι ίση με την εσοχή της προηγούμενης
+DragAndDropEditing=Σύνταξη με μεταφορά και απόθεση|Δυνατότητα επιλογής περιοχής κειμένου και μεταφοράς της με το ποντίκι σε μία άλλη θέση
+HalfPageScroll=Ολίσθηση μισής σελίδας|Κατά την ολίσθηση με τις εντολές Page Up και Page Down, γίνεται ολίσθηση κατά μισή σελίδα μόνο κάθε φορά
+ScrollByOneLess=Ολίσθηση κατά ένα λιγότερο|Ρύθμιση της ολίσθησης να είναι κατά ένα λιγότερο
+ScrollPastEOF=Ολίσθηση πέρα από το τέλος αρχείου|Δυνατότητα στον δρομέα να μεταβεί και πέρα από το τέλος του αρχείου
+ScrollPastEOL=Ολίσθηση πέρα από το τέλος γραμμης|Δυνατότητα στον δρομέα να μεταβεί και πέρα από το τέλος της γραμμής
+ShowScrollHint=Εμφάνιση υπόδειξης ολίσθησης|Εμφάνιση υπόδειξης των αριθμών των εμφανιζόμενων γραμμών κατά την κάθετη ολίσθηση
+SmartTabs=Έξυπνοι στηλοθέτες|Κατά την στηλοθέτηση ο δρομέας θα μεταβεί στον επόμενο μη-κενό (μη-whitespace) χαρακτήρα της προηγούμενης γραμμής
+TabsToSpaces=Μετατροπή στηλοθετών σε κενά|Μετατροπή κάθε χαρακτήρα στηλοθέτη στο πλήθος των χαρακτήρων κενών που είναι ορισμένα στο πλάτος στηλοθέτη
+TrimTrailingSpaces=Αποκοπή ακολουθούμενων κενών|Κενά στο τέλος των γραμμών θα αποκόπτονται και δε θα αποθηκεύονται
+AltSetsColumnMode=Θέση κατάστασης στήλης με το Alt|Πατώντας το πλήκτρο Alt κατά την επιλογή θα επιλέγονται στήλες
+KeepCaretX=Διατήρηση στήλης δρομέα|Κατά την μετακίνηση μεταξύ γραμμών ο δρομέας θα διατηρείται στην ίδια στήλη
+ScrollHintFollows=Υπόδειξη ολίσθ. ακολουθεί το ποντίκι|Η υπόδειξη ολίσθησης ακολουθεί το ποντίκι κατά την κάθετη ολίσθηση
+GroupUndo=Ομαδική αναίρεση|Κατά την αναίρεση/επανάληψη ενεργειών όλες οι διαδοχικές αλλαγές του ίδιου τύπου θα μεταχειρίζονται όλες μαζί
+SmartTabDelete=Έξυπνη διαγραφή στηλοθετών|Παρόμοιο με τους έξυπνους στηλοθέτες, αλλά κατά τη διαγραφή χαρακτήρων
+RightMouseMoves=Μετακίν. δρομέα με δεξί πλ. ποντικιού|Κατά το δεξί κλικ για την εμφάνιση μενού, ο δρομέας θα μετακινείται στη θέση αυτή
+EnhanceHomeKey=Βελτίωση του πλήκτρου Home|Βελτίωση του πλήκτρου Home ώστε να λειτουργεί παρόμοια με το Visual Studio
+HideShowScrollbars=Απόκρυψη γρ. ολίσθ. όπως απαιτείται|Εμφάνιση των γραμμών ολίσθησης μόνο όταν απαιτείται
+DisableScrollArrows=Απενεργοποίηση βελών ολίσθησης|Τα βέλη ολίσθησης των γραμμών ολίσθησης απενεργοποιούνται όταν δεν είναι δυνατή η ολίσθηση προς αυτή την κατεύθυνση πλέον
+ShowSpecialChars=Εμφάνιση ειδικών χαρακτήρων|Εμφάνιση των αλλαγών γραμμών, των κενών και των στηλοθετών με ειδικούς χαρακτήρες
+UndoAfterSave=Αναίρεση μετά την αποθήκευση|Δυνατότητα αναίρεσης μετά την αποθήκευση
+ViewUsageHints=Εμφάνιση υπόδειξης χρήσης εντολών|Εμφάνιση υπόδειξης χρήσης εντολών πάνω από το δείκτη του ποντικιού
+
+Caret=Δρομέας
+InsertCaret=Δρομέας εισαγωγής:
+OverwriteCaret=Δρομέας αντικατάστασης:
+VerticalLine=Κάθετη γραμμή
+HorizontalLine=Οριζόντια γραμμή
+HalfBlock=Μισό τετράγωνο
+Block=Τετράγωνο
+
+; Options window Editor Highlighter Page
+UseHighlighter= Χρήση &χρωματικής ένδειξης σύνταξης
+Element=Στοιχείο
+TextAttri=&Ιδιότητες κειμένου
+Color=Χρώματα:
+Foreground=Προσκήνιο
+Background=Παρασκήνιο
+FontStyle=Στυλ γραμματοσειράς
+Bold=&Έντονα
+Italic=&Πλάγια
+Underline=&Υπογράμμιση
+HighlightVarsInsideStrings=&Χρωματική ένδειξη μεταβλητών μέσα σε συμβολοσειρές
+
+; Options window compiler options Page
+Paths=Διαδρομές αρχείων
+Compiler=&Μεταγλωττιστ.:
+Help=&Βοήθεια:
+Options=Επιλογές
+NoConfigFile=Απενεργοποίηση εισαγωγής του αρχείου ρυθμίσεων (nsisconf.nsh).
+NoConsole=Το "%s" δεν είναι μία έγκυρη εφαρμογή κονσόλας.
+NOCD=&Απενεργοπ. αλλαγής τρέχοντος καταλόγου (περιορισμός σε αυτόν τον αρχείου .nsi)
+SaveScriptsBeforeCompile=Save scripts before compile
+Simbols=&Σύμβολα
+SimbolColumn=Σύμβολο
+ValueColumn=Τιμή
+AddSimbol=Προσθήκη
+EditSimbol=Επεξεργασία
+DeleteSimbol=Διαγραφή
+EditSimbolCaption=Επεξεργασία συμβόλου
+Simbol=&Σύμβολο:
+Value=&Τιμή:
+DuplicateSymbol=Διπλότυπο όνομα συμβόλου
+UseIntegratedBrowser4Help=Χρήση ενσωματωμένου πλοηγού για τη βοήθεια.
+
+; Compiler profiles
+NewProfileCaption=Νέο προφίλ μεταγλώττισης
+NewProfilePrompt=Εισαγωγή ονόματος του νέου προφίλ μεταγλώττισης:
+ProfileExists=Ένα προφίλ μεταγλώττισης με όνομα "%s" υπάρχει ήδη
+CompilerProfilesCaption=Προφίλ μεταγλώττισης
+AddProfile=Νέο προφίλ
+EditProfile=Επεξεργ. πρ.
+RenameProfile=Μετονομασ. πρ.
+DeleteProfile=Διαγραφή πρ.
+EditCompileProfileCaption=Επεξεργασία του προφίλ μεταγλώττισης "%s"
+
+; Options window plugins config page
+PluginConfig=&Ρύθμιση
+PluginAbout=&Περί
+
+; Code templates
+CodeTemplateCaption=Επεξεργασία προτύπων κώδικα
+TemplateNames=Όνομα προτύπου
+NewTemplate=Δημιουργία προτύπου
+EditTemplatePrompt=&Εισαγωγή ονόματος προτύπου:
+EditTemplate=Επεξεργασία προτύπου
+AutoCompleteShortCut=&Συντόμευση
+TemplateCode=Κώδικας προτύπου
+DuplicateTemplateName=Ένα πρότυπο με όνομα "%s" υπάρχει ήδη
+
+; Welcome window
+EmptyScript=Δημιουργία νέου, &άδειου αρχείου
+WizardScript=Δημιουργία αρχείου με τον &Οδηγό
+OpenExistingFile=&’νοιγμα υπάρχοντος αρχείου
+MoreFiles=Περισσότερα αρχεία...
+NoShowSartup=&Να μην εμφανιστεί ξανά
+OpenFile=’νοιγμα αρχείου
+
+; Filter editor
+EditFilterCaption=Επεξεργασία φίλτρου
+FilterDescription=Περιγραφή φίλτρου:
+Filter=Φίλτρο:
+AddFilter=&Προσθήκη
+RemoveFilter=&Αφαίρεση
+
+
+; Messages
+FileModified=Μία άλλη εφαρμογή έκανε αλλαγές στο αρχείο "%s". Να ξαναφορτωθεί;
+NoCompiler=Πριν τη μεταγλώττιση του αρχείου αυτού παρακαλώ εισάγετε τη θέση του μεταγλωττιστή NSIS
+NoDocs=Πριν την εμφάνιση της τεκμηρίωσης του NSIS παρακαλώ εισάγετε τη θέση των αρχείων βοήθειας του NSIS
+OpenFileError=Αδυναμία ανοίγματος του αρχείου %s
+NoCloseCompiling=Αδυναμία εξόδου κατά τη μεταγλώττιση αρχείων$nlΘέλετε να διακόψετε τη μεταγλώττιση;
+Untitled=Ανώνυμο %.2d
+EditTextCaption=Επεξεργασία κειμένου
+EditListitemsCaption=Επεξεργασία στοιχείων λίστας
+StopCompilePrompt=Είστε σίγουροι ότι θέλετε να διακόψετε τη διαδικασία μεταγλώττισης;
+CompileCanceled=Η μεταγλώττιση διακόπηκε από το χρήστη.
+
+; Ask save dialog
+n_AskSaveDialogCaption=Save Changes
+n_AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+n_Yes=&Yes
+n_No=&No
+n_SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=Επεξεργασία καταχώρησης αρχείου
+EditFileCaption=Επεξεργασία καταχώρησης αρχείου
+EditGroup=Επεξεργασία ομάδας
+EditLink=Επεξεργασία συντόμευσης
+EditLinkCaption=Επεξεργασία συντόμευσης
+FileColumn=Αρχείο
+FilelLnkColumn=Συντόμευση
+FilesSubTitle=Παρακαλώ καθορίστε τα αρχεία που είναι μέρος της εφαρμογής σας.
+FilesTitle=Αρχεία Εφαρμογής
+AddFiles=&Προσθήκη αρχείου
+AddLink=Δημιουργία συντόμευσης
+AppInfoSubTitle=Παρακαλώ εισάγετε μερικές βασικές πληροφορίες για την εφαρμογή σας.
+AppInfoTitle=Πληροφορίες Εφαρμογής
+AppName=&Όνομα εφαρμογής:
+AppPublisher=&Εκδότης εφαρμογής:
+AppVersion=Έκ&δοση εφαρμογής:
+AppWeb=&Ιστοσελίδα εφαρμογής:
+ChangeInstallDir=Ο χρήσης επιτρέπεται να α&λλάξει τον φάκελο εγκατάστασης της εφαμογής
+ChangeStartMenuDir=Ο χρήσης επιτρέπεται να α&λλάξει το όνομα του φακέλου στο μενού "Έναρξη"
+ComponentText=Επιλέξτε τα στοιχεία που θέλετε να εγκαταστήσετε:
+CompScript=&Μεταγλώττιση αρχείου
+Compress=&Συμπίεση:
+CompressBZip2=bzip2
+CompressNone=Καμία
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=Ρυθμίσεις
+CreateUninstallIcon=Δημιουργία εικονιδίου απε&γκατάστασης στο μενού "Έναρξη"
+CreateWebIcon=Δημιουργία εικονιδίου &διαδικτύου στο μενού "Έναρξη"
+DefaultAppName=Η εφαρμογή μου
+DefaultAppPublisher=Η Εταιρία Μου, Α.Ε.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.mycompany.gr
+DefaultCompress=zlib
+DefaultExeInst=Setup.exe
+DefaultGUI=Μοντέρνο
+DefaultGroup=MainGroup
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Κλασσικό κουμπί
+DefaultLangInst=Greek
+DefaultUninstPrompt=Είστε σίγουροι πως θέλετε να αφαιρέσετε εντελώς το [NAME] και όλα τα στοιχεία του;
+DefaultUninstSuccesMsg=Το [NAME] απεγκαταστάθηκε επιτυχώς από τον υπολογιστή σας.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\path\to\file\AppMainExe.exe|$INSTDIR;c:\path\to\file\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\path\to\licence\YourSoftwareLicence.txt
+DefaultWizardSections=MainSection
+DeleteFile=&Αφαίρεση αρχείου
+DeleteGroup=Αφαίρεση ομάδας
+DeleteLink=Αφαίρεση συντόμευσης
+Description=&Περιγραφή
+Dest=&Προορισμός:
+DirDest=&Φάκελος προορισμού:
+DirDestColumn=Φάκελος προορισμού
+DirText=Το πρόγραμμα εγκατάστασης θα εγκαταστήσει το [NAME] στον παρακάτω φάκελο.$\r$\n$\r$\nΓια να το εγκαταστήσετε σε έναν άλλο φάκελο, κάντε κλικ στο Αναζήτηση και επιλέξτε κάποιον άλλο φάκελο.
+ExeInst=&Αρχείο εγκατάστασης:
+ExecFinishSubTitle=Παρακαλώ επιλέξτε τις ενέργειες που θα εκτελεστούν μετά το τέλος της εγκατάστασης
+ExecFinishTitle=Εκτέλεση μετά την εγκατάσταση
+ExecProgram=&Πρόγραμμα:
+ExecProgramParams=Π&αράμετροι:
+ExecReadme=Αρχείο &Readme:
+ExitWizardPrompt=Ο Οδηγός δεν έχει ολοκληρώσει. Αν τερματίσετε τον Οδηγό τώρα το νέο αρχείο δεν θα παραχθεί.$nl$nlΘέλετε σίγουρα να κλείσετε τον Οδηγό;
+FinishLabel1=Ο Οδηγός ολοκληρώθηκε
+FinishLabel2=Ολοκληρώσατε επιτυχώς τον Οδηγό.
+FinishLabel3=Για να κλείσετε αυτό τον οδηγό και να παράγετε το νέο αρχείο NSIS, κάντε κλικ στο Τέλος.
+GUI=Γραφικό περιβάλλον:
+GUIClassic=Κλασικό
+GUIModern=Μοντέρνο
+GUINone=Κανένα
+IconsSubTitle=Παρακαλώ επιλέξτε ποια εικονίδια πρέπει να δημιουργηθούν για την εφαρμογή σας.
+IconsTitle=Εικονίδια Εφαρμογής
+IfFileExists=&Εαν το αρχείο υπάρχει
+InsertFileCaption=Εισαγωγή ονόματος αρχείου
+InstallDir=&Προεπιλεγμένος φάκελος εφαρμογής
+InstallIcon=&Εικονίδιο εγκατάστασης:
+LFSCheckBox=Check box
+LFSRadioButtons=Radio buttons
+LangInst=&Γλώσσα Εγκατάστασης:
+LicenceFile=&Αρχείο ’δειας Χρήσης
+LicenceSubTitle=Παρακαλώ εισάγετε τον φάκελο εγκατάστασης και τις πληροφορίες άδειας χρήσης για την εφαρμογή σας.
+LicenceTitle=Φάκελος Εφαμογής και ’δεια Χρήσης
+LicenseForceSelection=Επιλέξτε πως ο χρήστης θα αποδέχεται την άδεια χρήσης
+LicenseText=Εάν αποδέχεστε τους όρους της άδειας χρήσης, κάντε κλικ στο Συμφωνώ για να συνεχίσετε. Πρέπει να αποδεχθείτε τη συμφωνία για να εγκαταστήσετε το [NAME]
+LinkDestColumn=Αρχείο προορισμού
+ModifyName=Αλλαγή ονόματος
+ModifyNamePrompt=Εισαγωγή ονόματος ομάδας:
+NewFile=Δημιουργία αρχείου
+NewFileCaption=Δημιουργία αρχείου
+NewGroup=Δημιουργία ομάδας
+NewGroupPrompt=Εισαγωγή ονόματος ομάδας
+NoAppName=Παρακαλώ εισάγετε το όνομα της εφαρμογής.
+NoCompress=Παρακαλώ καθορίστε τον τύπο της συμπίεσης
+NoDir=Παρακαλώ καθορίστε τον προεπιλεγμένο φάκελο εγκατάστασης.
+NoExeInst=Παρακαλώ επιλέξτε το όνομα του αρχείου εγκατάστασης.
+NoFoundText=Το "%s" δεν βρέθηκε.
+NoGUI=Παρακαλώ επιλέξτε το γραφικό περιβάλλον.
+NoLFS=Κλασικό κουμπί
+NoLang=Παρακαλώ επιλέξτε τη γλώσσα εγκατάστασης.
+NoLinkName=Παρακαλώ επιλέξτε το όνομα της συντόμευσης.
+NoSymbolName=Παρακαλώ επιλέξτε το όνομα του συμβόλου
+NoSymbolSpaces=Μην χρησιμοποιείτε κενά στα ονόματα των συμβόλων
+NoValidIOControl=Το "%s" δεν είναι ένα έγκυρο control για InstallOptions
+NoValidIOIni=Το "%s" δεν είναι ένα έγκυρο αρχείο InstallOptions
+NoVersion=Παρακαλώ εισάγετε την έκδοση της εφαρμογής.
+OptionsSubTitle=Παρακαλώ εισάγετε τις επιλογές για την εγκατάσταση.
+OptionsTitle=Επιλογές εγκατάστασης
+OrgDile=&Αρχείο πηγής:
+OverwriteIfNewer=Αντικατάσταση αν είναι νεότερο
+OverwriteOff=Ποτέ να μην γίνεται αντικατάσταση
+OverwriteOn=Πάντα να γίνεται αντικατάσταση
+OverwriteTry=Προσπάθεια να γίνεται αντικατάσταση
+RelativePaths=&Μετατροπή των διαδρομών αρχείων σε σχετικές
+SaveChanges=Θέλετε να αποθηκεύσετε τις αλλαγές στο αρχείο "%s";
+SaveScript=&Αποθήκευση αρχείου
+SelectInstallComponents=Ο χρήστης επιτρέπεται να επιλέξει τα &στοιχεία προς εγκατάσταση
+SelectModeMenu=Επιλογή κατάστασης
+ShortCut=&Συντόμευση:
+StartMenuDir=Όνομα Φακέλου στο μενού "Έναρξη" της Εφαρμογής
+StartupCaption=Καλώς ήλθατε
+UninstPrompt=&Προτροπή:
+UninstSuccesMsg=&Μήνυμα επιτυχίας:
+UninstallIcon=&Εικονίδιο προγράμματος απεγκατάστασης:
+UninstallSubTitle=Παρακαλώ εισάγετε τις ιδιότητες του προγράμματος απεγκατάστασης.
+UninstallTitle=Πρόγραμμα απεγκατάστασης
+UseUninstaller=Χρήση προγράμματος &απεγκατάστασης
+WelcomeLabel1=Καλώς ήλθατε στον Οδηγό Δημιουργίας Αρχείων Εγκατάστασης
+WelcomeLabel2=Αυτός ο οδηγός θα σας οδηγήσει κατά τη διαδικασία δημιουργίας ενός νέου αρχείου εγκατάστασης του NSIS. Τα δεδομένα που θα εισάγετε θα χρησιμοποιηθούν για τη δημιουργία του νέου αρχείου εγκατάστασης.
+WelcomeLabel3=Δεν καλύπτονται όλα τα χαρακτηριστικά του Nullsoft Install System από αυτό τον οδηγό. Δείτε την τεκμηρίωση του NSIS για την δημιουργία αρχείων εγκατάστασης.
+WelcomeLabel4=Κάντε κλικ στο Επόμενο για να συνεχίσετε, ή στο ’κυρο για να κλείσετε τον οδηγό αυτό.
+WizardCaption=Οδηγός Δημιουργίας Αρχείων Εγκατάστασης NSIS

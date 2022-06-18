@@ -1,0 +1,544 @@
+; HM NIS EDIT 2.0 german messages.
+
+; Translator: Brummelchen
+; Translator: Dipl.-Ing. Robert Kehl, http://roknet.de/
+;   Updates and fixes by: Niels S. Richthof, http://www.richthof.de/niels/
+
+[Fonts]
+DialogFontName=MS Shell Dlg
+DialogFontSize=8
+DefaultEditorFont=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1031
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=&Datei
+EditMenu=B&earbeiten
+SearchMenu=&Suchen
+ViewMenu=&Ansicht
+FormatMenu=F&ormat
+ToolsMenu=&Werkzeuge
+NSISMenu=&NSIS
+WindowMenu=&Fenster
+HelpMenu=&?
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=Neues Skript
+TemplateFile=&Neues Skript von Vorlage
+WizardFile=Neues Skript mit Assistent erstellen
+NewIOFile=Neue &InstallOptions-Datei
+FileOpen=&Öffnen
+Reopen=&Verlauf
+FileSave=&Speichern
+FileSaveAll=Speichere alle|Speichere alle geänderten Deateien
+FileSaveAs=Speichern &als...
+FilePrint=&Drucken
+FileConfigPrint=Seite einrichten
+FileExit=B&eenden
+
+; Edit menu
+EditUndo=&Rückgängig
+EditRedo=&Wiederherstellen
+EditCut=&Ausschneiden
+EditCopy=&Kopieren
+EditCopyAsHTML=Als HTML kopieren
+EditPaste=Einfügen
+EditSelectAll=&Alles markieren
+
+; Search menu
+EditFind=&Suchen
+EditFindNext=S&uche nächstes
+EditReplace=E&rsetzen
+SearchGotoLine=&Gehe zu Zeilennummer|F2|Gehe zu angegebener Zeile
+ToggleBookmark=&Wechsele Lesezeichen
+GotoBookmark=G&ehe zu Lesezeichen
+Bookmark=Lesezeichen
+
+; View menu
+ToolBarsMenu=Werkzeugleisten
+ViewBrowser=Browser|F4|Zeige/Verstecke den Webbrowser
+ViewWindowList=Fensterliste|F5|Zeige/Verstecke die Liste der geöffneten Dateien
+ViewIOPanel=&InstallOptions Kontrollen|F6|Zeige/Verstecke das InstallOptions Kontrollzentrum
+ViewStatusBar=&Statuszeile
+ViewLogBox=Logbuch
+ViewSpecialChars=Nicht-druckbare Zeichen|F10|Zeigt Zeilenumbrüche, Leerzeichen und Tabulatoren mit Sonderzeichen an
+IOToggleDesignMode=Wechsele Design Modus|F12|Wechselt zwischen dem Design und Text-Editier-Modus in Install Options Seiten
+ViewOptions=&Einstellungen|F11|Zeigt den Konfigurationsdialog an
+
+; Format menu
+FormatIndent=Block einrücken
+FormatUnIndent=Block ausrücken
+FormatUpperCase=Großschrift
+FormatLowerCase=K&leinschrift
+FormatToggleCase=klein<>GROSS tauschen
+FormatQuoteSelection=Anführungszeichen
+FormatWordWrap=&Wortumbruch
+
+; Tools menu
+ToolsInsertColor=&Farbe einfügen
+ToolsInsertFile=&Dateinamen einfügen
+CodeTemplates=Code-Vorlagen
+ToolsEditCodeTemplate=Code-Vorlagen bearbeiten
+
+; NSIS menu
+NSISCompileWithProfile=Übersetze mit Profil
+NSISEditCompProfiles=Bearbeite Compiler Profile||
+NSISCompil=&Kompiliere Skript
+NSISCompilRun=Kompiliere und &Starte|Shift+F9|Kompiliere das aktive Skript und starte es danach.
+NSISStopCompile=Kompilieren abbrechen|Esc|Bricht den Kompilierprozeß ab
+NSISExec=.exe &ausführen
+NSISConfig=&Einstellungen für NSIS
+
+; Window menu
+WindowCascade=Überlappend
+WindowTileHorizontal=Übereinander
+WindowTileVertical=Nebeneinander
+WindowArrangle=Anordnen
+WindowPrior=Vorheriges Fenster
+WindowNext=Nächstes Fenster
+WindowList=Fenster&liste
+WindowClose=Schliesse Fenster
+WindowShow=Zeige Fenster
+WindowSMU=Zum &meistbenutzten|Shift+Ctrl+W|Wechselt zum meistbenutzten Fenster
+
+
+; Help menu
+HelpNSIS=NSIS Hilfe
+HelpAbout=Über...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=HM NIS Edit Homepage||http://hmne.sourceforge.net/|41
+URLLink2=NSIS Offizielle Webseite||http://www.nullsoft.com/free/nsis/|41
+URLLink3=NSIS Entwickler-Seite||http://nsis.sourceforge.net/|41
+URLLink4=NSIS Forum||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+;URLLink5=-
+;URLLink6=Custom link 1||http://pagetoshow1.com/|45
+;URLLink7=Custom link 2||http://pagetoshow2.com/|45
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Menü
+TBStandardCaption=Standard
+TBEditCaption=Bearbeiten
+TBViewCaption=Anzeige
+TBSearchCaption=Suchen
+TBFormatCaption=Format
+TBNSISCaption=NSIS
+TBWindowCaption=Fenster
+IOPanelCaption=InstallOptions Kontrollen
+Browser=Browser
+MoreButtons=Mehr...
+
+; Status bar
+CaretPos=Sp: %d - Z: %d
+Modified=Modifiziert
+Insert=Einfügen
+Overwrite=Überschreiben
+ReadOnly=Nur-Lesen
+
+; Open file captions
+OpenTemplateCaption=Vorlage öffnen
+OpenScriptCaption=Skript öffnen
+
+; IO designer
+BringToFront=&Vordergrund
+SendToBack=In den Hintergrund
+Delete=&Löschen|Ctrl+Del|
+SetTabOrder=&Tabfolge...
+ResizeWinto=&Neue Größe
+ResizeItems=Modern UI|300/140;Classic UI|266/130
+
+; TabOrder dialog
+TabOrderCaption=Tabfolge
+Up=H&och
+Down=R&unter
+
+; File filters
+AllFileFilter=Alle Dateien (*.*)|*.*
+NSISFileFilter=NSIS Dateien (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Ausführbare Dateien (*.exe)|*.exe
+HTMLFileFilter=HTML Dateien (*.htm, *.html)|*.htm;*.html
+INIFileFilter=InstallOptions Datei (*.ini)|*.ini
+IconFileFilter=Symboldateien (*.ico)|*.ico
+LicFileFilter=Lizenzdateien (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=NSIS header files (*.nsh)|*.nsh
+RTFFileFilter=Rich Text Dateien (*.rtf)|*.rtf
+TextFileFilter=Textdateien (*.txt)|*.txt
+CHMFileFilter=Kompilierte-HTML-Hilfedateien (*.chm)|*.chm
+HelpFileFilter=Hilfedateien (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=TeX Dateien (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Fehler
+InformationDlgCaption=Information
+QuestionDlgCaption=Bestätigung
+WarningDlgCaption=Warnung
+
+; Buttons
+OK=OK
+Cancel=Abbrechen
+Next=Weiter >
+Back=< Zurück
+Finish=Fertigstellen
+Apply=Anwenden
+
+; About box
+AboutBoxCaption=Über
+
+; Find window
+FindTextCaption=Suche Text
+FindText=Suchtext:
+SearchOptions=Einstellungen für die Suche
+CaseSensitive=Groß/Klein beachten
+WholeWordOnly=Ganzes Wort
+SearchFromCursor=Suche ab Schreibmarke
+SearchSelectedOnly=Nur in markiertem Text
+Forward=Vorwärts
+Backward=Zurück
+
+; Replace window
+ReplaceTextCaption=Ersetze Text
+ReplaceText=Ersetzungstext:
+ReplaceAll=Ersetze alle
+
+; Goto line window
+GotoLineCaption=Gehe zu Zeilennummer
+GotoLinePrompt=Gebe Zeilennummer ein:
+
+; Options window
+EnvironmentConfigPage=Umgebung
+EditorConfigPage=Editor
+CompilerConfigPage=Kompiler
+PluginsConfigPage=Plugins
+
+; Options window Environment Config Page
+GeneralOptions=Allgemeine Einstellungen
+ShowSplashScreen=Zeige Begrüßungsbildschirm
+ShowWelcomeDialog=Zeige Willkommen-Fenster
+MultipleInstances=Lasse mehrere Instanzen zu
+OpenIniFilesIn=Öffne .ini Dateien im Design Modus
+OpenFilesOnStartup=Öffne zuletzt benutze Dateien beim Start
+UseDefBrowser=Benutze Standardbrowser
+Lang=&Sprache auswählen
+BrowserHome=Browser Startseite:
+ToolBarOptions=Einstellungen der Werkzeugleisten
+TBSmoothDrag=Ziehen in Werkzeugleisten
+PanelSmoothDrag=Ziehen in Werkzeugleistenbereichen
+TBTheme=Werkzeugleistenthema:
+Default=Standard
+OfficeXP=OfficeXP
+Stripes=Streifen
+FileAssoc=Dateierweiterungen
+DefaultEditor=Als Standardprogramm für NSIS-Dateien registrieren
+SuccessfullyRegister=HM NIS Edit ist jetzt als Standardanwendung für NSIS Skripte registriert.
+IOGridOptions=InstallOptions Designer
+DisplayGrid=Zeige Raster
+SnapToGrid=An Raster ausrichten
+GridX=Rastergröße X:
+GridY=Rastergröße Y:
+CtrlDims=Zeige Objektgrößen als:
+RightBottom=Rechts/Unten
+WidthHeight=Breite/Höhe
+Both=Beide
+Other=Andere
+SaveOptionsIn=Speichere Einstellungen in:
+Registry=Systemregistrierung
+
+; Options window Editor Config Page
+DisplayPage=Anzeige
+OptionsPage=Einstellungen
+HighlighterPage=Farbe
+
+; Options window Editor Display Page
+Gutter=Spalte bei Zeilenbeginn
+GutterVisible=Sichtbar
+GutterShowLineNumbers=Zeige Zeilennummern
+GutterStartAtZero=Startet bei Null
+GutterShowLeaderZeros=Zeige führende Nullen
+GutterFont=Zeichensatz:
+GutterColor=nutze Farbe:
+Font=Zeichensatz
+RightEdge=Rechter Rand
+EdgeColumn=Randspalte:
+EdgeColor=Randfarbe:
+LineTabSpacing=Zeilenhöhe / Tabulatorbreite
+ExtraLines=Extra Zeilen:
+TabWidth=Tabulatorbreite:
+Bookmarks=Lesezeichen
+BookmarkKeys=Lesezeichentasten
+BookmarksVisible=Lesezeichen sichtbar
+EditorFont=Editor Zeichensatz
+
+; Options window Editor Options Page
+AutoIndent=Auto Einrücken|Rückt in einer neuen Zeile genau so ein wie in der vorhergehenden
+DragAndDropEditing=Ziehen und Ablegen erlauben|Ermöglicht ziehen und ablegen mit der Maus.
+HalfPageScroll=Scrolle halbe Seite|Scrollt nur eine halbe statt einer ganzen Seite mit den 'Bild hoch/runter'-Tasten
+ScrollByOneLess=Scrolle (eine Zeile weniger)|Scrollt minus eine Zeile
+ScrollPastEOF=Scrolle hinter Dateiende|Der Cursor darf hinter dem Dateiende stehen.
+ScrollPastEOL=Scrolle hinter die Zeile|Der Cursor darf hinter dem Zeilenende stehen.
+ShowScrollHint=Zeige Zeilenanzahl|Zeigt die Anzahl der sichtbaren Zeilen beim Scrollen
+SmartTabs=Smarte Tabulatoren|Orientiert sich beim Setzen der Tabulatoren an der vorhergehenden Zeile
+TabsToSpaces=Tabulatoren zu Leerzeichen|Konvertiert Tabulatoren zur entsprechenden Anzahl Leerzeichen
+TrimTrailingSpaces=Schneide nachfolgende Leerzeichen ab|Leerzeichen am Ende einer Zeile werden nicht mitgespeichert
+AltSetsColumnMode=Mit 'Alt' als Block auswählen|Halten Sie die 'Alt'-Taste, um Blöcke aus dem Text auszuwählen
+KeepCaretX=Halte X Position|Hält die Schreibmarke in einer Spalte fest, wenn Sie sich durch Zeilen bewegen
+ScrollHintFollows=Rollbalkenanzeige folgt Maus|Die Anzeige am Rollbalken folgt der Maus beim scrollen
+GroupUndo=Gruppiertes 'Rückgängig'|Macht Kommandos gruppiert rückgängig, anstatt sie einzeln zu betrachten
+SmartTabDelete=Smarte Tabulatoren beim Löschen|Orientiert sich beim Löschen an den Tabulatoren der vorhergehenden Zeile
+RightMouseMoves=Rechte Maustaste bewegt Schreibmarke|Bewegt die Schreibmarke, wenn Sie mit der rechten Maustaste klicken.
+EnhanceHomeKey=Erweitere 'Home'-Taste|Erweitert positionieren über die 'Home'-Taste, ähnlich Visual Studio
+HideShowScrollbars=Verstecke Rollbalken, wenn möglich|Zeigt die Rollbalken nur an, wenn nötig.
+DisableScrollArrows=Keine Pfeile an Rollbalken|Versteckt die Pfeile der Rollbalken, wenn in die Richtung nicht mehr gerollt werden kann.
+ShowSpecialChars=Zeige nicht-druckbare Zeichen|Zeigt Zeilenumbrüche, Leerzeichen und Tabulatoren mit Sonderzeichen an
+UndoAfterSave=Rückgängig &nach Speichern
+ViewUsageHints=&Befehlshilfe zeigen
+
+Caret=Schreibmarke
+InsertCaret=Marke für Einfüge:
+OverwriteCaret=Marke für Überschreiben:
+VerticalLine=Vertikale Linie
+HorizontalLine=Horizontale Linie
+HalfBlock=Halber Block
+Block=Ganzer Block
+
+; Options window Editor Highlighter Page
+UseHighlighter=Syntax farbig hervorheben
+Element=Element
+TextAttri=&Textattribute
+Color=Farben:
+Foreground=Vordergrund
+Background=Hintergrund
+FontStyle=Schriftschnitt
+Bold=&Fett
+Italic=Kursiv
+Underline=Unterstrichen
+HighlightVarsInsideStrings=Variablen innerhalb von Text &hervorheben
+
+; Options window compiler options Page
+Paths=Pfade
+Compiler=&Kompiler:
+Help=&Hilfe:
+Options=Einstellungen
+NoConfigFile=Konfigurationsdatei nicht einschließen (nsisconf.nsh).
+NoConsole="%s" ist keine gültige Anwendung
+NOCD=Aktuelles Verzeichnis nicht zu Verzeichnis der .nsi Datei ändern
+SaveScriptsBeforeCompile=Save scripts before compile
+Simbols=&Symbole
+SimbolColumn=Symbol
+ValueColumn=Wert
+AddSimbol=Hinzufügen
+EditSimbol=Bearbeiten
+DeleteSimbol=Löschen
+EditSimbolCaption=Symbol bearbeiten
+Simbol=&Symbol:
+Value=&Wert:
+DuplicateSymbol=Verknüpfung kopieren
+UseIntegratedBrowser4Help=Nutze integrierten Browser für die Hilfe.
+
+; Compiler profiles
+
+NewProfileCaption=Neues Compiler Profil
+NewProfilePrompt=Geben Sie den Namen des neuen Compiler Profils ein:
+ProfileExists=Es gibt bereits ein Compiler Profil mit Namen "%s"
+CompilerProfilesCaption=Compiler Profile
+AddProfile=Neues Profil
+EditProfile=Bearbeite Profil
+RenameProfile=Benenne Profil um
+DeleteProfile=Lösche Profil
+EditCompileProfileCaption=Bearbeite %s Compiler Profile
+
+; Options window plugins config page
+PluginConfig=&Konfiguriere
+PluginAbout=&Über
+
+; Code templates
+CodeTemplateCaption=Code-Vorlagen bearbeiten
+TemplateNames=Namen der Vorlagen
+NewTemplate=Neue Vorlage
+EditTemplatePrompt=Geben Sie einen Namen für diese Vorlage ein:
+EditTemplate=Vorlage bearbeiten
+AutoCompleteShortCut=Hotkey für Vervollständigen
+TemplateCode=Inhalt der gewählten Vorlage (Code)
+DuplicateTemplateName=Eine Vorlage namens "%s" existiert bereits
+
+; Welcome window
+EmptyScript=Neue Skriptdatei erstellen
+WizardScript=Neues Skript mit dem Skript-Assistenten erstellen
+OpenExistingFile=Skript-Datei öffnen
+MoreFiles=Mehr Dateien...
+NoShowSartup=&Nicht nochmal anzeigen
+
+; Filter editor
+EditFilterCaption=Bearbeite Filter
+FilterDescription=Beschreibung des Filters:
+Filter=Filter:
+AddFilter=&Hinzufügen
+RemoveFilter=&Entfernen
+
+
+; Messages
+FileModified=Eine andere Anwendung hat "%s" geändert. Möchten Sie diese Datei neu laden, um die Änderungen zu sehen?
+NoCompiler=Bitte wählen Sie den NSIS Kompiler
+NoDocs=Bitte wählen Sie die NSIS Hilfedatei
+OpenFileError=Konnte Datei "%s" nicht öffnen
+NoCloseCompiling=Während des Kompilierens kann der Kompiler nicht beendet werden$nlMöchten Sie den Kompiler anhalten?
+Untitled=Unbenannt %.2d
+EditTextCaption=Bearbeite Text
+EditListitemsCaption=Bearbeite Listeneinträge
+StopCompilePrompt=Sind Sie sicher, daß Sie den Kompiler anhalten möchten?
+CompileCanceled=Kompilieren durch den Benutzer abgebrochen.
+
+; Ask save dialog
+n_AskSaveDialogCaption=Save Changes
+n_AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+n_Yes=&Yes
+n_No=&No
+n_SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=Dateieintrag bearbeiten
+EditFileCaption=Datei einfügen/bearbeiten
+EditGroup=Gruppe bearbeiten
+EditLink=Verknüpfung b&earbeiten
+EditLinkCaption=Verknüpfung bearbeiten
+FileColumn=Datei
+FilelLnkColumn=Verknüpfung
+FilesSubTitle=Bitte fügen Sie hier die Dateien ein, die ihr Projekt enthalten soll
+FilesTitle=Projekt-Dateien
+AddFiles=&Datei hinzufügen
+AddLink=Neue Verknüpfung
+AppInfoSubTitle=Bitte geben Sie Informationen über Ihre Anwendung ein.
+AppInfoTitle=Produkt-Informationen
+AppName=&Produkt-Name:
+AppPublisher=Produkt-&Autor:
+AppVersion=Produkt-&Version:
+AppWeb=Produkt-&Webseite:
+ChangeInstallDir=Der Anwender darf den Installationsordner ändern
+ChangeStartMenuDir=Der Anwender darf den Namen des Startmenü-Ordners ändern
+ComponentText=Bitte wählen sie die Komponenten, die Sie installieren möchten und wählen Sie diejenigen ab, die Sie nicht installieren möchten
+CompScript=Skript mit NSIS k&ompilieren
+Compress=K&ompressionsmethode:
+CompressBZip2=bzip2
+CompressNone=keine
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=NSIS Einstellungen
+CreateUninstallIcon=Verknüpfung für die &Deinstallationsroutine im Startmenü erstellen
+CreateWebIcon=&Internetverknüpfung im Startmenü erstellen
+DefaultAppName=Meine Anwendung
+DefaultAppPublisher=Meine Firma
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.example.com
+DefaultCompress=zlib
+DefaultExeInst=Setup.exe
+DefaultGUI=Modern
+DefaultGroup=Hauptgruppe
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Knopf (klassisch)
+DefaultLangInst=English
+DefaultUninstPrompt=Möchten Sie [NAME] und alle seinen Komponenten deinstallieren?
+DefaultUninstSuccesMsg=[NAME] wurde erfolgreich deinstalliert.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\pfad\zur\datei\AppMainExe.exe|$INSTDIR;c:\path\to\file\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\pfad\zur\lizenz\IhreLizenz.txt
+DefaultWizardSections=Hauptgruppe
+DeleteFile=Datei löschen
+DeleteGroup=Gruppe löschen
+DeleteLink=Verknüpfung löschen
+Description=&Beschreibung
+Dest=&Zieldatei:
+DirDest=&Zielverzeichnis:
+DirDestColumn=Zielverzeichnis
+DirText=Setup wird [NAME] im folgenden Ordner installieren.$\r$\n$\r$\nUm in einen anderen Ordner zu installieren, Klicken Sie auf 'Durchsuchen' und wählen Sie einen anderen ordner aus.
+ExeInst=&Setup-Datei:
+ExecFinishSubTitle=Bitte geben Sie Dateien an, die nach der Installation ausgeführt werden sollen.
+ExecFinishTitle=Dateien ausführen
+ExecProgram=&Programm:
+ExecProgramParams=P&arameter:
+ExecReadme=&Textdatei:
+ExitWizardPrompt=Der NSIS Script Assistent wurde nicht vollendet.$nlWenn sie jetzt abbrechen, wird das Skript nicht erstellt.$nl    Möchten Sie den Assistenten trotzdem beenden?
+FinishLabel1=Assistent beendet
+FinishLabel2=Sie haben den Assistenten vollendet.
+FinishLabel3=Um den Assistenten zu schliessen und das neue Skript zu erstellen, klicken Sie bitte auf "Fertigstellen".
+GUI=GUI:
+GUIClassic=Klassisch
+GUIModern=Modern
+GUINone=Keines
+IconsSubTitle=Bitte geben Sie hier die Verknüpfungen für ihre Anwendungen ein.
+IconsTitle=Verknüpfungen erstellen
+IfFileExists=&Wenn Datei bereits vorhanden
+InsertFileCaption=Dateiname einfügen
+InstallDir=Vorgegebenes Standardverzeichnis für Ihre Anwendung:
+InstallIcon=&Setup-Symbol:
+LFSCheckBox=Häkchen (Check box)
+LFSRadioButtons=Auswahlknopf (Radio)
+LangInst=&Setup-Sprache:
+LicenceFile=&Lizenzdatei
+LicenceSubTitle=Bitte geben Sie Verzeichnis- und Lizenzinformationen für ihre Anwendung ein
+LicenceTitle=Verzeichnis- und Lizenzdaten
+LicenseForceSelection=Bestätigungsoption für das Lizenzabkommen
+LicenseText=Falls Sie alle Bedingungen des Abkommens akzeptieren, klicken Sie auf 'Annehmen'. Sie müssen die Lizenzvereinbarungen anerkennen um [NAME] zu installieren.
+LinkDestColumn=Zieldatei
+ModifyName=Gruppenname ändern
+ModifyNamePrompt=Geben Sie bitte den neuen Gruppennamen ein:
+NewFile=Neue Datei
+NewFileCaption=Neue Datei
+NewGroup=Neue Gruppe anlegen
+NewGroupPrompt=Geben Sie bitte den Gruppennamen ein:
+NoAppName=Bitte geben Sie Ihrer Anwendung einen Namen.
+NoCompress=Bitte wählen Sie den Kompressionstyp
+NoDir=Bitte geben Sie das Installationsverzeichnis ein.
+NoExeInst=Bitte geben Sie Ihrer Installationsdatei einen Namen.
+NoFoundText="%s" nicht gefunden.
+NoGUI=Bitte geben Sie den GUI-Typ an.
+NoLFS=Knopf (Classic)
+NoLang=Bitte wählen Sie die Installationssprache
+NoLinkName=Geben Sie bitte einen Namen für die Verknüpfung ein.
+NoSymbolName=Bitte geben Sie den Symbolnamen ein
+NoSymbolSpaces=Leerzeichen sind in Symbolnamen nicht erlaubt
+NoValidIOControl="%s" ist kein gültiger InstallOptions-Parameter
+NoValidIOIni="%s" ist keine gültige InstallOptions-Datei
+NoVersion=Bitte geben Sie die Versionsnummer ihrer Anwendung an.
+OptionsSubTitle=Bitte geben sie die Einstellungen für ihre Installationsdatei ein.
+OptionsTitle=Setup-Einstellungen
+OrgDile=&Quelldatei:
+OverwriteIfNewer=Überschreiben, wenn neuer
+OverwriteOff=Niemals überschreiben
+OverwriteOn=Immer überschreiben
+OverwriteTry=Versuche, zu überschreiben
+RelativePaths=Absolute Pfadangaben zu Dateien in relative &umwandeln
+SaveChanges=Möchten Sie die Änderungen in "%s" speichern?
+SaveScript=Skript &speichern
+SelectInstallComponents=Der Anwender darf die zu installierenden Komponenten auswählen
+SelectModeMenu=Modus auswählen
+ShortCut=&Verknüpfung:
+StartMenuDir=Startmenü-Ordner für Ihre Anwendung
+StartupCaption=Willkommen
+UninstPrompt=Bestätigung:
+UninstSuccesMsg=Erfolgsmeldung:
+UninstallIcon=Symbol:
+UninstallSubTitle=Bitte geben Sie die Eigenschaften der Deinstallationsroutine ein.
+UninstallTitle=Deinstallation
+UseUninstaller=Deinstallationsroutine erstellen
+WelcomeLabel1=Willkommen beim NSIS Skript Assistenten
+WelcomeLabel2=Dieser Assistent begleitet Sie während der Erstellung eines neuen NSIS Skriptes. Ihre Eingaben werden direkt zur Erzeugung eines neuen Skriptes umgesetzt, welches anschließend kompiliert oder gespeichert werden kann.
+WelcomeLabel3=Der Assistent unterstützt leider noch nicht alle Möglichkeiten des Nullsoft Installations-Systems. Bitte lesen Sie auch dazu die Dokumentation zum Nullsoft Install System!
+WelcomeLabel4=Klicken Sie auf 'Weiter', um fortzusetzen oder auf 'Abbrechen', um den Assistenten zu beenden.
+WizardCaption=NSIS Skript Assistent

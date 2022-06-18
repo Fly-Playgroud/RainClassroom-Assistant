@@ -1,0 +1,684 @@
+; HM NIS EDIT 2.0.3 english messages.
+
+; Translator: H閏tor Mauricio Rodr韌uez Segura <ranametal@users.sourceforge.net>
+; Translator URL: http://espanol.geocities.com/ranametalcr/
+
+[Fonts]
+DialogFontName=MS Shell Dlg
+DialogFontSize=8
+DefaultEditorFont=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1033
+
+; Main window strings
+MainCaption=HM VNISEdit 2.0.3 (build 060712)
+
+; Menus
+FileMenu=&File
+EditMenu=&Edit
+SearchMenu=&Search
+ViewMenu=&View
+FormatMenu=F&ormat
+ToolsMenu=&Tools
+NSISMenu=&NSIS
+WindowMenu=&Window
+HelpMenu=&?
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=New &empty script|Ctrl+N|Create a new empty script
+TemplateFile=&New script from template...|Ctrl+T|Create a new script based in the text of an existing file
+WizardFile=New script from Wizard...|Ctrl+W|Create a new script with help from the wizard
+NewIOFile=New &Install Options file|Ctrl+I|Create a new Install Options file (custom page)
+FileOpen=&Open...|Ctrl+O|Open an existing script
+Reopen=&Reopen
+FileSave=&Save|Ctrl+S|Save the active script
+FileSaveAll=Save all||Save all modified files
+FileSaveAs=Save &as...||Save the active script with a new name or export it to HTML or RTF
+FilePrint=&Print|Ctrl+P|Print the active script
+FileConfigPrint=Printer setup...||
+FileExit=&Exit|Alt+F4|Quit the application
+
+; Edit menu
+EditUndo=&Undo|Ctrl+Z|Undo the last action
+EditRedo=&Redo|Shift+Ctrl+Z|Redo the previously undone action
+EditCut=&Cut|Ctrl+X|Cut the selection to the clipboard
+EditCopy=C&opy|Ctrl+C|Copy the selection to the clipboard 
+EditCopyAsHTML=Copy as HTML||Copy the selection to the clipboard in HTML format
+EditPaste=&Paste|Ctrl+V|Paste clipboard contents
+EditSelectAll=&Select all|Ctrl+A|Select the entire script
+
+; Search menu
+EditFind=F&ind...|Ctrl+F|Search for text in the active script
+EditFindNext=&Find again|F3|Find next occurrence of search string
+EditReplace=&Replace...|Ctrl+R|Replace occurrences of search string
+SearchGotoLine=&Go to line number...|F2|Go to specified line
+ToggleBookmark=&Toggle Bookmarks
+GotoBookmark=G&oto Bookmarks
+Bookmark=Bookmark
+
+; View menu
+ToolBarsMenu=Tool bars
+ViewBrowser=Browser|F4|Show/Hide the web browser
+ViewWindowList=多功能窗口(&W)|F5|显示/隐藏 能方便处理脚本的多功能窗口
+ViewIOPanel=&Install Options Controls|F6|Show/Hide the InstallOptions panel
+ViewStatusBar=&Status bar|F7|Show/Hide the status bar
+ViewLogBox=LogBox|F8|Show/Hide the log box
+ViewSpecialChars=Special chars|F10|Shows linebreaks, spaces and tabs using special symbols
+IOToggleDesignMode=Toggle design mode|F12|Switch between design mode or edit text in Install Options pages
+ViewOptions=&Options...|F11|Show the configuration dialog
+
+; Format menu
+FormatIndent=&Indent block|Shift+Ctrl+I|Increase indentation of selected lines
+FormatUnIndent=&Unindent block|Shift+Ctrl+U|Decrease indentation of selected lines
+FormatUpperCase=U&pper case|Ctrl+U|Change selection to uppercase
+FormatLowerCase=&Lower case|Ctrl+L|Change selection to lowercase
+FormatToggleCase=&Toggle case|Ctrl+H|Invert the case of the selection
+FormatQuoteSelection=&Quote selection|Ctrl+Q|Add quotes to the selection
+FormatWordWrap=&Word wrap
+
+; Tools menu
+ToolsInsertColor=Insert &color...|Shift+F5|Prompts for a color and insert it's code value
+ToolsInsertFile=Insert &file name...|Shift+F6|Prompts for a file and insert it's name
+CodeTemplates=Code templates
+ToolsEditCodeTemplate=&Edit code templates...
+
+; NSIS menu
+NSISCompileWithProfile=Compile with profile
+NSISEditCompProfiles=Edit compiler profiles||
+NSISCompil=&Compile script|Ctrl+F9|Compile the active script
+NSISCompilRun=C&ompile and Run|Shift+F9|Compile and run the active script
+NSISStopCompile=Stop compile|Esc|Stop the compiler process
+NSISExec=&Execute setup|F9|Run the active script
+NSISConfig=Co&nfiguration...|Ctrl+F11|Change compile path, define symbols and set compiler options
+
+; Window menu
+WindowCascade=Cascade||
+WindowTileHorizontal=Tile horizontally||
+WindowTileVertical=Tile vertically||
+WindowArrangle=Arrange||
+WindowPrior=Previous window||
+WindowNext=Next window||
+WindowList=Window list
+WindowClose=Close window
+WindowShow=Show window
+WindowSMU=S&witch most used|Ctrl+Shift+W|
+
+
+; Help menu
+HelpNSIS=NSIS help
+HelpAbout=About...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=HM NIS Edit Site||http://hmne.sourceforge.net/|41
+URLLink2=NSIS Site||http://nsis.sourceforge.net/|41
+URLLink3=NSIS Forum||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+;URLLink4=-
+;URLLink5=Custom link 1||http://pagetoshow1.com/|45
+;URLLink6=Custom link 2||http://pagetoshow2.com/|45
+
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Menu
+TBStandardCaption=Standard
+TBEditCaption=Edit
+TBViewCaption=View
+TBSearchCaption=Search
+TBFormatCaption=Format
+TBNSISCaption=NSIS
+TBWindowCaption=Windows
+IOPanelCaption=InstallOptions Controls
+Browser=Browser
+MoreButtons=More buttons
+
+; Status bar
+CaretPos=Col: %d - Lin: %d
+Modified=Modified
+Insert=Insert
+Overwrite=Overwrite
+ReadOnly=Read only
+
+; Open file captions
+OpenTemplateCaption=Open template
+OpenScriptCaption=Open script
+
+; IO designer
+BringToFront=&Bring to front
+SendToBack=&Send to back
+Delete=&Delete|Ctrl+Del|
+SetTabOrder=&Tab order...
+ResizeWinto=&Resize designer
+ResizeItems=Modern UI|300/140;Classic UI|266/130
+
+; TabOrder dialog
+TabOrderCaption=Tab order
+Up=&Up
+Down=&Down
+
+; File filters
+AllFileFilter=All files (*.*)|*.*
+NSISFileFilter=NSIS files (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Executable files (*.exe)|*.exe
+HTMLFileFilter=HTML files (*.htm, *.html)|*.htm;*.html
+INIFileFilter=Install options file (*.ini)|*.ini
+IconFileFilter=Icon files (*.ico)|*.ico
+LicFileFilter=License files (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=NSIS header files (*.nsh)|*.nsh
+RTFFileFilter=Rich text files (*.rtf)|*.rtf
+TextFileFilter=Plain text files (*.txt)|*.txt
+CHMFileFilter=CHM files (*.chm)|*.chm
+HelpFileFilter=Help files (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=TeX Files (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Error
+InformationDlgCaption=Information
+QuestionDlgCaption=Confirmation
+WarningDlgCaption=Warning
+
+; Buttons
+OK=OK
+Cancel=Cancel
+Next=Next >
+Back=< Back
+Finish=Finish
+Apply=Apply
+Browse=Browse...
+
+; About box
+AboutBoxCaption=About
+
+; Find window
+FindTextCaption=Search text
+FindText=Text to find:
+SearchOptions=Options
+CaseSensitive=Case sensitive
+WholeWordOnly=Whole word only
+SearchFromCursor=Search from cursor
+SearchSelectedOnly=Selected text only
+Forward=Forward
+Backward=Backward
+
+; Replace window
+ReplaceTextCaption=Replace text
+ReplaceText=Text to replace:
+ReplaceAll=Replace all
+
+; Goto line window
+GotoLineCaption=Go to line number
+GotoLinePrompt=Enter line number:
+
+; Options window
+EnvironmentConfigPage=Environment
+EditorConfigPage=Editor
+CompilerConfigPage=Compiler
+PluginsConfigPage=Plugins
+
+; Options window Environment Config Page
+GeneralOptions=General options
+ShowSplashScreen=Show splash screen
+ShowWelcomeDialog=Show welcome window
+MultipleInstances=Multiple instances
+OpenIniFilesIn=Open .ini file in design mode
+OpenFilesOnStartup=Open last used files on startup
+UseDefBrowser=Use default browser
+Lang=&Language:
+BrowserHome=Browser home:
+ToolBarOptions=Tool bars options
+TBSmoothDrag=Smooth drag in tool bars
+PanelSmoothDrag=Smooth drag in tool panels
+TBTheme=Tool bar theme:
+Default=Default
+OfficeXP=OfficeXP
+Stripes=Stripes
+FileAssoc=File association
+DefaultEditor=&Register as default editor for NSIS files
+SuccessfullyRegister=HM NIS Edit successfully registered as default editor
+
+IOGridOptions=InstallOptions Designer
+DisplayGrid=Display grid
+SnapToGrid=Snap to grid
+GridX=Grid size X:
+GridY=Grid size Y:
+CtrlDims=Show controls size as:
+RightBottom=Right/Bottom
+WidthHeight=Width/Height
+Both=Both
+Other=Other
+SaveOptionsIn=Save options in:
+Registry=Registry
+
+; Options window Editor Config Page
+DisplayPage=Display
+OptionsPage=Options
+HighlighterPage=Colors
+
+; Options window Editor Display Page
+Gutter=Gutter
+GutterVisible=Visible
+GutterShowLineNumbers=Show line numbers
+GutterStartAtZero=Start at zero
+GutterShowLeaderZeros=Show leader zeros
+GutterFont=Use gutter font:
+GutterColor=Gutter color:
+Font=Font
+RightEdge=Right Edge
+EdgeColumn=Edge Column:
+EdgeColor=Edge color:
+LineTabSpacing=Line spacing / Tab spacing
+ExtraLines=Extra Lines:
+TabWidth=Tab Width:
+Bookmarks=Bookmarks
+BookmarkKeys=Bookmark keys
+BookmarksVisible=Bookmarks visible
+EditorFont=Editor Font
+EditKeystrokes=Edit Keystrokes
+
+; Options window Editor Options Page
+AutoIndent=Auto indent|Will indent the caret on new lines with the same amount of leading white space as the preceding line
+DragAndDropEditing=Drag and drop editing|Allows you to select a block of text and drag it within the document to another location
+HalfPageScroll=Half page scroll|When scrolling with page-up and page-down commands, only scroll a half page at a time
+ScrollByOneLess=Scroll by one less|Forces scrolling to be one less
+ScrollPastEOF=Scroll past end of file|Allows the cursor to go past the end of file marker
+ScrollPastEOL=Scroll past end of line|Allows the cursor to go past the last character into the white space at the end of a line
+ShowScrollHint=Show scroll hint|Shows a hint of the visible line numbers when scrolling vertically
+SmartTabs=Smart tabs|When tabbing, the cursor will go to the next non-white space character of the previous line
+TabsToSpaces=Tabs to spaces|Converts a tab character to the number of spaces in Tab Width
+TrimTrailingSpaces=Trim trailing spaces|Spaces at the end of lines will be trimmed and not saved
+AltSetsColumnMode=Alt sets column mode|Holding down the Alt Key will put the selection mode into columnar format
+KeepCaretX=Maintain caret column|When moving through lines the X position will always stay the same
+ScrollHintFollows=Scroll hint follows mouse|The scroll hint follows the mouse when scrolling vertically
+GroupUndo=Group undo|When undoing/redoing actions, handle all continuos changes of the same kind in one call instead undoing/redoing each command separately
+SmartTabDelete=Smart tab delete|similar to Smart Tabs, but when you delete characters
+RightMouseMoves=Right mouse moves cursor|When clicking with the right mouse for a popup menu, move the cursor to that location
+EnhanceHomeKey=Enhance Home Key|Enhances home key positioning, similar to visual studio
+HideShowScrollbars=Hide scrollbars as necessary|if enabled, then the scrollbars will only show when necessary.  If you have ScrollPastEOL, then it the horizontal bar will always be there (it uses MaxLength instead)
+DisableScrollArrows=Disable scroll arrows|Disables the scroll bar arrow buttons when you can't scroll in that direction any more
+ShowSpecialChars=Show special chars|Shows linebreaks, spaces and tabs using special symbols
+UndoAfterSave=Undo &after save|Allow undo operations after save
+ViewUsageHints=Show command usage hint|When checked show the command usage of the command beyond mouse cursor
+
+Caret=Caret
+InsertCaret=Insert caret:
+OverwriteCaret=Overwrite caret:
+VerticalLine=Vertical Line
+HorizontalLine=Horizontal Line
+HalfBlock=Half Block
+Block=Block
+
+; Options window Editor Highlighter Page
+UseHighlighter=&Use Syntax Highlight
+Element= Element 
+TextAttri=&Text attributes
+Color=Colors:
+Foreground=Foreground
+Background=Background
+FontStyle=Font style
+Bold=&Bold
+Italic=Italic
+Underline=Underline
+HighlightVarsInsideStrings=&Highlight vars inside strings
+
+; Options window compiler options Page
+Paths= Paths
+Compiler=&Compiler:
+Help=&Help:
+Options=Options
+NoConfigFile=Disables inclusion of configuration file (nsisconf.nsh).
+NoConsole="%s" is not a valid console application.
+NOCD=&Disabled the current directory change to that of the .nsi file
+SaveScriptsBeforeCompile=Save scripts before compile
+Simbols=&Symbols
+SimbolColumn=Symbol
+ValueColumn=Value
+AddSimbol=Add 
+EditSimbol=Edit
+DeleteSimbol=Delete
+EditSimbolCaption=Edit symbol
+Simbol=&Symbol:
+Value=&Value:
+DuplicateSymbol=Duplicate symbol name
+UseIntegratedBrowser4Help=Use integrated browser for help.
+
+; Compiler profiles
+NewProfileCaption=New compiler profile
+NewProfilePrompt=Enter the new compiler profile name:
+ProfileExists=A compiler profile named "%s" already exists
+CompilerProfilesCaption=Compiler profiles
+AddProfile=New profile
+EditProfile=Edit profile
+RenameProfile=Rename profile
+DeleteProfile=Delete profile
+EditCompileProfileCaption=Edit %s compiler profile
+
+; Options window plugins config page
+PluginConfig=&Configure
+PluginAbout=&About
+
+; Code templates
+CodeTemplateCaption=Edit code templates
+TemplateNames=Template Name
+NewTemplate=New template
+EditTemplatePrompt=&Write the name of the template:
+EditTemplate=Edit template
+AutoCompleteShortCut=&Auto complete shortcut
+TemplateCode=Template Code
+DuplicateTemplateName=A template named "%s" already exists
+
+; Welcome window
+EmptyScript=Create a new &empty script file
+WizardScript=Create a new script file using the &Script Wizard
+OpenExistingFile=Open an e&xisting script file
+MoreFiles=More files...
+NoShowSartup=&Don't show this dialog again
+OpenFile= Open file
+
+; Filter editor
+EditFilterCaption=Edit filter
+FilterDescription=Filter description:
+Filter=Filter:
+AddFilter=&Add
+RemoveFilter=&Remove
+
+
+; Messages
+FileModified=Another application has update file "%s" Reload it?
+NoCompiler=Before compile the script please select the NSIS compiler
+NoDocs=Before show the NSIS documentation please select the NSIS help file
+OpenFileError=Can't open file %s
+NoCloseCompiling=Can't exit while compiling scripts$nlDo you want to stop the compiler?
+Untitled=Untitled %.2d
+EditTextCaption=Edit text
+EditListitemsCaption=Edit list items
+StopCompilePrompt=Are you sure you want to stop the compiler?
+CompileCanceled=Compilation canceled by user.
+
+; Ask save dialog
+AskSaveDialogCaption=Save Changes
+AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+Yes=&Yes
+No=&No
+SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=Edit File entry
+EditFileCaption=Edit file entry
+EditGroup=Edit Group
+EditLink=Edit shortcut
+EditLinkCaption=Edit shortcut
+FileColumn=File
+FilelLnkColumn=Shortcut
+FilesSubTitle=Please specify the files that are part of your application.
+FilesTitle=Application Files
+AddFiles=&Add file
+AddDirTree=Add directory tree
+AddLink=New Shortcut
+AppInfoSubTitle=Please specify some basic information about your application.
+AppInfoTitle=Application Information
+AppName=&Application name:
+AppPublisher=Application &publisher:
+AppVersion=Application &version:
+AppWeb=Application &website:
+ChangeInstallDir=Allow user to &change the application directory
+ChangeStartMenuDir=Allow user to &change the Start Menu folder name
+ComponentText=Check the components you want to install and uncheck the components you don't want to install:
+CompScript=C&ompile script
+Compress=C&ompress:
+CompressBZip2=bzip2
+CompressNone=None
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=Configuration
+CreateUninstallIcon=Create an &Uninstall icon in the Start Menu folder
+CreateWebIcon=Create an &Internet shortcut in the Start Menu folder
+DefaultAppName=My application
+DefaultAppPublisher=My company, Inc.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.mycompany.com
+DefaultCompress=LZMA
+DefaultExeInst=Setup.exe
+DefaultGUI=Modern
+DefaultGroup=MainGroup
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Classic button
+DefaultLangInst=English
+DefaultUninstPrompt=Are you sure you want to completely remove [NAME] and all of its components?
+DefaultUninstSuccesMsg=[NAME] was successfully removed from your computer.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\path\to\file\AppMainExe.exe|$INSTDIR;c:\path\to\file\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\path\to\licence\YourSoftwareLicence.txt
+DefaultWizardSections=MainSection
+DeleteFile=&Remove file
+DeleteGroup=Remove group
+DeleteLink=Remove shortcut
+Description=&Description
+Dest=&Destination:
+DirDest=&Destination directory:
+DirDestColumn=Destination directory
+DirText=Setup will install [NAME] in the following folder.$\r$\n$\r$\nTo install in a different folder, click Browse and select another folder.
+ExeInst=&Setup file:
+ExecFinishSubTitle=Please specify the actions to execute when the setup finish
+ExecFinishTitle=Execute after setup
+ExecProgram=&Program:
+ExecProgramParams=P&arams:
+ExecReadme=&Readme:
+ExitWizardPrompt=The NSIS Script Wizard is not complete. If you quit now, the new script file will not be generated.$nl$nlExit the NSIS Script Wizard?
+FinishLabel1=Wizard finished
+FinishLabel2=You have successfully completed the wizard.
+FinishLabel3=To close this wizard and generate the new script file, click Finish.
+GUI=GUI:
+GUIClassic=Classic
+GUIModern=Modern
+GUINone=None
+IconsSubTitle=Please specify which icons should be created for your application.
+IconsTitle=Application Icons
+IfFileExists=&If file exists
+InsertFileCaption=Insert file name
+InstallDir=&Application default directory:
+InstallIcon=&Setup icon:
+LFSCheckBox=Check box
+LFSRadioButtons=Radio buttons
+LangInst=&Setup lang:
+LicenceFile=&License file
+LicenceSubTitle=Please specify directory and license information about your application.
+LicenceTitle=Application directory and license
+LicenseForceSelection= Select how the user will accept the license agreement 
+LicenseText=If you accept all the terms of the agreement, choose I Agree to continue. You must accept the agreement to install [NAME]
+LinkDestColumn=Destination file
+ModifyName=Change name
+ModifyNamePrompt=Write then name of the group:
+NewFile= New file
+NewFileCaption=New file
+NewGroup=New group
+NewGroupPrompt=Write then name of the group
+NoAppName=Please specify the application name.
+NoCompress=Please specify the compress type
+NoDir=Please specify the default directory.
+NoExeInst=Please specify the setup file name.
+NoFoundText="%s" no found.
+NoGUI=Please specify the GUI type.
+NoLFS=Classic button
+NoLang=Please specify the setup lang.
+NoLinkName=Please specify the shortcut name.
+NoSymbolName=Please specify the symbol name
+NoSymbolSpaces=Don't use spaces in symbol names
+NoValidIOControl="%s" isn't a valid InstallOptions control
+NoValidIOIni="%s" isn't a valid InstallOptions file
+NoVersion=Please specify the application version.
+OptionsSubTitle=Please specify the options for your setup.
+OptionsTitle=Setup options
+OrgDile=&Source file:
+OverwriteIfNewer=Overwrite if newer
+OverwriteOff=Never overwrite
+OverwriteOn=Always overwrite
+OverwriteTry=Try to overwrite
+RelativePaths=&Convert file paths to relative paths
+SaveChanges=Do you want to save the changes in the file "%s"?
+SaveScript=&Save script
+SelectInstallComponents=&Allow user to select the components to install
+SelectModeMenu=Select mode
+ShortCut=&Shortcut:
+StartMenuDir=Application &Start Menu folder name
+StartupCaption=Welcome
+UninstPrompt=&Uninstall prompt:
+UninstSuccesMsg=Uninstall success &message:
+UninstallIcon=Uninstaller i&con:
+UninstallSubTitle=Please specify the uninstaller attributes.
+UninstallTitle=Uninstaller
+UseUninstaller=U&se uninstaller
+WelcomeLabel1=Welcome to the NSIS Script Wizard
+WelcomeLabel2=This wizard will guide you through the process of creating a new NSIS script file. The results will be used to generate a new script file which can be compiled directly or saved on disk for later use. 
+WelcomeLabel3=Not all features of Nullsoft Install System are covered by this wizard. See the documentation for details on creating Nullsoft Install System script files!
+WelcomeLabel4=Click Next to continue, or Cancel to exit this wizard.
+WizardCaption=NSIS Script Wizard
+
+;---------扩展功能，由 restools 增加------------
+ExFunWin1=视图
+ExFunWin2=函数
+ExFunWin3=窗口
+SelectDirectory=当前选择的目录
+EditDirectory=编辑目录项目
+
+;--------菜单--------------
+ExWinList=多功能窗口
+ExWinListTab=窗口列表栏
+ViewWinListTab=窗口列表栏(&A)
+EditBlockComm=注释文本(&B)||注释选择的文本，没有选择文本时则注释当前行
+EditBlockUnComm=取消文本注释(&Z)||取消选择文本的注释，没有选择文本时则取消当前行的注释
+ToolsOpenContFolder=打开脚本所在文件夹(&O)
+EditCopyLog=复制整个日志(&O)|复制整个编译过程的编译日志
+EditCopyAsUBB=复制为 UBB 代码(&X)||复制选择区到剪贴板为 UBB 代码方便论坛发帖使用
+NSISPluginHelp=NSIS 插件文档(&P)
+
+;-------自动完成----------
+ParamsTitle=参数列表
+WordScpTitle=NSIS 编译器命令集
+
+;------选项------------
+EditKeystrokesFormCaption=快捷键编辑器
+Add=添加(&A)
+Edit=编辑(&E)
+ClearList=清空列表(&C)
+ResetList=重置列表(&R)
+Command=命令
+Keystroke=快捷键
+ClearKey=清空快捷键
+EditKeystrokesFormNote=注意：要使多个快捷键都执行相同的命令，请为该命令指定多个快捷键。
+ViewF1Mode=只检索每行的首关键字帮助(&J)|按 F1 时只会检索当前光标所在行的首关键字的帮助
+ShowIndentLine=显示缩进线条(&X)
+Aluminum=铝化
+DefauldWordWrap=脚本默认使用自动换行方式(&X)|每次打开脚本时都会自动切换到自动换行的显示方式
+AutoCode=自动完成功能
+AutoNSISCommand=NSIS 命令自动完成
+AutoNSISHint=NSIS 命令提示
+AutoNSISParms=NSIS 命令参数自动完成
+AutoCodeDelay=弹出延迟:
+AutoCodeShowTitle=显示列表标题
+MinDelay=0.1 秒
+MaxDelay=2.5 秒
+CopyExportPage=复制和导出
+SaveAsHtmlGBox=另存为 HTML 时添加行号
+SaveAsHtmlRBtn1=跟随编辑器选项
+SaveAsHtmlRBtn2=强制添加
+SaveAsHtmlRBtn3=强制不添加
+CopyUBBGBox=复制为 UBB 代码时
+CopyUBBRBtn1=采用“引用”模式(quote)
+CopyUBBRBtn2=采用“代码”模式(code)
+ckCopyUBBSFName=显示文件名
+ckCopyUBBSTime=显示复制时间
+
+;---------函数向导--------
+Select=选择
+FunWizardCaption=函数向导
+FunWizardHlpLabel=简明帮助(&H):
+FunWizardHlpLabel2=按 F1 获取该函数在 NSIS 帮助中的详细介绍。
+FunWizardBrowseFile=浏览文件
+FunWizardTabHint=你可以拖动函数到编辑器中想放的位置，会自动进入函数向导模式。$nl选择你想知道功能的函数，按 F1 会进入 NSIS 的该函数的相关帮助。
+None=无
+FunWizardSelFile=选择文件
+FunWizardSelDir=选择目录
+FunWizardNoInfoErr=还有参数未填写，请填写。
+
+;----------脚本向导------------
+SplashTitle=快闪屏幕
+SplashSubTitle=请指定安装程序的闪屏属性。
+UseSplash=使用闪屏(&U) - 时间单位:[ms]
+SplashPic=图像文件(&P):
+SplashSound=闪屏背景声音(&S):
+SplashAdvOption=闪屏高级选项(&A):
+SelectDirecory=选择的目录:
+DelayTimeLabel=持续时间(&D):
+FadeInLabel=渐显时间(&I):
+FadeOutLabel=渐隐时间(&O):
+KeyColorLabel=透明颜色(&T):
+ClrDefault=不透明
+MoreColors=更多颜色...
+BmpFileFilter=位图文件 (*.bmp)|*.bmp
+WavFileFilter=声音文件 (*.wav)|*.wav
+DefaultSplashFile=c:\path\to\Splash\YourSplash.bmp
+DefaultSplashSoundFile=c:\path\to\Splash\YourSplashSound.wav
+RecurseChk=包含子目录
+IndividualChk=单独添加每个文件
+UseMIDI=安装过程使用背景音乐(&M)
+MIDILabel=音乐文件(&D):
+MIDIFileFilter=所有音乐文件 (*.mid;*.wav;*.mp3;*.wma)|*.mid;*.wav;*.mp3;*.wma
+DefaultMIDIFile=c:\path\to\YourMIDI.mid
+PlayRepeat=重复播放(&R)
+DelFileMode=解除安装删除文件方式
+DelFileMode1=简易方式(&A)
+DelFileMode2=安全方式(&B)
+LogSetWarning=注意：你当前使用的 NSIS 编译器没有打开安装日志记录功能，所以并不支持卸载程序使用安全的删除文件方式
+CompressBZip2Solid=BZIP2(固实)
+CompressZLibSolid=ZLIB(固实)
+CompressLZMASolid=LZMA(固实)
+CompressLZMABest=极限压缩
+XPStyleChk=使用 XP 外观
+
+;----------------脚本向导中的注释---------------------
+WizardHeaderComment=该脚本使用 HM VNISEdit 脚本编辑器向导产生
+WizardComment1=安装程序初始定义常量
+WizardComment2=------ MUI 现代界面定义 (1.67 版本以上兼容) ------
+WizardComment3=语言选择窗口常量设置
+WizardComment4=欢迎页面
+WizardComment5=许可协议页面
+WizardComment6=组件选择页面
+WizardComment7=开始菜单设置页面
+WizardComment8=安装过程页面
+WizardComment9=安装完成页面
+WizardComment10=安装卸载过程页面
+WizardComment11=安装界面包含的语言设置
+WizardComment12=安装预释放文件
+WizardComment13=------ MUI 现代界面定义结束 ------
+WizardComment14=安装目录选择页面
+WizardComment15=MUI 预定义常量
+WizardComment16=使用闪屏插件显示闪屏
+WizardComment17=$0 返回 '1' 表示用户提前关闭闪屏, 返回 '0' 表示闪屏正常结束, 返回 '-1' 表示闪屏显示出错
+WizardComment18=打开音乐文件
+WizardComment19=开始播放音乐文件
+WizardComment20=停止播放音乐文件
+WizardComment21=关闭音乐文件
+WizardComment22=A 表示自动计算语言数, 为了能够正常运作，开始的空串压入堆栈(Push "")必须保留
+WizardComment23=如果点击“cancel”按钮就关闭安装程序
+WizardComment24=区段组件描述
+WizardComment25=创建开始菜单快捷方式
+WizardComment26=根据 NSIS 脚本编辑规则，所有 Function 区段必须放置在 Section 区段之后编写，以避免安装程序出现未可预知的问题。
+WizardComment27=根据安装日志卸载文件的调用宏
+WizardComment28=调用宏只根据安装日志卸载安装程序自己安装过的文件
+WizardComment29=清除安装程序创建的且在卸载时可能为空的子目录，对于递归添加的文件目录，请由最内层的子目录开始清除(注意，不要带 /r 参数，否则会失去 DelFileByLog 的意义)
+WizardComment30=以下是安装程序的卸载部分
+WizardComment31=以下是卸载程序通过安装日志卸载文件的专用函数，请不要随意修改
+WizardComment32=激活安装日志记录，该日志文件将会作为卸载文件的依据(注意，本区段必须放置在所有区段之前)

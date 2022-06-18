@@ -1,0 +1,554 @@
+; HM NIS EDIT 2.0 Korean(한글) messages.
+
+; Translator: Jeeni <hjhome2000@naver.com>
+; Translator URL: http://hjhome2000.bcpark.net/ - not available
+
+[Fonts]
+DialogFontName=굴림
+DialogFontSize=9
+DefaultEditorFont=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1042
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=파일(&F)
+EditMenu=편집(&E)
+SearchMenu=검색(&S)
+ViewMenu=보기(&V)
+FormatMenu=형식(&O)
+ToolsMenu=도구(&T)
+NSISMenu=NSIS(&N)
+WindowMenu=창(&W)
+HelpMenu=도움말(&?)
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=빈 스크립트 만들기(&E)|Ctrl+N|비어있는 스크립트 파일을 작성합니다.
+TemplateFile=템플릿으로 스크립트 만들기(&N)...|Ctrl+T|존재하는 파일을 바탕으로 스크립트를 작성합니다.
+WizardFile=스크립트 작성 마법사...|Ctrl+W|마법사의 도움을 얻어 스크립트를 작성합니다.
+NewIOFile=인스톨-옵션 파일 만들기(&I)|Ctrl+I|새 인스톨-옵션 파일을 작성합니다. (사용자 정의 페이지)
+FileOpen=열기(&O)...|Ctrl+O|스크립트를 엽니다.
+Reopen=다시 열기(&R)
+FileSave=저장(&S)|Ctrl+S|작업 중인 스크립트를 저장합니다.
+n_FileSaveAll=Save all||Save all modified files
+FileSaveAs=다른 이름으로 저장(&A)...||작업 중인 스크립트를 다른 이름으로 저장하거나 HTML 또는 RTF 형식으로 저장합니다.
+FilePrint=인쇄(&P)|Ctrl+P|작업 중인 스크립트를 인쇄합니다.
+FileConfigPrint=인쇄 설정...||
+FileExit=끝내기(&X)|Alt+F4|프로그램을 끝냅니다.
+
+; Edit menu
+EditUndo=실행 취소(&U)|Ctrl+Z|마지막 행동을 취소합니다.
+EditRedo=재실행(&R)|Shift+Ctrl+Z|실행 취소한 행동을 재실행합니다.
+EditCut=잘라내기(&C)|Ctrl+X|선택된 부분을 클립보드로 잘라냅니다.
+EditCopy=복사(&O)|Ctrl+C|선택된 부분을 클립보드에 복사합니다.
+EditCopyAsHTML=HTML로 복사||선택된 부분을 클립보드에 HTML 형식으로 복사합니다.
+EditPaste=붙여넣기(&P)|Ctrl+V|클립보드의 내용을 붙여넣습니다.
+EditSelectAll=모두 선택(&S)|Ctrl+A|스크립트 전체를 선택합니다.
+
+; Search menu
+EditFind=검색(&I)...|Ctrl+F|작업 중인 스크립트에서 문자열을 검색합니다.
+EditFindNext=다음 검색(&F)|F3|찾은 내용을 계속 검색합니다.
+EditReplace=바꾸기(&R)...|Ctrl+R|찾는 내용을 지정한 내용으로 바꿉니다.
+SearchGotoLine=이동(&G)...|F2|지정한 줄로 이동합니다.
+ToggleBookmark=북마크 지정(&T)
+GotoBookmark=북마크로 이동(&O)
+Bookmark=북마크
+
+; View menu
+ToolBarsMenu=도구 바
+ViewBrowser=브라우저|F4|브라우저 보이기/숨기기
+ViewWindowList=창 목록|F5|열린 파일 목록 보이기/숨기기
+ViewIOPanel=인스톨-옵션 컨트롤(&I)|F6|인스톨-옵션 패널 보이기/숨기기
+ViewStatusBar=상태 바(&S)|F7|상태 바 숨기기/보이기
+ViewLogBox=기록 상자|F8|기록 상자 숨기기/보이기
+ViewSpecialChars=특수 문자|F10|특별한 문자를 사용해 엔터, 띄워쓰기 그리고 탭 문자 보기
+IOToggleDesignMode=디자인 모드|F12|인스톨-옵션 페이지에 한해서 디자인 모드와 텍스트 편집를 서로 전환합니다.
+ViewOptions=설정(&O)...|F11|환경 설정을 띄웁니다.
+
+; Format menu
+FormatIndent=들여쓰기(&I)|Shift+Ctrl+I|선택된 줄을 들여씁니다.
+FormatUnIndent=내어쓰기(&U)|Shift+Ctrl+U|선택된 줄을 내어씁니다.
+FormatUpperCase=대문자로 전환(&P)|Ctrl+U|선택된 부분을 대문자로 전환합니다.
+FormatLowerCase=소문자로 전환(&L)|Ctrl+L|선택된 부분을 소문자로 전환합니다.
+FormatToggleCase=대/소문자 전환(&T)|Ctrl+H|선택된 부분을 대/소문자로 전환합니다.
+FormatQuoteSelection=인용 부호(&Q)|Ctrl+Q|선택된 부분의 앞뒤에 인용 부호를 첨가합니다.
+n_FormatWordWrap=&Word wrap
+
+; Tools menu
+ToolsInsertColor=색상 코드 삽입(&C)...|Shift+F5|색상 선택창이 나타나고 색상 코드를 삽입합니다.
+ToolsInsertFile=파일 이름 삽입(&F)...|Shift+F6|파일 선택창이 나타나고 파일 이름을 삽입합니다.
+CodeTemplates=코드 템플릿
+ToolsEditCodeTemplate=코드 템플릿 편집(&E)...
+
+; NSIS menu
+n_NSISCompileWithProfile=Compile with profile
+n_NSISEditCompProfiles=Edit compiler profiles||
+NSISCompil=스크립트 컴파일(&C)|Ctrl+F9|작업 중인 스크립트를 컴파일합니다.
+NSISCompilRun=컴파일 및 실행(&O)|Shift+F9|작업 중인 스크립트를 컴파일한 뒤 실행합니다.
+n_NSISStopCompile=Stop compile|Esc|Stop the compiler process
+NSISExec=설치 실행(&E)|F9|작업 중인 스크립트를 실행합니다.
+NSISConfig=환경 설정(&N)...|Ctrl+F11|컴파일 경로, 부호 정의 및 컴파일러 설정 변경
+
+; Window menu
+WindowCascade=계단식||
+WindowTileHorizontal=수평 배열||
+WindowTileVertical=수직 배열||
+WindowArrangle=아이콘 정렬||
+WindowPrior=이전 창||
+WindowNext=다음 창||
+WindowList=창 목록
+WindowClose=창 닫기
+WindowShow=창 보이기
+WindowSMU=사용도가 높은 창으로 전환(&W)|Ctrl+Shift+W|
+; 위 내용의 번역이 잘못되었을지도 모릅니다.
+
+; Help menu
+HelpNSIS=NSIS 도움말
+HelpAbout=정보...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=HM NIS Edit 홈페이지||http://hmne.sourceforge.net/|41
+URLLink2=NSIS 공식 웹사이트||http://www.nullsoft.com/free/nsis/|41
+URLLink3=NSIS 개발 페이지||http://nsis.sourceforge.net/|41
+URLLink4=NSIS 포럼||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+URLLink5=iNETIZ.COM - 널소프트 제품의 한글 패치를 많이 배포하는 곳||http://inetiz.com/|41
+;URLLink6=Custom link 1||http://pagetoshow1.com/|45
+;URLLink7=Custom link 2||http://pagetoshow2.com/|45
+
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=메뉴
+TBStandardCaption=기본
+TBEditCaption=편집
+TBViewCaption=보기
+TBSearchCaption=검색
+TBFormatCaption=형식
+TBNSISCaption=NSIS
+TBWindowCaption=창
+IOPanelCaption=인스톨-옵션 컨트롤
+Browser=브라우저
+MoreButtons=기타 버튼
+
+; Status bar
+CaretPos=칸: %d - 줄: %d
+Modified=수정됨
+Insert=삽입
+Overwrite=덮어쓰기
+ReadOnly=읽기 전용
+
+; Open file captions
+OpenTemplateCaption=템플릿 열기
+OpenScriptCaption=스크립트 열기
+
+; IO designer
+BringToFront=맨 앞으로(&B)
+SendToBack=맨 뒤로(&S)
+Delete=삭제(&D)|Ctrl+Del|
+SetTabOrder=탭 순서(&T)...
+ResizeWinto=디자이너 크기 변경(&R)
+ResizeItems=Modern UI|300/140;Classic UI|266/130
+
+; TabOrder dialog
+TabOrderCaption=탭 순서
+Up=위로(&U)
+Down=아래로(&D)
+
+; File filters
+AllFileFilter=모든 파일 (*.*)|*.*
+NSISFileFilter=NSIS 파일 (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=실행 파일 (*.exe)|*.exe
+HTMLFileFilter=HTML 파일 (*.htm, *.html)|*.htm;*.html
+INIFileFilter=인스톨-옵션 파일 (*.ini)|*.ini
+IconFileFilter=아이콘 파일 (*.ico)|*.ico
+LicFileFilter=라이센스 파일 (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=NSIS 헤더 파일 (*.nsh)|*.nsh
+RTFFileFilter=RTF 파일 (*.rtf)|*.rtf
+TextFileFilter=텍스트 파일 (*.txt)|*.txt
+n_CHMFileFilter=CHM files (*.chm)|*.chm
+n_HelpFileFilter=Help files (*.chm, *.html)|*.chm;*.html
+n_TeXFileFilter=TeX Files (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=오류
+InformationDlgCaption=정보
+QuestionDlgCaption=물음
+WarningDlgCaption=위험
+
+; Buttons
+OK=확인
+Cancel=취소
+Next=다음 >
+Back=< 이전
+Finish=완료
+Apply=적용
+
+; About box
+AboutBoxCaption=정보
+
+; Find window
+FindTextCaption=검색
+FindText=검색 내용:
+SearchOptions=설정
+CaseSensitive=대/소문자 구분
+WholeWordOnly=온전한 단어
+SearchFromCursor=커서에서부터 찾기
+SearchSelectedOnly=선택된 내용에서 검색
+Forward=앞으로
+Backward=뒤로
+
+; Replace window
+ReplaceTextCaption=바꾸기
+ReplaceText=바꿀 내용:
+ReplaceAll=모두 바꾸기
+
+; Goto line window
+GotoLineCaption=줄 번호로 이동
+GotoLinePrompt=줄 번호:
+
+; Options window
+EnvironmentConfigPage=환경
+EditorConfigPage=편집기
+CompilerConfigPage=컴파일러
+PluginsConfigPage=플러그-인
+
+; Options window Environment Config Page
+GeneralOptions=일반적인 설정
+ShowSplashScreen=시작시 로고 보이기
+ShowWelcomeDialog=시작 화면 보이기
+MultipleInstances=다중 Instance 허용
+OpenIniFilesIn=.ini 파일은 디자인 모드로 열기
+OpenFilesOnStartup=시작시 최근 파일 열기
+UseDefBrowser=기본 브라우저 사용
+Lang=언어(&L):
+BrowserHome=브라우저 홈:
+ToolBarOptions=도구 바 설정
+TBSmoothDrag=도구 바에서 부드러운 드래그
+PanelSmoothDrag=도구 패널에서 부드러운 드래그
+TBTheme=도구 바 테마:
+Default=기본
+OfficeXP=OfficeXP
+Stripes=스트라이프
+FileAssoc=파일 연결
+DefaultEditor=NSIS 파일의 기본 편집기로 등록(&R)
+SuccessfullyRegister=HM NIS Edit를 기본 편집기로 등록했습니다.
+
+IOGridOptions=인스톨-옵션 디자이너
+DisplayGrid=그리드 표시
+SnapToGrid=그리드에 맞추기
+GridX=그리드 크기 X:
+GridY=그리드 크기 Y:
+CtrlDims=컨트롤 크기 형식:
+; CtrlDims의 해석이 틀릴 수도 있습니다.
+RightBottom=오른쪽(Right)/아래(Bottom)
+WidthHeight=너비/높이
+Both=양쪽
+Other=기타
+SaveOptionsIn=설정 저장 위치:
+Registry=레지스트리
+
+; Options window Editor Config Page
+DisplayPage=표시
+OptionsPage=설정
+HighlighterPage=색상
+
+; Options window Editor Display Page
+Gutter=왼쪽 공백
+GutterVisible=보이기
+GutterShowLineNumbers=줄 번호 사용
+GutterStartAtZero=0부터 시작
+GutterShowLeaderZeros=0000 형식으로 표기
+GutterFont=사용 글꼴:
+GutterColor=색상:
+Font=글꼴
+RightEdge=오른쪽 제한선
+EdgeColumn=길이:
+EdgeColor=색상:
+LineTabSpacing=줄 크기 / 탭 크기
+ExtraLines=줄 크기:
+TabWidth=탭 크기:
+Bookmarks=북마크
+BookmarkKeys=북마크 키
+BookmarksVisible=북마크 보이기
+EditorFont=편집기 글꼴
+
+; Options window Editor Options Page
+AutoIndent=자동 들여쓰기|새 줄에 이전 라인과 같이 들여씁니다.
+DragAndDropEditing=드래그 && 드롭 편집|선택한 부분을 드래그 & 드롭하면 드롭한 위치로 내용을 옮깁니다.
+HalfPageScroll=빠른 페이지 스크롤|Page-Up과 Page-Dn을 이용한 스크롤시 페이지의 반을 올리거나 내립니다.
+; Half Page Scroll 부분의 해석이 틀릴 수도 있음.
+ScrollByOneLess=강한 스크롤|한번의 약한 스크롤로 강한 스크롤을 할 수 있습니다.
+ScrollPastEOF=전체 스크롤의 제한 없애기|파일의 끝부분에 커서가 도달하더라도 스크롤이 계속 허용됩니다.
+ScrollPastEOL=줄 스크롤의 제한 없애기|줄의 끝부분을 넘어서까지도 스크롤이 허용 됩니다.
+ShowScrollHint=스크롤 힌트 보이기|스크롤할때 줄 번호를 힌트로 보여줍니다.
+SmartTabs=스마트 탭|탭 키를 누를시, 이전 줄의 빈 공간의 위치만큼 탭 크기를 조정합니다.
+TabsToSpaces=탭을 띄워쓰기로|탭 문자를 탭 크기만큼 띄워쓰기로 변경합니다.
+TrimTrailingSpaces=공백 없애기|줄의 끝부분에 공백이 있을 경우 삭제합니다.
+; TrimTrailingSpaces 해석이 틀릴 수 있음.
+AltSetsColumnMode=Alt로 칸 모드 변경|Alt 키를 누를시 선택 모드를 칼럼나 포맷(columnar format)에 씁니다.
+; AltSetsColumnMode 해석이 진짜 엉터리임. (대충 번역)
+KeepCaretX=캐럿 칸 유지|줄을 이동할 때 X 위치(칸)를 그대로 유지합니다.
+ScrollHintFollows=스크롤 힌트, 마우스 따라가기|수직 스크롤을 할때 스크롤 힌트가 마우스를 따라갑니다.
+GroupUndo=그룹 실행 취소|똑같은 명령을 수행한 경우 한 단계에 똑같은 명령에 한해서는 모두 실행 취소/재실행 합니다.
+SmartTabDelete=스마트 탭 삭제|탭 문자를 한번에 지워줍니다.
+RightMouseMoves=오른쪽 마우스 클릭시 커서 이동|오른쪽 버튼을 눌러 팝업 메뉴를 띄울때, 커서를 마우스 위치로 이동시킵니다.
+EnhanceHomeKey=Home 키 사용|Visual Studio와 비슷한 Home 키 포지셔닝을 사용합니다.
+HideShowScrollbars=스크롤바 자동 숨기기|스크롤바를 사용할 필요가 없을 때 표시하지 않습니다.  "줄 스크롤의 제한 없애기"를 사용할 경우 가로 스크롤바는 사라지지 않습니다.
+DisableScrollArrows=스크롤 화살표 사용하지 않기|한 방향으로 더 이상 스크롤할 수 없을시 화살표를 사용하지 못하게 합니다.
+ShowSpecialChars=특수 문자 보이기|특별한 문자를 사용해 엔터, 띄워쓰기 그리고 탭 문자를 표시합니다.
+UndoAfterSave=실행 취소 후 저장|실행 취소 후 스크립트를 저장합니다.
+ViewUsageHints=명령어 사용에 관한 힌트 보이기|마우스 커서를 명령어에 올릴 경우 명령어의 사용 방법을 보여줍니다.
+
+Caret=캐럿
+InsertCaret=캐럿 모양:
+OverwriteCaret=덮어쓰기 캐럿:
+VerticalLine=세로 줄
+HorizontalLine=가로 줄
+HalfBlock=반 블럭
+Block=블럭
+
+; Options window Editor Highlighter Page
+UseHighlighter=구문 강조 사용(&U)
+; Syntax Highlight 의 해석이 틀릴 수 있음.
+Element= 항목 
+TextAttri=텍스트 특성(&T)
+Color=색상:
+Foreground=글자
+Background=배경
+FontStyle=글꼴 스타일
+Bold=굵게(&B)
+Italic=기울임꼴
+Underline=밑줄
+HighlightVarsInsideStrings=문자열 안의 변수를 하이라이트(&H)
+
+; Options window compiler options Page
+Paths= 경로
+Compiler=컴파일러(&C):
+Help=도움말(&H):
+Options=설정
+NoConfigFile=환경 설정 파일(nsisconf.nsh)을 포함하지 않기.
+; NoConfigFile 완전한 해석이 아님.
+NoConsole="%s" 는 온전한 콘솔 프로그램이 아닙니다.
+NOCD=현재 디렉토리의 변경을 허용하지 않기(&D)
+SaveScriptsBeforeCompile=Save scripts before compile
+; NOCD 완전한 해석이 아님. (진짜 부실)
+Simbols=부호(&S)
+SimbolColumn=부호
+ValueColumn=값
+AddSimbol=추가 
+EditSimbol=편집
+DeleteSimbol=삭제
+EditSimbolCaption=부호 편집
+Simbol=부호(&S):
+Value=값(&V):
+DuplicateSymbol=부호 이름 복사
+n_UseIntegratedBrowser4Help=Use integrated browser for help.
+
+; Compiler profiles
+n_NewProfileCaption=New compiler profile
+n_NewProfilePrompt=Enter the new compiler profile name:
+n_ProfileExists=A compiler profile named "%s" already exists
+n_CompilerProfilesCaption=Compiler profiles
+n_AddProfile=New profile
+n_EditProfile=Edit profile
+n_RenameProfile=Rename profile
+n_DeleteProfile=Delete profile
+n_EditCompileProfileCaption=Edit %s compiler profile
+
+; Options window plugins config page
+PluginConfig=환경 설정(&C)
+PluginAbout=정보(&A)
+
+; Code templates
+CodeTemplateCaption=코드 템플릿 편집
+TemplateNames=템플릿 이름
+NewTemplate=새 템플릿
+EditTemplatePrompt=템플릿 이름(&W):
+EditTemplate=템플릿 편집
+AutoCompleteShortCut=자동 완성 바로 가기(&A)
+TemplateCode=템플릿 코드
+DuplicateTemplateName="%s"는 이미 존재하는 이름입니다.
+
+; Welcome window
+EmptyScript=빈 스크립트 새로 만들기(&E)
+WizardScript=스크립트 마법사를 사용하여 새로 만들기(&S)
+OpenExistingFile=스크립트 파일 열기(&X)
+MoreFiles=다른 파일들...
+NoShowSartup=다음부터는 띄우지 않기(&D)
+OpenFile= 파일 열기
+
+; Filter editor
+EditFilterCaption=편집 필터
+FilterDescription=필터 설명:
+Filter=필터:
+AddFilter=추가(&A)
+RemoveFilter=삭제(&R)
+
+
+; Messages
+FileModified=다른 프로그램이 "%s" 파일을 업데이트했습니다. 다시 불러오시겠습니까?
+NoCompiler=스크립트를 컴파일하기 전에 NSIS 컴파일러를 선택해주세요.
+NoDocs=NSIS 문서를 보기전에 NSIS 도움말 파일을 설정해주세요.
+OpenFileError=%s 파일을 열 수 없습니다.
+NoCloseCompiling=스크립트를 컴파일하는 중에는 종료할 수 없습니다.$nlDo you want to stop the compiler?
+Untitled=제목 없음 %.2d
+EditTextCaption=텍스트 편집
+EditListitemsCaption=목록 아이템 편집
+n_StopCompilePrompt=Are you sure you want to stop the compiler?
+n_CompileCanceled=Compilation canceled by user.
+
+; Ask save dialog
+n_AskSaveDialogCaption=Save Changes
+n_AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+n_Yes=&Yes
+n_No=&No
+n_SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=파일 목록 편집
+EditFileCaption=파일 목록 편집
+EditGroup=그룹 편집
+EditLink=바로 가기 편집
+EditLinkCaption=바로 가기 편집
+FileColumn=파일
+FilelLnkColumn=바로 가기
+FilesSubTitle=설치할 파일을 지정해주세요.
+FilesTitle=프로그램 파일
+AddFiles=파일 추가(&A)
+AddLink=바로 가기 추가
+AppInfoSubTitle=당신의 프로그램의 관한 정보를 지정해주세요.
+AppInfoTitle=프로그램 정보
+AppName=프로그램 이름(&A):
+AppPublisher=프로그램 배포자(&P):
+AppVersion=프로그램 버전(&V):
+AppWeb=프로그램 웹사이트:
+; 칸이 모자라 AppWeb에서 (&W)를 안적습니다.
+ChangeInstallDir=사용자가 설치 디렉토리를 변경할 수 있게 설정합니다.(&C)
+ChangeStartMenuDir=사용자가 시작 메뉴 이름을 변경할 수 있게 설정합니다.(&C)
+ComponentText=당신이 설치하고 싶다면 컴포넌트에 체크하시고 그렇지 않다면 체크하지 마세요:
+CompScript=스크립트 컴파일(&O)
+Compress=압축(&O):
+CompressBZip2=bzip2
+CompressNone=사용 안함
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=환경 설정
+CreateUninstallIcon=시작 메뉴 폴더에 제거 바로 가기를 생성합니다.(&U)
+CreateWebIcon=시작 메뉴 폴더에 인터넷 링크를 생성합니다.(&I)
+DefaultAppName=응용 프로그램
+DefaultAppPublisher=나의 회사, Inc.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.mycompany.com
+DefaultCompress=zlib
+DefaultExeInst=Setup.exe
+DefaultGUI=Modern
+DefaultGroup=MainGroup
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Classic 버튼
+DefaultLangInst=Korean
+DefaultUninstPrompt=[NAME]을(를) 제거하시겠습니까?
+DefaultUninstSuccesMsg=[NAME]는(은) 완전히 제거되었습니다.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\path\to\file\AppMainExe.exe|$INSTDIR;c:\path\to\file\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\path\to\licence\YourSoftwareLicence.txt
+DefaultWizardSections=MainSection
+DeleteFile=파일 제거(&R)
+DeleteGroup=그룹 제거
+DeleteLink=바로 가기 제거
+Description=설명(&D)
+Dest=설명(&D):
+DirDest=설치 디렉토리(&D):
+DirDestColumn=설치 디렉토리
+DirText=설치 프로그램은 [NAME]을(를) 위 폴더에 설치합니다.$\r$\n$\r$\n다른 폴더에 설치하시려면, 찾아보기를 눌러 다른 폴더를 선택하세요.
+ExeInst=설치 파일(&S):
+ExecFinishSubTitle=설치가 완료된 후 실행할 프로그램을 지정해주세요.
+ExecFinishTitle=설치 후 실행
+ExecProgram=프로그램(&P):
+ExecProgramParams=매개 변수(&A):
+ExecReadme=설명서(&R):
+ExitWizardPrompt=NSIS 스크립트 마법사는 완료되지 않았습니다. 만약 종료한다면, 스크립트 파일은 생성되지 않습니다$nl$nl스크립트 마법사를 종료하시겠습니까?
+FinishLabel1=마법사 완료
+FinishLabel2=마법사를 완료했습니다.
+FinishLabel3=마법사를 닫으시면 스크립트 파일이 생성됩니다, 완료를 클릭하세요.
+GUI=GUI:
+GUIClassic=Classic
+GUIModern=Modern
+GUINone=사용 안함
+IconsSubTitle=생성할 아이콘을 지정해주세요.
+IconsTitle=프로그램 아아콘
+IfFileExists=파일이 이미 존재할 경우(&I)
+InsertFileCaption=파일 이름 삽입
+InstallDir=프로그램 기본 디렉토리(&A):
+InstallIcon=설치 아이콘(&S):
+LFSCheckBox=체크 박스
+LFSRadioButtons=라디오 버튼
+LangInst=설치 언어(&S):
+LicenceFile=라이센스 파일(&L)
+LicenceSubTitle=디렉토리와 라이센스 정보를 지정해주세요.
+LicenceTitle=프로그램 디렉토리 및 라이센스
+LicenseForceSelection= 라이센스 계약 확인의 방법을 선택해주세요. 
+LicenseText=만약 계약서에 동의하신다면, 동의를 선택하시어 설치를 계속하세요. [NAME] 설치를 진행하려면 반드시 동의해야 합니다.
+LinkDestColumn=설차 파일
+ModifyName=이름 변경
+ModifyNamePrompt=그룹 이름:
+NewFile= 새 파일
+NewFileCaption=새 파일
+NewGroup=새 그룹
+NewGroupPrompt=새 그룹
+NoAppName=프로그램 이름을 지정해주세요.
+NoCompress=압축 형식을 지정해주세요.
+NoDir=기본 디렉토리를 지정해주세요.
+NoExeInst=설치 파일 이름을 지정해주세요.
+NoFoundText="%s" 을(를) 찾을 수 없습니다.
+NoGUI=GUI 형식을 지정해주세요.
+NoLFS=Classic 버튼
+NoLang=설치 언어를 지정해주세요.
+NoLinkName=바로 가기 이름을 지정해주세요.
+NoSymbolName=부호 이름을 지정해주세요.
+NoSymbolSpaces=부호 이름에 띄워쓰기를 사용하지 마세요.
+NoValidIOControl="%s" 는 온전한 인스톨-옵션 컨트롤이 아닙니다.
+NoValidIOIni="%s" 는 온전한 인스톨-옵션 파일이 아닙니다.
+NoVersion=프로그램 버전을 지정해주세요.
+OptionsSubTitle=설치를 위한 옵션을 지정해주세요.
+OptionsTitle=설치 옵션
+OrgDile=소스 파일(&S):
+OverwriteIfNewer=물음
+OverwriteOff=덮어쓰지 않음
+OverwriteOn=항상 덮어쓰기
+OverwriteTry=덮어쓰기 시도
+RelativePaths=파일 경로를 상대 경로로 변경(&C)
+SaveChanges="%s" 는 변경되었습니다, 저장하시겠습니까?
+SaveScript=스크립트 저장(&S)
+SelectInstallComponents=사용자가 설치할 컴포넌트를 선택할 수 있도록 설정(&S)
+SelectModeMenu=선택 모드
+ShortCut=바로 가기(&S):
+StartMenuDir=프로그램 시작 메뉴(&S)
+StartupCaption=환영합니다
+UninstPrompt=언인스톨 물음:
+UninstSuccesMsg=언인스톨 성공 메시지:
+UninstallIcon=언인스톨러 아이콘:
+UninstallSubTitle=언인스톨러 특성을 지정해주세요.
+UninstallTitle=언인스톨러
+UseUninstaller=언인스톨러 사용(&S)
+WelcomeLabel1=NSIS 스크립트 마법사에 오신 것을 환영합니다.
+WelcomeLabel2=이 마법사는 당신이 새로운 스크립트를 만드는 것을 도와줍니다. 생성된 스크립트는 나중에 컴파일만 하면 됩니다. 
+; WelcomeLabel2 성의없이 해석한 부분
+WelcomeLabel3=NSIS 모든 기능을 마법사에서 사용할 수는 없습니다. 고급 스크립트는 도움말을 자세히 보시고 만드시기 바랍니다!
+WelcomeLabel4=다음을 클릭하시면 계속합니다, 취소를 누르시면 마법사를 종료합니다.
+WizardCaption=NSIS 스크립트 마법사

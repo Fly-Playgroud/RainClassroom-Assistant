@@ -1,0 +1,728 @@
+
+; HM NIS EDIT 2.0.3 Chinese (Simplified) messages.
+
+; Translator: Kii Ali <kiiali@cpatch.org>
+; Translator URL: http://cpatch.org/kiiali/
+; Modified date: 2003-12-23
+;
+; Add: RESTOOLS 2005-2-2 URL: http://restools.yeah.net/
+
+[Fonts]
+DialogFontName=宋体
+DialogFontSize=9
+DefaultEditorFont=宋体
+DefaultEditorFontSize=9
+[Strings]
+; Settings
+; 设置数值
+LangID=2052
+
+; 主要 窗口字符串
+MainCaption=HM VNISEdit 2.0.3 (build 060712)
+
+; Menus
+; 菜单
+FileMenu=文件(&F)
+EditMenu=编辑(&E)
+SearchMenu=搜索(&S)
+ViewMenu=视图(&V)
+FormatMenu=格式(&O)
+ToolsMenu=工具(&T)
+NSISMenu=NSIS(&N)
+WindowMenu=窗口(&W)
+HelpMenu=帮助(&H)
+
+;------------------------------------------------------------------------
+; 你可以自定义快捷方式、菜单、与工具栏项目的提示。项目格式如下:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+; 文件菜单
+BlankFile=新建脚本:空白(&E)|Ctrl+N|创建新空白脚本
+TemplateFile=新建脚本:模板(&N)|Ctrl+T|基于已存在的文本文件创建新脚本
+WizardFile=新建脚本:向导(&W)|Ctrl+W|利用向导的帮助创建新脚本
+NewIOFile=新建 InstallOption 文件(&I)|Ctrl+I|创建新 InstallOption 文件 (自定义页面)
+FileOpen=打开(&O)...|Ctrl+O|打开已存在的脚本
+Reopen=重新打开(&R)
+FileSave=保存(&S)|Ctrl+S|保存活动脚本
+n_FileSaveAll=保存所有(&L)||保存所有已修改的脚本
+FileSaveAs=另存为(&A)...||使用新的名称保存活动脚本，或导出到 HTML 或 RTF
+FilePrint=打印(&P)...|Ctrl+P|打印活动脚本
+FileConfigPrint=打印机设置(&T)...||设置打印机的打印方式
+FileExit=退出(&X)|Alt+F4|退出活动应用程序
+
+; Edit menu
+; 编辑菜单
+EditUndo=撤销(&U)|Ctrl+Z|撤销最后一个动作
+EditRedo=重做(&R)|Shift+Ctrl+Z|重做上一个动作
+EditCut=剪切(&C)|Ctrl+X|剪切选择区到剪贴板
+EditCopy=复制(&O)|Ctrl+C|复制选择区到剪贴板
+EditCopyAsHTML=复制为 HTML(&A)||复制选择区到剪贴板为 HTML 格式
+EditPaste=粘贴(&P)|Ctrl+V|粘贴剪贴板内容
+EditSelectAll=选择全部(&S)|Ctrl+A|选择整个脚本
+
+; Search menu
+; 搜索菜单
+EditFind=查找(&I)|Ctrl+F|在活动脚本搜索文本
+EditFindNext=查找下一个(&F)|F3|查找下一个搜索字符串的位置
+EditReplace=替换(&R)|Ctrl+R|替换搜索的字符串
+SearchGotoLine=前往行号(&G)|F2|前往指定的行号
+ToggleBookmark=切换书签(&T)
+GotoBookmark=前往书签(&O)...
+Bookmark=书签
+
+; View menu
+; 查看菜单
+ToolBarsMenu=工具栏(&T)
+ViewBrowser=浏览器(&B)|F4|显示/隐藏网页浏览器
+ViewWindowList=多功能窗口(&W)|F5|显示/隐藏 能方便处理脚本的多功能窗口
+ViewIOPanel=InstallOption 控件(&I)|F6|显示/隐藏 InstallOption 窗格
+ViewStatusBar=状态栏(&S)|F7|显示/隐藏 状态栏
+ViewLogBox=日志窗格(&L)|F8|显示/隐藏 日志窗格
+ViewSpecialChars=特别字符(&P)|F10|使用特别符号显示断行、空格与定格字符
+IOToggleDesignMode=切换设计模式(&D)|F12|在 InstallOption 页面，在设计模式或编辑文本两者之间切换
+ViewOptions=选项(&O)...|F11|显示配置对话框
+
+; Format menu
+; 格式菜单
+FormatIndent=列块缩进(&I)|Tab|增加选择行数的缩进
+FormatUnIndent=列块解除缩进(&U)|Shift+Tab|减少选择行数的缩进
+FormatUpperCase=大写(&P)|Ctrl+U|更改选择区为大写
+FormatLowerCase=小写(&L)|Ctrl+L|更改选择区为小写
+FormatToggleCase=切换大小写(&T)|Ctrl+H|反相选择区的大小写
+FormatQuoteSelection=选择区引号(&Q)|Ctrl+Q|添加引号到选择区
+n_FormatWordWrap=自动换行(&W)
+
+; Tools menu
+; 工具菜单
+ToolsInsertColor=插入颜色(&C)|Shift+F5|提示颜色并插入其颜色数值
+ToolsInsertFile=插入文件名(&F)|Shift+F6|提示文件并插入其名称
+CodeTemplates=代码模板(&D)
+ToolsEditCodeTemplate=编辑代码模板(&E)||编辑代码模板
+
+; NSIS menu
+; NSIS 菜单
+n_NSISCompileWithProfile=选择配置进行编译(&W)
+n_NSISEditCompProfiles=编辑编译器配置文件(&P)||
+NSISCompil=编译脚本(&C)|Ctrl+F9|编译活动脚本
+NSISCompilRun=编译并运行(&R)|F9|编译并运行活动脚本
+n_NSISStopCompile=停止编译(&S)|Esc|停止编译器进程
+NSISExec=运行安装程序(&E)|Shift+F9|运行活动脚本
+NSISConfig=配置(&O)...|Ctrl+F11|更改编译、定义符号、与设置编译器选项
+
+; Windows menu
+; 窗口菜单
+WindowCascade=层次显示(&C)||将窗口以层次方式排列
+;WindowCascade=层叠窗口(&C)||将窗口以重叠方式排列
+WindowTileHorizontal=水平平铺(&T)||非层次水平平铺窗口
+WindowTileVertical=垂直平铺(&V)||非层次垂直平铺窗口
+WindowArrangle=排列图标(&A)||在窗口底部排列图标
+WindowPrior=上一个窗口(&P)||切换到上一个文件窗口
+WindowNext=下一个窗口(&N)||切换到下一个文档窗口
+WindowList=窗口列表
+WindowClose=关闭窗口(&S)||关闭所有文件
+WindowShow=显示窗口(&W)
+WindowSMU=切换到刚使用的窗口(&W)|Shift+Ctrl+W|
+
+
+; Help menu
+; 帮助菜单
+HelpNSIS=NSIS 帮助(&H)||列出 NSIS 帮助主题
+HelpAbout=关于(&A)...
+
+; Help menu URL links
+; 帮助菜单网址链接
+; 这个项目的格式如下:: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex 为影像如何显示的项目; 41 代表主页, 43 代表论坛， 45 常规性链接， -1 则没有影像。
+; 要添加分隔线使用 URLLinkX=-
+URLLink1=NIS Edit 主页(&H)||http://hmne.sourceforge.net/|41
+URLLink2=NSIS 官方网站(&O)||http://www.nullsoft.com/free/nsis/|41
+URLLink3=NSIS 开发网页(&D)||http://nsis.sourceforge.net/|41
+URLLink4=NSIS 论坛(&F)||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+URLLink5=-
+URLLink6=汉化新世纪论坛(&I)||http://bbs.hanzify.org/|43
+URLLink7=cpatch 论坛(&C)||http://leoboard.cpatch.org/|43
+;URLLink8=Custom link 2||http://pagetoshow2.com/|45
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+; 工具栏
+TBMenuCaption=菜单(&M)
+TBStandardCaption=标准(&S)
+TBEditCaption=编辑(&E)
+TBViewCaption=视图(&V)
+TBSearchCaption=搜索(&S)
+TBFormatCaption=格式(&F)
+TBNSISCaption=NSIS(&N)
+TBWindowCaption=窗口(&W)
+IOPanelCaption=InstallOptions 控件
+Browser=浏览器
+MoreButtons=更多按钮(&O)
+
+; Status Bar
+; 状态栏
+CaretPos=纵列 %d - 行 %d
+Modified=修改
+Insert=插入
+Overwrite=覆盖
+ReadOnly=只读
+
+; 打开文件标题
+OpenTemplateCaption=打开模板
+OpenScriptCaption=打开脚本
+
+; IO designer
+; IO 设计人
+BringToFront=带往前景(&B)
+SendToBack=送到背景(&S)
+Delete=删除(&D)
+SetTabOrder=页签顺序(&T)...
+ResizeWinto=设计器重设大小(&R)
+ResizeItems=Modern UI|300/140;Classic UI|266/130
+
+; TabOrder dialog
+; 页签顺序对话框
+TabOrderCaption=页签顺序
+Up=上(&U)
+Down=下(&D)
+
+
+; File filters
+; 文件过滤器
+AllFileFilter=所有文件 (*.*)|*.*
+NSISFileFilter=NSIS 文件 (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=可运行文件 (*.exe)|*.exe
+HTMLFileFilter=HTML 文件 (*.htm, *.html)|*.htm;*.html
+INIFileFilter=InstallOptions 文件 (*.ini)|*.ini
+IconFileFilter=图标文件 (*.ico)|*.ico
+LicFileFilter=授权文件 (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=NSIS 标头文件 (*.nsh)|*.nsh
+RTFFileFilter=RTF 文本文件 (*.rtf)|*.rtf
+TextFileFilter=纯文本文件 (*.txt)|*.txt
+CHMFileFilter=CHM 文件 (*.chm)|*.chm
+HelpFileFilter=Help 文件 (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=TeX 文件 (*.tex)|*.tex
+
+; 消息对话框
+ErrorDlgCaption=错误
+InformationDlgCaption=信息
+QuestionDlgCaption=确认
+WarningDlgCaption=警告
+
+; Buttons
+; 按钮
+OK=确定
+Cancel=取消
+Next=下一步(&N) >
+Back=< 上一步(&B)
+Finish=完成(&F)
+Apply=应用(&A)
+
+; About box
+; 关于对话框
+AboutBoxCaption=关于
+
+; Find Window
+; 查找窗口
+FindTextCaption=搜索文本
+FindText=要查找的文本(&F):
+SearchOptions=选项
+CaseSensitive=分辨大小写(&C)
+WholeWordOnly=仅完整单词(&W)
+SearchFromCursor=从光标处搜索(&H)
+SearchSelectedOnly=限选择区文本(&S)
+Direction=方向
+Forward=往前(&F)
+Backward=往后(&B)
+
+; Replace Window
+; 替换窗口
+ReplaceTextCaption=替换文本
+ReplaceText=要替换的文本(&T):
+ReplaceAll=替换全部(&A)
+
+; Goto line Window
+; 前往行号窗口
+GotoLineCaption=前往行号
+GotoLinePrompt=键入行号(&E):
+
+; Options Window
+; 选项窗口
+EnvironmentConfigPage=环境
+EditorConfigPage=编辑器
+CompilerConfigPage=编译器
+PluginsConfigPage=插件
+
+; 选项窗口 环境配置页面
+GeneralOptions=常规选项
+ShowSplashScreen=显示版权屏幕(&P)
+ShowWelcomeDialog=显示欢迎窗口(&W)
+MultipleInstances=多重实例方式运行(&I)
+OpenIniFilesIn=在设计模式打开 .ini 文件(&D)
+OpenFilesOnStartup=程序启动时打开最后使用的文件(&U)
+UseDefBrowser=使用默认浏览器(&B)
+Lang=语言(&L):
+BrowserHome=浏览器主页(&H):
+ToolBarOptions=工具栏选项
+TBSmoothDrag=平滑拖放于工具栏(&B)
+PanelSmoothDrag=平滑拖放于工具控制面板(&P)
+TBTheme=工具栏布景主题(&T):
+Default=浮动 (默认)
+OfficeXP=浮动 (OfficeXP)
+Stripes=条状底纹
+FileAssoc=文件关联
+DefaultEditor=注册为默认 NSIS 文件的编辑器(&R)
+SuccessfullyRegister=NIS Edit 已成功地注册为默认编辑器。
+IOGridOptions=InstallOptions 设计器
+DisplayGrid=显示格线(&D)
+SnapToGrid=贴齐格线(&S)
+GridX=格线大小 X(&X):
+GridY=格线大小 Y(&Y):
+CtrlDims=显示控件大小为(&W):
+RightBottom=右/下(&R)
+WidthHeight=宽/高(&W)
+Both=两者(&B)
+Other=其他
+SaveOptionsIn=保存选项设置数值于:
+Registry=注册表(&R)
+
+; 选项窗口 编辑器配置页面
+DisplayPage=显示
+OptionsPage=选项
+HighlighterPage=颜色
+
+; 选项窗口 编辑器显示页面
+Gutter=边槽
+GutterVisible=显示边槽(&V)
+GutterShowLineNumbers=显示行号(&N)
+GutterStartAtZero=以 0 开始(&Z)
+GutterShowLeaderZeros=显示前导 0 (&L)
+GutterFont=使用边槽字体(&G):
+GutterColor=边槽颜色(&C):
+Font=字体(&F)...
+RightEdge=右边缘
+EdgeColumn=边缘纵列(&D):
+EdgeColor=边缘颜色(&E):
+LineTabSpacing=行间距 / 定格字符间距
+ExtraLines=附加的行数(&X):
+TabWidth=定格字符宽度(&W):
+Bookmarks=书签
+BookmarkKeys=书签键(&B)
+BookmarksVisible=书签可视(&M)
+EditorFont=编辑器字体
+EditKeystrokes=编辑快捷键
+
+; 选项窗口 编辑器选项页面
+AutoIndent=自动缩进(&A)|将自动缩进光标处的新行，并与先前一行，有相同的前导空白空格。
+DragAndDropEditing=拖放编辑(&D)|允许你选择文本列块，并在文件中拖放到另一个位置。
+HalfPageScroll=半页滚动(&H)|当使用 PgUp 与 PgDn 命令滚动时，一次只滚动半页。
+ScrollByOneLess=滚动一行(&O)|强制只滚动一行
+ScrollPastEOF=滚动通过 EOF 标记(&F)|允许光标通过 文件终结(EOF) 标记
+ScrollPastEOL=滚动通过 EOL 标记(&L)|允许光标通过 行终结 (EOL) 标记
+ShowScrollHint=显示滚动提示(&W)|垂直滚动时，显示可见的行号提示
+SmartTabs=智能定格(&S)|当使用定格时，光标将前往下一个上一行的非空白字符。
+TabsToSpaces=定格转换空格(&T)|转换定格字符，为同数目定格宽度的空格字符。
+TrimTrailingSpaces=修剪行尾空格(&R)|在行尾的空格，将被修剪并且不会被保存。
+AltSetsColumnMode=备选的设置列块模式(&M)|按下 Alt 键，将使选择区模式变成列块格式。
+KeepCaretX=维持柱状方块的纵列(&K)|当经由 X 位置的行移动时，将总是停留相同位置。
+ScrollHintFollows=滚动提示跟随鼠标(&C)|当垂直滚动时，滚动提示跟随鼠标。
+GroupUndo=组撤销(&G)|当撤销/重做时，在一次调用中处理所有相同种类的连续更改，以替代每一个分开的 撤销/重做 命令。
+SmartTabDelete=智能定格删除(&B)|类似智能定格，但是在你删除字符时。
+RightMouseMoves=鼠标右键移动光标(&P)|当单击鼠标右键于弹出菜单时，移动光标到该位置。
+EnhanceHomeKey=增强的 Home 键(&N)|增强的 Home 键位置指向，类似于 Visual Studio 。
+HideShowScrollbars=需要时隐藏滚动条(&E)|如果启用，只要在需要时才显示滚动条。如果你有设置“滚动过行终结”处，水平列将总会在这里 (它使用 MaxLength 替代)
+DisableScrollArrows=禁用滚动方向(&Z)|当你无法在该方向继续滚动时，禁用滚动条方向按钮。
+DisableScrollArrows=禁用滚动条箭头|当你不能在该方向继续卷页时，禁用滚动条箭头。
+ShowSpecialChars=显示特殊字符(&Q)|使用特殊字符显示断行、空格与定格符号。
+UndoAfterSave=保存后撤销(&U)|允许在保存后的撤销操作
+ViewUsageHints=显示命令使用提示(&V)|当勾选显示时，命令使用提示会随鼠标光标出现。
+
+Caret=光标
+InsertCaret=插入时光标(&I):
+OverwriteCaret=覆盖时光标(&O):
+VerticalLine=垂直线
+HorizontalLine=水平线
+HalfBlock=半列块
+Block=列块
+
+; 选项窗口 编辑器高亮页面
+UseHighlighter=使用语法高亮(&U)
+Element=元素(&E):
+TextAttri=文本属性
+Color=颜色(&C):
+Foreground=前景(&F)
+Background=背景(&G)
+FontStyle=字体样式
+Bold=粗体(&B)
+Italic=斜体(&I)
+Underline=下划线(&U)
+HighlightVarsInsideStrings=高亮字符串内的变量(&H)
+
+; 选项窗口 编译器选项页面
+Paths=路径
+Compiler=编译器(&C):
+Help=帮助(&H):
+Options=选项
+NoConfigFile=禁用配置文件 (nsisconf.nsh) 的包含(&G)
+NoConsole="%s" 不是正确的主控端应用程序。
+NOCD=禁用当前的目录更改到 .NSI 文件(&B)
+SaveScriptsBeforeCompile=编译之前保存脚本(&S)
+Simbols=符号
+SimbolColumn=符号
+ValueColumn=数值
+AddSimbol=添加(&A)...
+EditSimbol=编辑(&E)...
+DeleteSimbol=删除(&D)
+EditSimbolCaption=编辑符号
+Simbol=符号(&S):
+Value=数值(&V):
+DuplicateSymbol=重新复制符号名称
+n_UseIntegratedBrowser4Help=使用内部浏览器浏览帮助
+
+; Compiler profiles
+n_NewProfileCaption=新建编译器配置
+n_NewProfilePrompt=输入编译器配置名称:
+n_ProfileExists=已经有一个名称为 "%s" 的编译器配置存在
+n_CompilerProfilesCaption=编译器配置
+n_AddProfile=新建配置
+n_EditProfile=编辑配置
+n_RenameProfile=配置改名
+n_DeleteProfile=删除配置
+n_EditCompileProfileCaption=编辑 %s 编译器配置
+Close=关闭
+
+; Options window plugins config page
+; 插件的选项窗口
+PluginConfig=配置(&C)
+PluginAbout=关于(&A)
+
+
+; 代码模板
+CodeTemplateCaption=编辑代码模板
+TemplateNames=模板名称
+NewTemplate=新建模板(&N)
+EditTemplatePrompt=写入模板名称(&W):
+EditTemplate=编辑模板
+AutoCompleteShortCut=自动完成快捷方式(&A)
+TemplateCode=模板代码
+DuplicateTemplateName=模板名称 "%s" 早已存在
+
+; 欢迎窗口
+EmptyScript=创建新的空白脚本文件(&E)
+WizardScript=使用脚本向导创建新的脚本文件(&S)
+OpenExistingFile=打开已存在的脚本文件(&X)
+MoreFiles=更多文件...
+NoShowSartup=不要再次显示这个对话框(&D)
+
+; 过滤器编辑器
+OpenFile=打开文件
+EditFilterCaption=编辑过滤器
+FilterDescription=过滤器描述(&D):
+Filter=过滤器(&F):
+AddFilter=添加(&A)...
+RemoveFilter=移除(&R)
+
+
+; 消息
+FileModified=其他的应用程序已更新文件 "%s" 。要重新加载吗？
+NoCompiler=在编译脚本之前，请选择 NSIS 编译器。
+NoDocs=在显示 NSIS 文件之前，请选择 NSIS 帮助文件。
+OpenFileError=不能打开文件 %s 。
+NoCloseCompiling=当编译脚本时，无法退出应用程序。$nl你要停止该编译器吗？
+Untitled=Untitled%.2d
+EditTextCaption=编辑文本
+EditListitemsCaption=编辑列表项目
+n_StopCompilePrompt=你确定要停止该编译器吗？
+n_CompileCanceled=编译已被用户取消。
+
+; 询问保存的对话框
+AskSaveDialogCaption=保存修改
+AskSaveChanges=一个或多个文件已被修改。你是否需要保存这些修改？$nl$nl请你选择你想要保存修改的文件。
+Yes=是(&Y)
+No=否(&N)
+SaveAll=保存所有(&S)
+
+; -------- 向导 -----------
+EditFile=编辑文件项目
+EditFileCaption=编辑文件项目
+EditGroup=编辑组
+EditLink=编辑(&E)
+EditLinkCaption=编辑快捷方式
+FileColumn=文件
+FilelLnkColumn=快捷方式
+FilesSubTitle=请指定你的应用程序的文件。
+FilesTitle=应用程序文件
+AddFiles=添加文件(&A)
+AddLink=添加(&A)
+AppInfoSubTitle=请指定关于应用程序的基本信息。
+AppInfoTitle=应用程序信息
+AppName=应用程序名称(&A):
+AppPublisher=应用程序出版人(&P):
+AppVersion=应用程序版本(&V):
+AppWeb=应用程序网站(&W):
+ChangeInstallDir=允许用户更改应用程序目录(&H)
+ChangeStartMenuDir=允许用户更改“开始菜单”文件夹名称(&C)
+ComponentText=勾选想要安装的组件，并解除勾选你不想要安装的:
+CompScript=编译脚本(&O)
+Compress=压缩算法(&O):
+CompressNone=无
+CompressBZip2=BZIP2
+CompressZLib=ZLIB
+CompressLZMA=LZMA
+ConfigCaption=配置
+CreateUninstallIcon=在“开始菜单”文件夹创建解除安装图标(&U)
+CreateWebIcon=在“开始菜单”文件夹创建互联网快捷方式(&I)
+DefaultAppName=My application
+DefaultAppPublisher=My company, Inc.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.mycompany.com
+DefaultCompress=LZMA
+DefaultExeInst=Setup.exe
+DefaultGUI=现代界面
+DefaultGroup=MainGroup
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=古典按钮(&C)
+DefaultLangInst=SimpChinese
+DefaultUninstPrompt=你确实要完全移除 [NAME] ，及其所有的组件？
+DefaultUninstSuccesMsg=[NAME] 已成功地从你的计算机移除。
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\path\to\file\AppMainExe.exe|$INSTDIR;c:\path\to\file\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\path\to\licence\YourSoftwareLicence.txt
+DefaultWizardSections=MainSection
+DeleteFile=删除文件(&F)
+DeleteGroup=移除组(&G)
+DeleteLink=移除(&R)
+Description=描述(&D)
+Dest=目的(&D):
+DirDest=目的目录:
+DirDestColumn=目的目录
+DirText=安装程序将安装 [NAME] 在下列文件夹。$\r$\n$\r$\n要安装在不同文件夹，单击 [浏览] 并选择其他文件夹。
+ExeInst=安装程序文件(&P):
+ExecFinishSubTitle=请指定当安装程序完成时要运行的动作。
+ExecFinishTitle=安装程序之后运行
+ExecProgram=程序(&P):
+ExecProgramParams=参数(&A):
+ExecReadme=自述(&R):
+ExitWizardPrompt=NSIS 脚本向导并未完成。如果你现在退出，新脚本文件将不会产生。$nl$nl要退出 NSIS 脚本向导吗？
+FinishLabel1=向导已完成
+FinishLabel2=你已成功地完成向导。
+FinishLabel3=要关闭向导并产生新脚本文件，单击 [完成] 。
+GUI=用户图形界面(&G):
+GUIClassic=古典界面
+GUIModern=现代界面
+GUINone=静默安装
+IconsSubTitle=请指定那一个图标会从应用程序创建。
+IconsTitle=应用程序图标
+IfFileExists=如果文件存在
+InsertFileCaption=插入文件名
+InstallDir=应用程序默认目录(&A)
+InstallIcon=安装程序图标(&I):
+LFSCheckBox=勾选框(&C)
+LFSRadioButtons=圆形单选框(&R)
+LangInst=安装程序语言(&L):
+LicenceFile=授权文件(&L)
+LicenceSubTitle=请指定关于应用程序的目录与授权信息。
+LicenceTitle=应用程序的目录与授权信息
+LicenseForceSelection=选择用户如何接受许可证协议
+LicenseText=如果你接受所有协议条款，选择 [我愿意] 继续。你必须接受协议才能安装 [NAME]。
+LinkDestColumn=目的文件
+ModifyName=更改名称
+ModifyNamePrompt=写入组名称:
+NewFile=新建文件
+NewFileCaption=新建文件
+NewGroup=新建组
+NewGroup=新建组
+NewGroupPrompt=写入并命名组(G):
+NoAppName=请指定应用程序名称。
+NoCompress=请指定压缩类型
+NoDir=请指定默认目录。
+NoExeInst=请指定安装程序文件名。
+NoFoundText="%s" 没有找到。
+NoGUI=请指定用户图形介面类型。
+NoLFS=古典按钮(&C)
+NoLang=请指定安装程序语言。
+NoLinkName=请指定快捷方式名。
+NoSymbolName=请指定符号名称。
+NoSymbolSpaces=不要在符号名称使用空格。
+NoValidIOControl="%s" 不是有效的 InstallOption 控件。
+NoValidIOIni="%s" 不是有效的 InstallOption 文件。
+NoVersion=请指定应用程序版本。
+OptionsSubTitle=请指定安装程序所用选项。
+OptionsTitle=安装程序选项
+OrgDile=源文件(&S):
+OverwriteIfNewer=如果较新时覆盖
+OverwriteOff=从不覆盖
+OverwriteOn=总是覆盖
+OverwriteTry=试图覆盖
+RelativePaths=转换文件路径到相对路径(&C)
+SaveChanges=想要保存在文件 "%s" 的更改吗？
+SaveScript=保存脚本(&S)
+SelectInstallComponents=允许用户选择要安装的组件(&A)
+SelectModeMenu=选择模式
+ShortCut=快捷方式(&S):
+StartMenuDir=应用程序“开始菜单”文件夹名称(&S)
+StartupCaption=欢迎
+UninstPrompt=解除安装提示(&U):
+UninstSuccesMsg=解除安装消息(&M):
+UninstallIcon=解除安装程序图标(&C):
+UninstallSubTitle=请指定解除安装程序属性。
+UninstallTitle=解除安装程序
+UseUninstaller=使用解除安装程序(&S)
+WelcomeLabel1=欢迎使用 NSIS 脚本向导
+WelcomeLabel2=这个向导将导引你创建新 NSIS 脚本文件的完整进程。结果将产生新脚本文件。可用于直接编译，或是保存在磁盘，以便稍后编译。
+WelcomeLabel3=这个向导并没有含括 Nullsoft Install System 的所有功能。创建 Nullsoft Install System 脚本文件的细节，请见文件说明。
+WelcomeLabel4=单击 [下一步] 继续，或是 [取消] 退出此向导。
+WizardCaption=NSIS 脚本向导
+
+
+Link=链接
+
+;---------扩展功能，由 restools 增加------------
+ExFunWin1=视图
+ExFunWin2=函数
+ExFunWin3=窗口
+SelectDirectory=当前选择的目录
+EditDirectory=编辑目录项目
+
+;--------菜单--------------
+TBFileListCaption=文件列表(&L)
+ExWinList=多功能窗口
+ExWinListTab=窗口列表栏
+EditBlockComm=注释文本(&B)||注释选择的文本，没有选择文本时则注释当前行
+EditBlockUnComm=取消文本注释(&Z)||取消选择文本的注释，没有选择文本时则取消当前行的注释
+ToolsOpenContFolder=打开脚本所在文件夹(&O)
+EditCopyLog=复制整个日志(&O)|复制整个编译过程的编译日志
+EditCopyAsUBB=复制为 UBB 代码(&X)||复制选择区到剪贴板为 UBB 代码方便论坛发帖使用
+NSISPluginHelp=NSIS 插件文档(&P)
+
+;-------自动完成----------
+ParamsTitle=参数列表
+WordScpTitle=NSIS 编译器命令集
+
+;------选项------------
+EditKeystrokesFormCaption=快捷键编辑器
+Add=添加(&A)
+Edit=编辑(&E)
+ClearList=清空列表(&C)
+ResetList=重置列表(&R)
+Command=命令
+Keystroke=快捷键
+ClearKey=清空快捷键
+EditKeystrokesFormNote=注意：要使多个快捷键都执行相同的命令，请为该命令指定多个快捷键。
+ViewF1Mode=只检索每行的首关键字帮助(&J)|按 F1 时只会检索当前光标所在行的首关键字的帮助
+ShowIndentLine=显示缩进线条(&X)
+Aluminum=铝化
+DefauldWordWrap=脚本默认使用自动换行方式(&X)|每次打开脚本时都会自动切换到自动换行的显示方式
+AutoCode=自动完成功能
+AutoNSISCommand=NSIS 命令自动完成
+AutoNSISHint=NSIS 命令提示
+AutoNSISParms=NSIS 命令参数自动完成
+AutoCodeDelay=弹出延迟:
+AutoCodeShowTitle=显示列表标题
+MinDelay=0.1 秒
+MaxDelay=2.5 秒
+CopyExportPage=复制和导出
+SaveAsHtmlGBox=另存为 HTML 时添加行号
+SaveAsHtmlRBtn1=跟随编辑器选项
+SaveAsHtmlRBtn2=强制添加
+SaveAsHtmlRBtn3=强制不添加
+CopyUBBGBox=复制为 UBB 代码时
+CopyUBBRBtn1=采用“引用”模式(quote)
+CopyUBBRBtn2=采用“代码”模式(code)
+ckCopyUBBSFName=显示文件名
+ckCopyUBBSTime=显示复制时间
+
+;---------函数向导--------
+Select=选择
+FunWizardCaption=函数向导
+FunWizardHlpLabel=简明帮助(&H):
+FunWizardHlpLabel2=按 F1 获取该函数在 NSIS 帮助中的详细介绍。
+FunWizardBrowseFile=浏览文件
+FunWizardTabHint=你可以拖动函数到编辑器中想放的位置，会自动进入函数向导模式。$nl选择你想知道功能的函数，按 F1 会进入 NSIS 的该函数的相关帮助。
+None=无
+FunWizardSelFile=选择文件
+FunWizardSelDir=选择目录
+FunWizardNoInfoErr=还有参数未填写，请填写。
+
+;----------脚本向导------------
+UseCusFont=自定义文本字体(&H)
+PrevBGTFont=测试文本
+UseBGText=显示背景文本标题(&G)
+BGTextLabel=文本颜色(&E)
+TopCLabel=顶部颜色(&F)
+BotCLabel=底部颜色(&C)
+UseBG=安装过程使用背景窗口(&B)
+BText1=默认的“Nullsoft Install System vX.XX”
+BText2=自定义文本
+BText3=不显示文本
+BTextLabel=应用程序标志(&L)
+SplashTitle=快闪屏幕和背景窗口
+SplashSubTitle=请指定安装程序的闪屏和背景窗口属性。
+UseSplash=使用闪屏(&U) - 时间单位:[ms]
+SplashPic=图像文件(&P):
+SplashSound=闪屏背景声音(&S):
+SplashAdvOption=闪屏高级选项(&A):
+SelectDirecory=选择的目录:
+DelayTimeLabel=持续时间(&D):
+FadeInLabel=渐显时间(&I):
+FadeOutLabel=渐隐时间(&O):
+KeyColorLabel=透明颜色(&T):
+ClrDefault=不透明
+MoreColors=更多颜色...
+BmpFileFilter=位图文件 (*.bmp)|*.bmp
+WavFileFilter=声音文件 (*.wav)|*.wav
+DefaultSplashFile=c:\path\to\Splash\YourSplash.bmp
+DefaultSplashSoundFile=c:\path\to\Splash\YourSplashSound.wav
+RecurseChk=包含子目录
+IndividualChk=单独添加每个文件
+UseMIDI=安装过程使用背景音乐(&M)
+MIDILabel=音乐文件(&D):
+MIDIFileFilter=所有音乐文件 (*.mid;*.wav;*.mp3;*.wma)|*.mid;*.wav;*.mp3;*.wma
+DefaultMIDIFile=c:\path\to\YourMIDI.mid
+PlayRepeat=重复播放(&R)
+DelFileMode=解除安装删除文件方式
+DelFileMode1=简易方式(&A)
+DelFileMode2=安全方式(&B)
+LogSetWarning=注意：你当前使用的 NSIS 编译器没有打开安装日志记录功能，所以并不支持卸载程序使用安全的删除文件方式
+CompressBZip2Solid=BZIP2(固实)
+CompressZLibSolid=ZLIB(固实)
+CompressLZMASolid=LZMA(固实)
+CompressLZMABest=极限压缩
+XPStyleChk=使用 XP 外观
+
+;----------------脚本向导中的注释---------------------
+WizardHeaderComment=该脚本使用 HM VNISEdit 脚本编辑器向导产生
+WizardComment1=安装程序初始定义常量
+WizardComment2=------ MUI 现代界面定义 (1.67 版本以上兼容) ------
+WizardComment3=语言选择窗口常量设置
+WizardComment4=欢迎页面
+WizardComment5=许可协议页面
+WizardComment6=组件选择页面
+WizardComment7=开始菜单设置页面
+WizardComment8=安装过程页面
+WizardComment9=安装完成页面
+WizardComment10=安装卸载过程页面
+WizardComment11=安装界面包含的语言设置
+WizardComment12=安装预释放文件
+WizardComment13=------ MUI 现代界面定义结束 ------
+WizardComment14=安装目录选择页面
+WizardComment15=MUI 预定义常量
+WizardComment16=使用闪屏插件显示闪屏
+WizardComment17=$0 返回 '1' 表示用户提前关闭闪屏, 返回 '0' 表示闪屏正常结束, 返回 '-1' 表示闪屏显示出错
+WizardComment18=打开音乐文件
+WizardComment19=开始播放音乐文件
+WizardComment20=停止播放音乐文件
+WizardComment21=关闭音乐文件
+WizardComment22=A 表示自动计算语言数, 为了能够正常运作，开始的空串压入堆栈(Push "")必须保留
+WizardComment23=如果点击“cancel”按钮就关闭安装程序
+WizardComment24=区段组件描述
+WizardComment25=创建开始菜单快捷方式
+WizardComment26=根据 NSIS 脚本编辑规则，所有 Function 区段必须放置在 Section 区段之后编写，以避免安装程序出现未可预知的问题。
+WizardComment27=根据安装日志卸载文件的调用宏
+WizardComment28=调用宏只根据安装日志卸载安装程序自己安装过的文件
+WizardComment29=清除安装程序创建的且在卸载时可能为空的子目录，对于递归添加的文件目录，请由最内层的子目录开始清除(注意，不要带 /r 参数，否则会失去 DelFileByLog 的意义)
+WizardComment30=以下是安装程序的卸载部分
+WizardComment31=以下是卸载程序通过安装日志卸载文件的专用函数，请不要随意修改
+WizardComment32=激活安装日志记录，该日志文件将会作为卸载文件的依据(注意，本区段必须放置在所有区段之前)

@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: shiboken2
+Version: 5.15.2
+Summary: Python / C++ bindings helper module
+Home-page: https://www.pyside.org
+Author: Qt for Python Team
+Author-email: pyside@qt-project.org
+License: LGPL
+Download-URL: https://download.qt.io/official_releases/QtForPython
+Keywords: Qt
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Widget Sets
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <3.10
+Description-Content-Type: text/markdown
+
+# Shiboken2 module
+
+The purpose of the [shiboken2 Python module](https://wiki.qt.io/Qt_for_Python/Shiboken)
+is to access information related to the binding generation that could be used to integrate
+C++ programs to Python, or even to get useful information to debug
+an application.
+
+Mostly the idea is to interact with Shiboken objects,
+where one can check if it is valid, or if the generated Python wrapper
+is invalid after the underlying C++ object has been destroyed.
+
+More information on the available functions can be found
+in our [official documentation](https://doc.qt.io/qtforpython/shiboken2/shibokenmodule.html)
+
+

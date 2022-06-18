@@ -1,0 +1,546 @@
+; HM NIS EDIT 2.0.1 finnish messages v1.0.1
+
+; Translator: Ruokola Pasi <sparu@mbnet.fi>
+; Translator URL: http://koti.mbnet.fi/ckv
+
+[Fonts]
+DialogFontName=MS Shell Dlg
+DialogFontSize=8
+DefaultEditorFont=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1035
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=&Tiedosto
+EditMenu=&Muokkaa
+SearchMenu=&Etsi
+ViewMenu=&Näytä
+FormatMenu=Muotoil&e
+ToolsMenu=Ty&ökalut
+NSISMenu=N&SIS
+WindowMenu=&Ikkuna
+HelpMenu=&Ohje
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=Uusi &tyhjä scripti|Ctrl+N|Luo uusi tyhjä scripti
+TemplateFile=&Uusi scripti pohjasta...|Ctrl+T|Luo uusi scripti jo olemassa olevasta scriptistä
+WizardFile=Luo scripti velholla...|Ctrl+W|Luo uusi scripti velhon avustuksella
+NewIOFile=Uusi &asennus sivu|Ctrl+I|Luo uusi asennus sivu tiedosto (custom page)
+FileOpen=&Avaa...|Ctrl+O|Avaa jo olemassasa oleva scripti
+Reopen=&Avaa uudelleen
+FileSave=&Tallenna|Ctrl+S|Tallenna scripti
+FileSaveAll=Tallenna kaikki||Tallenna kaikki avoimet tiedostot
+FileSaveAs=Tallenna &nimellä...||Tallenna scripti uudella nimellä tai muunna se HTML:si tai RTF:si
+FilePrint=&Tulosta|Ctrl+P|Tulosta scripti
+FileConfigPrint=Tulostimen asetukset...||
+FileExit=&Lopeta|Alt+F4|Sulkee ohjelman
+
+; Edit menu
+EditUndo=&Kumoa|Ctrl+Z|Kumoa viime toiminto
+EditRedo=&Toista|Shift+Ctrl+Z|Toista aikaisemmin kumottu toiminto
+EditCut=&Leikkaa|Ctrl+X|Leikkaa valinta leikepöydälle
+EditCopy=K&opioi|Ctrl+C|Kopioi valinta leikepöydälle
+EditCopyAsHTML=Kopioi HTML:nä||Kopioi valinta leikepöydälle HTML muodossa
+EditPaste=L&iitä|Ctrl+V|Liitä leikepöydän sisältö
+EditSelectAll=&Valitse kaikki|Ctrl+A|Valitse koko scriptin sisältö
+
+; Search menu
+EditFind=E&tsi...|Ctrl+F|Etsi tekstiä scriptistä
+EditFindNext=Ets&i seuraava|F3|Etsi seuraava esiintyminen scriptistä
+EditReplace=Ko&rvaa...|Ctrl+R|Korvaa tekstiä scriptistä
+SearchGotoLine=&Mene riville...|F2|Mene annetulle riville
+ToggleBookmark=&Aseta kirjanmerkki
+GotoBookmark=M&ene kirjanmerkkiin
+Bookmark=Kirjanmerkki
+
+; View menu
+ToolBarsMenu=Työkalurivit
+ViewBrowser=Selain|F4|Näytä/Piilota HM NIS Editin web selain
+ViewWindowList=Ikkunat|F5|Näytä/Piilota Lista aukiolevista tiestoista
+ViewIOPanel=&Asennus sivun työkalut|F6|Näytä/Piilota Asennus sivun työkalut
+ViewStatusBar=&Tilapalkki|F7|Näytä/Piilota Tilapalkki
+ViewLogBox=Loki ikkuna|F8|Näytä/Piilota loki ikkuna
+ViewSpecialChars=Erikoismerkit|F10|Näytä rivivaihdot välilyönnit ja tabulaattorin käyttäen erikois symboleja
+IOToggleDesignMode=Visuaalinen muotoilu|F12|Vaihda visuaalisen muotoilun ja teksi muotoilun välillä asennus sivun muokkaus sivulla
+ViewOptions=&Asetukset...|F11|Näytä asetukset
+
+; Format menu
+FormatIndent=&Suurenna sisennystä|Shift+Ctrl+I|Suurentaa sisennystä valituilla riveillä
+FormatUnIndent=&Pienennä sisennystä|Shift+Ctrl+U|Pienentää sisennystä valituilla riveillä
+FormatUpperCase=&Isot kirjaimet|Ctrl+U|Muuntaa valinnan isoiksi kirjaimiksi
+FormatLowerCase=Pi&enet kirjaimet|Ctrl+L|Muuntaa valinnan pieniksi kirjaimiksi
+FormatToggleCase=&Vaihda kirjainkoko|Ctrl+H|Vaihda isot kirjaimet pieniin ja pienet isoihin
+FormatQuoteSelection=&Lainausmerkit|Ctrl+Q|Lisää lainausmerkit valintaan
+FormatWordWrap=&Automaattinen rivitys
+
+; Tools menu
+ToolsInsertColor=Lisää &värikoodi...|Shift+F5|Pyytää värin ja lisää sen väriarvon scriptiin
+ToolsInsertFile=Lisää &tiedostonimi...|Shift+F6|Kysyy tiedostonimeä ja lisää sen scriptiin
+CodeTemplates=Koodi pohjat
+ToolsEditCodeTemplate=&Muokkaa koodi pohjia...
+
+; NSIS menu
+NSISCompileWithProfile=Käännä profiililla
+NSISEditCompProfiles=Muokkaa kääntö profiileja||
+NSISCompil=&Käännä scripti|Ctrl+F9|Kääntää scriptin
+NSISCompilRun=K&äännä ja avaa|Shift+F9|Kääntää scriptin ja avaa käännetyn asennus ohjelman
+NSISStopCompile=Pysäytä kääntäjä|Esc|Pysäytä kääntö prosessi
+NSISExec=&Suorita|F9|Avaa käännetyn asennus ohjelman
+NSISConfig=&Asetukset...|Ctrl+F11|Vaihda kääntäjän polkua, aseta symbolit ja kääntäjän asetukset
+
+; Window menu
+WindowCascade=Limittäin||
+WindowTileHorizontal=Allekkain||
+WindowTileVertical=Vierekkäin||
+WindowArrangle=Järjestä||
+WindowPrior=Edellinen ikkuna||
+WindowNext=Seuraava ikkuna||
+WindowList=Ikkunat
+WindowClose=Sulje ikkuna
+WindowShow=Näytä ikkuna
+WindowSMU=V&aihda eniten käytetty|Ctrl+Shift+W|
+
+
+; Help menu
+HelpNSIS=NSIS ohje
+HelpAbout=Tietoja ohjelmasta...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=HM NIS Edit Kotisivu||http://hmne.sourceforge.net/|41
+URLLink2=NSIS Kotisivu||http://nsis.sourceforge.net/|41
+URLLink3=NSIS Foorumi||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+;URLLink4=-
+;URLLink5=Custom link 1||http://pagetoshow1.com/|45
+;URLLink6=Custom link 2||http://pagetoshow2.com/|45
+
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Valikko
+TBStandardCaption=Tiedosto
+TBEditCaption=Muokkaa
+TBViewCaption=Näytä
+TBSearchCaption=Etsi
+TBFormatCaption=Muotoile
+TBNSISCaption=NSIS
+TBWindowCaption=Ikkuna
+IOPanelCaption=Asennus Sivun Työkalut
+Browser=Selain
+MoreButtons=Lisää painikkeita
+
+; Status bar
+CaretPos=Sar: %d - Ri: %d
+Modified=Muokattu
+Insert=Lisää
+Overwrite=Korvaa
+ReadOnly=Vain luku
+
+; Open file captions
+OpenTemplateCaption=Avaa scripti pohja
+OpenScriptCaption=Avaa scripti
+
+; IO designer
+BringToFront=&Tuo kontrolli eteen
+SendToBack=&Vie kontrolli takaisin
+Delete=&Poista|Ctrl+Del|
+SetTabOrder=&Kotnrollien järjestys...
+ResizeWinto=Editorin koko
+ResizeItems=Moderni|300/140;Klassinen|266/130
+
+; TabOrder dialog
+TabOrderCaption=Kontrolli järjestys
+Up=&Ylös
+Down=&Alas
+
+; File filters
+AllFileFilter=Kaikki tiedostot (*.*)|*.*
+NSISFileFilter=NSIS tiedostot (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Sovellukset (*.exe)|*.exe
+HTMLFileFilter=HTML asiakirjat (*.htm, *.html)|*.htm;*.html
+INIFileFilter=Kokoonpanoasetukset (*.ini)|*.ini
+IconFileFilter=Kuvakkeet (*.ico)|*.ico
+LicFileFilter=Lisenssi tiedostot (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=NSIS header tiedostot (*.nsh)|*.nsh
+RTFFileFilter=Rich text tiedostot (*.rtf)|*.rtf
+TextFileFilter=Raaka tekstiedostot (*.txt)|*.txt
+CHMFileFilter=CHM tiedostot (*.chm)|*.chm
+HelpFileFilter=Help tiedostot (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=TeX tiedostot (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Virhe
+InformationDlgCaption=Info
+QuestionDlgCaption=Vahvistus
+WarningDlgCaption=Varoitus
+
+; Buttons
+OK=OK
+Cancel=Peruuta
+Next=Seuraava >
+Back=< Edellinen
+Finish=Lopeta
+Apply=Aseta
+
+; About box
+AboutBoxCaption=Tietoja ohjelmasta
+
+; Find window
+FindTextCaption=Etsi tekstistä
+FindText=Etsittävä teksti:
+SearchOptions=Asetukset
+CaseSensitive=Sama kirjainkoko
+WholeWordOnly=Vain koko sana
+SearchFromCursor=Etsi kursorista...
+SearchSelectedOnly=Etsi vain valitusta tekstistä
+Forward=Alas
+Backward=Ylös
+
+; Replace window
+ReplaceTextCaption=Korvaa tekstiä
+ReplaceText=Korvattava teksti:
+ReplaceAll=Korvaa kaikki
+
+; Goto line window
+GotoLineCaption=Mene riville
+GotoLinePrompt=Anna rivinumero:
+
+; Options window
+EnvironmentConfigPage=Ympäristö
+EditorConfigPage=Editori
+CompilerConfigPage=Kääntäjä
+PluginsConfigPage=Pluginit
+
+; Options window Environment Config Page
+GeneralOptions=Yleiset asetukset
+ShowSplashScreen=Näytä splash kuva
+ShowWelcomeDialog=Näytä tervetuloa ikkuna
+MultipleInstances=Monta ohjelma instanssia
+OpenIniFilesIn=Avaa .ini tiedostot visuaalisessa muitoilussa
+OpenFilesOnStartup=Avaa viimeksi käytetyt tiedostot aloituksessa
+UseDefBrowser=Käytä oletusselainta
+Lang=&Kieli:
+BrowserHome=Selaimen kotisivu:
+ToolBarOptions=Työkalurivi asetukset
+TBSmoothDrag=Tasainen raahaus työkaluvalikoissa
+PanelSmoothDrag=Tasainen raahaus työkalupaneeleissa
+TBTheme=Työkalurivin teema:
+Default=Oletus
+OfficeXP=OfficeXP
+Stripes=Raidat
+FileAssoc=Tiedosto assosisaatiot
+DefaultEditor=&Aseta HM NIS Edit oletus editoriksi NSIS tiedostoille
+SuccessfullyRegister=HM NIS Edit rekisteröitiin onistuneeati oletus editoriksi NSIS tiedostoille
+
+IOGridOptions=Asennus Sivun Muotoilu
+DisplayGrid=Näytä verkko
+SnapToGrid=Tartu verkkoon
+GridX=Verkon leveys X:
+GridY=Verkon korkeus Y:
+CtrlDims=Näytä kontrollien koko muodossa:
+RightBottom=Oikea/Alareuna
+WidthHeight=Leveys/Korkeus
+Both=Molemmat
+Other=Toinen
+SaveOptionsIn=Tallenna asetukset:
+Registry=Rekisteriin
+
+; Options window Editor Config Page
+DisplayPage=Näkymä
+OptionsPage=Asetukset
+HighlighterPage=Värit
+
+; Options window Editor Display Page
+Gutter=Reuna
+GutterVisible=Näytä
+GutterShowLineNumbers=Näytä rivi numerot
+GutterStartAtZero=Aloita nollasta
+GutterShowLeaderZeros=Näytä alku nollat
+GutterFont=Käytä reunassa fonttia:
+GutterColor=Reunuksen väri
+Font=Fontti
+RightEdge=Oikea reuna
+EdgeColumn=Raja viiva:
+EdgeColor=Viivan väri:
+LineTabSpacing=Riviväli / Sarkain jaotus
+ExtraLines=Ekstra rivit:
+TabWidth=Sarkain leveys:
+Bookmarks=Kirjanmerkit
+BookmarkKeys=Kirjanmerkki avaimet
+BookmarksVisible=Näytä kirjanmerkit
+EditorFont=Editorin Fontti
+
+; Options window Editor Options Page
+AutoIndent=Automaattinen sisennys|Sisentää uudet rivit automaattisesti edellisen rivin mukaan
+DragAndDropEditing=Raahaus ja pudotus muokkaus|Sallii valitun tekstin raahaamisen dokumentista toiseen
+HalfPageScroll=Vieritä puolisivua kerralla|Vierittäessä sivua page-up ja page-down näppäimillä sivu rullaa vai puolisivua kerralla
+ScrollByOneLess=Vieritä yksi rivi vähemmän|Vierittää sivua jättäen yhden rivin edellisestä sivusta näkyviin
+ScrollPastEOF=Vieritä sivun lopun yli|Sallii sivun vierittämisen dokumentin lopun yli
+ScrollPastEOL=Jatka rivin lopun yli|Sallii kodistimen mennä rivin lopun yli
+ShowScrollHint=Näytä vieritys vihje|Näyttää vihjeen näkyvistä rivinumeroista kun sivua vieritetään pystysuunnassa
+SmartTabs=Järkevät tabulaattorit|Tabulaattori siirtää kursorin edellisen rivin seuraavaan tekstin alkukohtaan
+TabsToSpaces=Tabulaattorit välilyönneiksi|Muuntaa tabulaattorit sarkain leveydessä määritetyksi määräksi välilyöntejä
+TrimTrailingSpaces=Poista välilyönnit rivien lopuista|Poistaa automaattisesti välilyönnit rivien lopuista
+AltSetsColumnMode=Alt näppäin kytkee pylväs maalauksen|Pitämällä Alt näppäintä pohjassa tekstin maalaus muuttuu pylväs malliseksi
+KeepCaretX=Säilytä kohdistimen sarake|Liikuttaessa rivien välillä kohdistimen X sijainti pysyy samana
+ScrollHintFollows=Vieritys vihje seuraa hiirtä|Jos valittu vieritys vihje seuraa hiirtä kun dukumentttia vieritetään pystysuunnassa
+GroupUndo=Ryhmän peruutus/toisto|Kun perutaan/toistetaan toimintoja niin kaikki peräkkäin olevat samat muutokset perutaan kerralla eikä peruuta/toista jokaista toimintoa erikseen
+SmartTabDelete=Järkevä tabulaattorin deletoiminen|saman kaltainen kuin Järkevät tabulaattorit, mutta toimii deletoidessa
+RightMouseMoves=Hiiren oikeapainike siirtää kohdistinta|Klikatessa dokumenttiin oikealla painikkeella kohdistin siirtyy klikattuun kohtaan
+EnhanceHomeKey=Paranna Home toimintoa|Jos valittu Home näppäin siirtää kohdistimen rivin ensimmäiseen näkyvään merkkiin, visual studiota muistuttavalla tavalla
+HideShowScrollbars=Piilota vierityspalkit jos mahdollista|Jos valittu, niin vieritys palkit näkyvät vain jos niitä tarvitaan. Jos rullaa rivin yli on valittu niin vaakasuora vierityspalkki on aina päällä
+DisableScrollArrows=Poista vieritys nuolet käytöstä tarvittaessa|Poistaa vieritys nuolen käytöstä kun kun dokumenttia ei voi enään vierittää nuolen suuntaan
+ShowSpecialChars=Näytä erikoismerkit|Näytä rivivaihdot välilyönnit ja tabulaattorin käyttäen erikois symboleja
+UndoAfterSave=Kumoa &tallennuksen jälkeen|Salli kumoaminen tallennuksen jälkeen
+ViewUsageHints=Näytä komentojen käyttö ohje vinkit|Näyttää komennon käyttö tarkoituksen hiiren kursorin osoittamasta komennosta
+
+Caret=Kohdistin
+InsertCaret=Lisäävä kohdistin:
+OverwriteCaret=Korvaava kohdistin:
+VerticalLine=Pystysuora viiva
+HorizontalLine=Vaakasuora viiva
+HalfBlock=Puolikas laatikko
+Block=Laatikko
+
+; Options window Editor Highlighter Page
+UseHighlighter=&Käytä syntaksi kororstusta
+Element= Elementti
+TextAttri=&Elementin muotoilu
+Color=Värit:
+Foreground=Etuala
+Background=Tausta
+FontStyle=Fontin tyyli
+Bold=&Lihavoitu
+Italic=Kursivoitu
+Underline=Alleviivattu
+HighlightVarsInsideStrings=&Korosta muuttujat stringien sisällä
+
+; Options window compiler options Page
+Paths= Polut
+Compiler=&Kääntäjä:
+Help=&Ohje:
+Options=Asetukset
+NoConfigFile=Älä käytä NSIS asetustustiedostoa (nsisconf.nsh).
+NoConsole="%s" ei ole komentorivi ohjelma.
+NOCD=&Poista tämän hetkinen hakemisto käytöstä ja käytä .nsi tiedoston hakemistoa.
+SaveScriptsBeforeCompile=Save scripts before compile
+Simbols=&Symbolit
+SimbolColumn=Symboli
+ValueColumn=Arvo
+AddSimbol=Lisää
+EditSimbol=Muokkaa
+DeleteSimbol=Poista
+EditSimbolCaption=Muokkaa symbolia
+Simbol=&Symboli:
+Value=&Arvo:
+DuplicateSymbol=Kopioi symbolin nimi
+UseIntegratedBrowser4Help=Käytä selainta NSIS ohjeen katseluun.
+
+; Compiler profiles
+NewProfileCaption=Uusi kääntö profiili
+NewProfilePrompt=Anna uusi kääntö profiilin nimi:
+ProfileExists=Kääntö profiili "%s" on jo olemassa
+CompilerProfilesCaption=Kääntäjän profiilit
+AddProfile=Uusi profiili
+EditProfile=Muokkaa profiilia
+RenameProfile=Nimeä uudelleen
+DeleteProfile=Poista profiili
+EditCompileProfileCaption=Muokkaa %s kääntö profiilia
+
+; Options window plugins config page
+PluginConfig=&Configit
+PluginAbout=&Tietoja
+
+; Code templates
+CodeTemplateCaption=Muokkaa koodi pohjia
+TemplateNames=Pohjan nimi
+NewTemplate=Uusi pohja
+EditTemplatePrompt=&Kirjoita pohjalle nimi:
+EditTemplate=Muokkaa pohjaa
+AutoCompleteShortCut=&Automaattinen täydennys
+TemplateCode=Koodi pohja
+DuplicateTemplateName=Pohja nimeltä "%s" on jo olemassa
+
+; Welcome window
+EmptyScript=Luo uusi &tyhjä scripti tiedosto
+WizardScript=Luo uusi scripti tiedosto käyttäen &Scripti velhoa
+OpenExistingFile=Avaa &olemassa oleva scripti
+MoreFiles=Lisää tiedostoja...
+NoShowSartup=&Älä näytä tätä käynnistettäessä
+OpenFile= Avaa tiedosto
+
+; Filter editor
+EditFilterCaption=Muokkaa filtteriä
+FilterDescription=Filtterin kuvaus:
+Filter=Filtteri:
+AddFilter=&Lisää
+RemoveFilter=&Poista
+
+
+; Messages
+FileModified=Toinen sovellus on päivittänyt tiedoston "%s" Ladataanko se?
+NoCompiler=Ennen scriptin kääntämistä valitse NSIS kääntäjä
+NoDocs=Ennen NSIS ohjeen näyttämistä valitse NSIS ohje tiedosto
+OpenFileError=Tiedostoa %s ei voi avata
+NoCloseCompiling=Et voi lopetta kun scriptiä käännetään.$nlHaluatko lopettaa kääntäjän?
+Untitled=Nimetön %.2d
+EditTextCaption=Muokkaa tekstiä
+EditListitemsCaption=Muokkaa luetteloa
+StopCompilePrompt=Oletko varma käätämisen lopettamisesta?
+CompileCanceled=Kääntäminen peruutettu käyttäjän toimesta.
+
+; Ask save dialog
+n_AskSaveDialogCaption=Save Changes
+n_AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+n_Yes=&Yes
+n_No=&No
+n_SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=Muokkaa tiedosto merkintää
+EditFileCaption=Muokkaa tiedosto merkintää
+EditGroup=Muokkaa ryhmää
+EditLink=Muokkaa pikakuvaketta
+EditLinkCaption=Muokkaa pikakuvaketta
+FileColumn=Tiedosto
+FilelLnkColumn=Pikakuvake
+FilesSubTitle=Määritä tiedostot, jotka ovat osana ohjelmistoasi.
+FilesTitle=Ohjelmiston tiedostot
+AddFiles=&Lisää tiedosto
+AddLink=Uusi pikakuvake
+AppInfoSubTitle=Määritä joitakin perus tietoja ohjelmistostasi.
+AppInfoTitle=Ohjelmiston tiedot
+AppName=&Ohjelmiston nimi:
+AppPublisher=Ohjelmiston &julkaisija:
+AppVersion=Ohjelmiston &versio:
+AppWeb=Ohjelmiston &kotisivut:
+ChangeInstallDir=Salli käyttäjän &vaihtaa sovelluksen asennus polkua
+ChangeStartMenuDir=Salli käyttäjän &vaihtaa käynnistä-valikon kansiota
+ComponentText=Valitse komponentit, jotka haluat asentaa ja poista valinta niiltä komponenteilta joita et halua asentaa:
+CompScript=K&äännä scripti
+Compress=&Pakkaus:
+CompressBZip2=bzip2
+CompressNone=älä pakkaa
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=Asetukset
+CreateUninstallIcon=Luo pikakuvake &asennuksen purku ohjelmalle käynnistä-valikkoon
+CreateWebIcon=Luo pikakuvake &ohjelmiston kotisivuille käynnistä-valikkoon
+DefaultAppName=Minun sovellus
+DefaultAppPublisher=Minun yritys, Oy.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.minunyritys.fi
+DefaultCompress=zlib
+DefaultExeInst=Setup.exe
+DefaultGUI=Moderni
+DefaultGroup=Pää-ryhmä
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Klassinen nappi
+DefaultLangInst=Finnish
+DefaultUninstPrompt=Oletko varma, että haluat poistaa kokonaan [NAME] ja kaikki sen komponentit?
+DefaultUninstSuccesMsg=[NAME] poistettiin onnistuneesti tietokoneeltasi.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\polku\tiedostoon\SovellusExe.exe|$INSTDIR;c:\polku\tiedostoon\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\polku\lisenssi\tiedostoon\MinunSovellusLisenssi.txt
+DefaultWizardSections=Pää-osio
+DeleteFile=&Poista tiedosto
+DeleteGroup=Poista ryhmä
+DeleteLink=Poista pikakuvake
+Description=&Kuvaus
+Dest=&Kohde:
+DirDest=&Kohdehakemisto:
+DirDestColumn=Kohdehakemisto
+DirText=Ohjelma [NAME] asennetaan seuraavaan hakemistoon.$\r$\n$\r$\nAsentaaksesi ohjelman toiseen hakemistoon, valistse selaa ja valitse toinen hakemisto.
+ExeInst=&Asennus tiedosto:
+ExecFinishSubTitle=Määritä toiminnot, jotka suoritetaan kun asennus on valmis
+ExecFinishTitle=Suorita asennuksen jälkeen
+ExecProgram=&Sovellus:
+ExecProgramParams=&Parametrit:
+ExecReadme=&Lueminut:
+ExitWizardPrompt=NSIS scripti velho ei ole valmis. Jos lopetat nyt, uutta scriptiä ei luoda.$nl$nlLopetatko NSIS scripti velhon?
+FinishLabel1=Velho on valmis
+FinishLabel2=Olet onnistuneesti käynyt velhon läpi.
+FinishLabel3=Sulkeaksesi velhon ja luodaksesi uuden scriptin, paina Lopeta.
+GUI=GUI:
+GUIClassic=Klassinen
+GUIModern=Moderni
+GUINone=Ei mitään
+IconsSubTitle=Määritä pikakuvakkeet, jotka haluat ohjelmistolle luoda.
+IconsTitle=Ohjelmiston pikakuvakkeet
+IfFileExists=&Jos tiedosto on jo olemassa
+InsertFileCaption=Anna tiedostonimi
+InstallDir=&Ohjelmiston oletus hakemisto:
+InstallIcon=&Asentajan kuvake:
+LFSCheckBox=Valintaruutu
+LFSRadioButtons=Radionappi
+LangInst=&Asentajan kieli:
+LicenceFile=&Lisenssi tiedosto
+LicenceSubTitle=Määritä hakemisto ja lisenssi tiedot ohjelmistollesi.
+LicenceTitle=Ohjelmiston hakemisto ja lisenssi
+LicenseForceSelection= Valitse tapa jolla käyttäjä hyväksyy lisenssi ehdot
+LicenseText=Jos hyväksyt kaikki lisenssin ehdot, valitse Hyväksyn jatkaaksesi. Lisenssi pitää hyväksyä ennen [NAME] asentamista.
+LinkDestColumn=Kohde tiedosto
+ModifyName=Vaihda nimi
+ModifyNamePrompt=Kirjoita ryhmälle nimi:
+NewFile= Uusi tiedosto
+NewFileCaption=Uusi tiedosto
+NewGroup=Uusi ryhmä
+NewGroupPrompt=Kirjoita ryhmälle nimi
+NoAppName=Anna ohjelmistolle nimi.
+NoCompress=Määritä pakkaus tyyppi
+NoDir=Määritä oletus hakemisto.
+NoExeInst=Määritä asennus paketille tiedosto nimi.
+NoFoundText=Ei löydy "%s"
+NoGUI=Määritä GUI tyyppi.
+NoLFS=Klassinen nappi
+NoLang=Määritä asenus kieli.
+NoLinkName=Anna pikakuvakkeelle nimi.
+NoSymbolName=Anna symbolille nimi
+NoSymbolSpaces=Älä käytä välejä symbolien nimissä
+NoValidIOControl="%s" ei ole toimiva asennus sivu kontrolli
+NoValidIOIni="%s" ei ole toimiva asennus sivu tiedosto
+NoVersion=Määritä ohjelmistolle versio.
+OptionsSubTitle=Määritä asetukset asentajalle.
+OptionsTitle=Asentajan asetukset
+OrgDile=&Lähde tiedosto:
+OverwriteIfNewer=Korvaa jos uudempi
+OverwriteOff=Älä korvaa
+OverwriteOn=Korvaa aina
+OverwriteTry=Yritä korvata
+RelativePaths=&Muunna tiedosto polut riippuvaisiksi poluiksi
+SaveChanges=Haluatko tallentaa muutokset tiedostoon "%s"?
+SaveScript=&Tallenna scripti
+SelectInstallComponents=&Salli käyttäjän valita asennettavat kohteet
+SelectModeMenu=Valitse modi
+ShortCut=&Pikakuvake:
+StartMenuDir=Ohjelman &käynnistä-valikon hakemisto
+StartupCaption=Tervetuloa
+UninstPrompt=&Purku huomautus:
+UninstSuccesMsg=Purku onnistui &viesti:
+UninstallIcon=Purku tiedoston k&uvake:
+UninstallSubTitle=Määritä asennuksen purun ominaisuudet.
+UninstallTitle=Asennuksen purkaja
+UseUninstaller=K&äytä asennuksen purkua
+WelcomeLabel1=Tervetuloa NSIS Scripti Velhoon
+WelcomeLabel2=Tämä velho opastaa sinut NSIS scripti tiedostojen valmistus prosessin läpi. Lopputuloksena on scripti tiedosto, joka on valmis sellaisenaan käännettäväksi tai levylle tallennettavaksi myöhempää käyttöä varten.
+WelcomeLabel3=Velho ei kata kaikkia Nullsoft Install Systemin toimintoja. Katso dokumenteista yksityikohtaisempia asetuksi Nullsoft Install Systemin scriptien luomiseen!
+WelcomeLabel4=Klikkaa Seuraava jatkaaksesi tai Peruuta lopettaaksesi velhon.
+WizardCaption=NSIS Scripti velho
+EditDirectory=Lisää kansion sisältö
+SelectDirecory=Valitse kansio:

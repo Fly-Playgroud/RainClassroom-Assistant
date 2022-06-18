@@ -1,0 +1,541 @@
+; HM NIS EDIT 2.0 ukrainian messages.
+
+; Translator________: Yuri Holubow [ holubow@ua.fm ]
+; Translator URL____: http://myUkr.NET
+; Translator ICQ UIN: 637147
+
+[Fonts]
+DialogFontName=MS Shell Dlg
+DialogFontSize=8
+DefaultEditorFont=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1058
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=&Файл
+EditMenu=&Редагування
+SearchMenu=&Пошук
+ViewMenu=&Вигляд
+FormatMenu=Ф&ормат
+ToolsMenu=&Інструменти
+NSISMenu=&NSIS
+WindowMenu=Вікн&о
+HelpMenu=&?
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=Новий &порожній сценарій
+TemplateFile=&Новий сценарій з шаблону
+WizardFile=Новий сценарій від &Майстра сценаріїв
+NewIOFile=Новий &файл з настройками установки
+FileOpen=&Відкрити
+Reopen=Відкрити &заново
+FileSave=З&берегти
+FileSaveAll=Зберегти Все||Зберегти всі змінені файли
+FileSaveAs=Зберегти я&к ...
+FilePrint=&Друк
+FileConfigPrint=Настройки друку
+FileExit=&Вихід
+
+; Edit menu
+EditUndo=&Відміна введення
+EditRedo=&Застосувати
+EditCut=&Вирізати
+EditCopy=К&опіювати
+EditCopyAsHTML=Копіювати як HTML
+EditPaste=&Вставити
+EditSelectAll=&Виділити все
+
+; Search menu
+EditFind=Зн&айти
+EditFindNext=З&найти знову
+EditReplace=&Замінити
+SearchGotoLine=&Перейти на лінію|F2|Перейти на вказану лінію
+ToggleBookmark=&Включити Закладки
+GotoBookmark=Пер&ейти на закладку
+Bookmark=Закладка
+
+; View menu
+ToolBarsMenu=Панелі
+ViewBrowser=Бровзер|F4|Показати/приховати бровзер
+ViewWindowList=Список вікон|F5|Показати/приховати відкриті файли
+ViewIOPanel=Управління &Інсталяційними опціями|F6|Показати/приховати панелі Опцій Установок
+ViewStatusBar=&Строка статуса
+ViewLogBox=Вікно з логом
+ViewSpecialChars=Спеціальні знаки|F10|Показати переходи ліній, пробіли та спец символи
+IOToggleDesignMode=Включити режим дизайну|F12|Переключитися між режимами
+ViewOptions=&Опції|F11|Показати ділог налаштувань
+
+; Format menu
+FormatIndent=&Автовідступ
+FormatUnIndent=&Без Автовідступу
+FormatUpperCase=В&ерхній регістр
+FormatLowerCase=&Нижній регістр
+FormatToggleCase=&Переключити регістр
+FormatQuoteSelection=&Цитувати вибране
+FormatWordWrap=Пе&реносити слова
+
+; Tools menu
+ToolsInsertColor=Вставити &колір
+ToolsInsertFile=Вставити &ім'я файла
+CodeTemplates=Шаблони кодів
+ToolsEditCodeTemplate=&Редагувати шаблони
+
+; NSIS menu
+NSISCompileWithProfile=Компілювати з профілем
+NSISEditCompProfiles=Редагувати профілі компілятора||
+NSISCompil=&Компілювати сценарій
+NSISCompilRun=Компілювати і запустити|Shift+F9|Компілювати і запустити активний скрипт
+NSISStopCompile=Зупинити компілювання|Esc|Зупинити процес компілювання
+NSISExec=&Запустити установку
+NSISConfig=&Конфігурація
+
+; Window menu
+WindowCascade=Розташувати каскадом
+WindowTileHorizontal=По горизонталі
+WindowTileVertical=По вертикалі
+WindowArrangle=Відновити все
+WindowPrior=Попереднє вікно||
+WindowNext=Наступне вікно||
+WindowList=Список вікон
+WindowClose=Закрити вікно
+WindowShow=Показати вікно
+WindowSMU=Пе&ключити на найбільш використовуване|Shift+Ctrl+W|
+
+
+; Help menu
+HelpNSIS=Допомога по NSIS
+HelpAbout=Про програму ...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=Домашня сторінка HM NIS Edit||http://hmne.sourceforge.net/|41
+URLLink2=Офіційний веб-сайт NSIS||http://nsis.sourceforge.net/|41
+URLLink3=Форум по NSIS||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+URLLink4=Українські Новини зі світу програм||http://myUkr.NET/|41
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Меню
+TBStandardCaption=Стандартно
+TBEditCaption=Редагування
+TBViewCaption=Перегляд
+TBSearchCaption=Пошук
+TBFormatCaption=Формат
+TBNSISCaption=NSIS
+TBWindowCaption=Вікна
+IOPanelCaption=Опції Установки
+Browser=Бровзер
+MoreButtons=Більше кнопок
+
+; Status bar
+CaretPos=Поз: %d - Стор: %d
+Modified=Змінено
+Insert=Ввід
+Overwrite=Переписати
+ReadOnly=Тільки читання
+
+; Open file captions
+OpenTemplateCaption=Відкрити шаблон
+OpenScriptCaption=Відкрити сценарій
+
+; IO designer
+BringToFront=&Перемістити в початок
+SendToBack=&Відправити назад
+Delete=&Видалити|Ctrl+Del|
+SetTabOrder=Порядок &таблиць...
+ResizeWinto=Дизайнер &розмірів
+ResizeItems=Modern UI|300/140;Classic UI|266/130
+
+; TabOrder dialog
+TabOrderCaption=Порядок таблиць
+Up=&Вверх
+Down=&Вниз
+
+; File filters
+AllFileFilter=Всі файли (*.*)|*.*
+NSISFileFilter=Файли NSIS (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Виконувані файли (*.exe)|*.exe
+HTMLFileFilter=Файли HTML (*.htm, *.html)|*.htm;*.html
+INIFileFilter=Файл настройок установки (*.ini)|*.ini
+IconFileFilter=Файли значків (*.ico)|*.ico
+LicFileFilter=Файл з ліцензією (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=Файли заголовків NSIS (*.nsh)|*.nsh
+RTFFileFilter=Текст в форматі RTF (*.rtf)|*.rtf
+TextFileFilter=Текстові файли (*.txt)|*.txt
+CHMFileFilter=Файли довідки CHM (*.chm)|*.chm
+HelpFileFilter=Файли довідки (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=Файли TeX (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Помилка
+InformationDlgCaption=Інформація
+QuestionDlgCaption=Підтвердження
+WarningDlgCaption=Увага
+
+; Buttons
+OK=ОК
+Cancel=Скасувати
+Next=Далі >
+Back=< Назад
+Finish=Закінчити
+Apply=Застосувати
+
+; About box
+AboutBoxCaption=Про програму
+
+; Find window
+FindTextCaption=Пошук тексту
+FindText=Знайти текст:
+SearchOptions=Опції
+CaseSensitive=Враховувати регістр
+WholeWordOnly=Тільки ціле слово
+SearchFromCursor=Пошук від курсора
+SearchSelectedOnly=У вибраному тексті
+Forward=Вперед
+Backward=Назад
+
+; Replace window
+ReplaceTextCaption=Замінити текст
+ReplaceText=Текст для заміни:
+ReplaceAll=Замінити все
+
+; Goto line window
+GotoLineCaption=Перейти до номеру рядка
+GotoLinePrompt=Введіть номер рядка:
+
+; Options window
+EnvironmentConfigPage=Оточення
+EditorConfigPage=Редактор
+CompilerConfigPage=Компілятор
+PluginsConfigPage=Додатки
+
+; Options window Environment Config Page
+GeneralOptions=Загальні варіанти
+ShowSplashScreen=Показувати початковий логотип
+ShowWelcomeDialog=Показати вікно привітання
+MultipleInstances=Кілька копій програми
+OpenIniFilesIn=Відкривати файл .ini в режимі проекту
+OpenFilesOnStartup=Відкривати останні файли при старті
+UseDefBrowser=Використовувати стандартний браузер
+Lang=&Виберіть мову
+BrowserHome=Навігатор удома:
+ToolBarOptions=Варіанти панелей інструменту
+TBSmoothDrag=Гладка протекція в панелях інструменту
+PanelSmoothDrag=Гладка протекція в панелях інструменту
+TBTheme=Тема панелі інструменту:
+Default=Стандартно
+OfficeXP=OfficeXP
+Stripes=Смуги
+FileAssoc=Асоціації файлів
+DefaultEditor=&Зробити редактором файлів NSIS за умовчанням
+SuccessfullyRegister=HM NIS Edit успішно встановлений як редактор файлів NSIS за умовчанням
+IOGridOptions=Дизайнер InstallOptions
+DisplayGrid=Відображати сітку
+SnapToGrid=Притягувати до сітки
+GridX=Розмір сітки по X:
+GridY=Розмір сітки по Y:
+CtrlDims=Показати розміри управління як:
+RightBottom=Вверх/Вниз
+WidthHeight=Висота/Ширина
+Both=Обоє
+Other=Інше
+SaveOptionsIn=Зберегти опції до:
+Registry=Реєстру
+
+; Options window Editor Config Page
+DisplayPage=Показ
+OptionsPage=Варіанти
+HighlighterPage=Кольори
+
+; Options window Editor Display Page
+Gutter=Gutter
+GutterVisible=Видно
+GutterShowLineNumbers=Показати номери рядка
+GutterStartAtZero=Запуск в нульовому
+GutterShowLeaderZeros=Показати нульові лідера
+GutterFont=Use gutter font:
+GutterColor=Gutter color:
+Font=Шрифт
+RightEdge=Привий кут
+EdgeColumn=Крайня Колонка:
+EdgeColor=Колір краю:
+LineTabSpacing=Проміжок між рядками / Розміщення таблиці
+ExtraLines=Додаткові Лінії:
+TabWidth=Ширина Таблиці:
+Bookmarks=Закладки
+BookmarkKeys=Ключі закладки
+BookmarksVisible=Видимі закладки
+EditorFont=Фонт Редактора
+
+; Options window Editor Options Page
+AutoIndent=Авто-Абзац|Буде вставляти символ абзацу на нових лініях з тією ж кількістю пробілів як попередня лінія
+DragAndDropEditing=Редагування з Drag and drop|Дозволяє вам, вибрати блок тексту і протягнути його в межах документа до іншого розташування
+HalfPageScroll=Половинне прокручування|При прокручуванні за допомогою кнопок page-up і page-down, прокручується тільки половина сторінки
+ScrollByOneLess=Scroll by one less|Forces scrolling to be one less
+ScrollPastEOF=Scroll past end of file|Allows the cursor to go past the end of file marker
+ScrollPastEOL=Scroll past end of line|Allows the cursor to go past the last character into the white space at the end of a line
+ShowScrollHint=Show scroll hint|Shows a hint of the visible line numbers when scrolling vertically
+SmartTabs=Розумні таблиці|When tabbing, the cursor will go to the next non-white space character of the previous line
+TabsToSpaces=Таблиці до інтервалів|Converts a tab character to the number of spaces in Tab Width
+TrimTrailingSpaces=Trim trailing spaces|Spaces at the end of lines will be trimmed and not saved
+AltSetsColumnMode=Alt sets column mode|Holding down the Alt Key will put the selection mode into columnar format
+KeepCaretX=Maintain caret column|When moving through lines the X position will always stay the same
+ScrollHintFollows=Scroll hint follows mouse|The scroll hint follows the mouse when scrolling vertically
+GroupUndo=Group undo|When undoing/redoing actions, handle all continuos changes of the same kind in one call instead undoing/redoing each command separately
+SmartTabDelete=Smart tab delete|similar to Smart Tabs, but when you delete characters
+RightMouseMoves=Right mouse moves cursor|When clicking with the right mouse for a popup menu, move the cursor to that location
+EnhanceHomeKey=Enhance Home Key|Enhances home key positioning, similar to visual studio
+HideShowScrollbars=Hide scrollbars as necessary|if enabled, then the scrollbars will only show when necessary.  If you have ScrollPastEOL, then it the horizontal bar will always be there (it uses MaxLength instead)
+DisableScrollArrows=Вимкнути стрілки прокрутки|Вимикає стрілки прокрутки коли ви не можете прокручувати у цюму напрямі
+ShowSpecialChars=Показувати спец-симовли|Показує переходи строк, пробіли і табуляції використовуючи спеціальні символи
+UndoAfterSave=Відміняти &після збереження
+ViewUsageHints=&Використовувати підказку по коммандам
+
+Caret=Caret
+InsertCaret=Символ вставки:
+OverwriteCaret=Переписатиь символ:
+VerticalLine=Вертикальна Лінія
+HorizontalLine=Горизонтальна Лінія
+HalfBlock=Половина блоку
+Block=Блок
+
+; Options window Editor Highlighter Page
+UseHighlighter=&Використовувати підсвічування синтаксису
+Element=Елемент 
+TextAttri=&Аттрібути тексту
+Color=Кольори:
+Foreground=Лицьова сторона
+Background=Фон
+FontStyle=Стиль шрифту
+Bold=&Жирний
+Italic=Курсив
+Underline=По лінії
+HighlightVarsInsideStrings=&Підсвічувати змінні всередині значень
+
+; Options window compiler options Page
+Paths=Шляхи
+Compiler=&Компілятор:
+Help=&Допомога:
+Options=Настройки
+NoConfigFile=Відключення вкладення конфігураційного файла (nsisconf.nsh).
+NoConsole="%s" не є дійсним консольним додатком.
+NOCD=&Відключена зміна поточної директорії на вказану в .nsi файлі
+SaveScriptsBeforeCompile=Save scripts before compile
+Simbols=&Символи
+SimbolColumn=Символ
+ValueColumn=Значення
+AddSimbol=Додати 
+EditSimbol=Редагувати
+DeleteSimbol=Видалити
+EditSimbolCaption=Редагувати символ
+Simbol=&Символ:
+Value=&Значення:
+DuplicateSymbol=Клонувати ім'я символу
+UseIntegratedBrowser4Help=Використовувати вмонтований бровзер для довідки
+
+; Compiler profiles
+NewProfileCaption=Новий профіль компілятора
+NewProfilePrompt=Введіть назву для нового профіля:
+ProfileExists=Профіль з назвою "%s" вже існує
+CompilerProfilesCaption=Профілі компілятора
+AddProfile=Новий профіль
+EditProfile=Редагувати профіль
+RenameProfile=Переіменувати профіль
+DeleteProfile=Видалити профіль
+EditCompileProfileCaption=Редагувати профіль %s
+
+; Options window plugins config page
+PluginConfig=&Конфігурація
+PluginAbout=&Інфо
+
+; Code templates
+CodeTemplateCaption=Редагувати шаблони кодів
+TemplateNames=Ім'я шаблона
+NewTemplate=Новий шаблон
+EditTemplatePrompt=&Вкажіть ім'я шаблона:
+EditTemplate=Редагувати шаблон
+AutoCompleteShortCut=&Встановлювати ярлики автоматично
+TemplateCode=Код шаблона
+DuplicateTemplateName=Шаблон з ім'ям "%s" вже існує
+
+; Welcome window
+EmptyScript=Створити новий &порожній файл сценарію
+WizardScript=Створити новий сценарій з &Майстром сценаріїв
+OpenExistingFile=Відкрити існу&ючий файл з сценарієм
+MoreFiles=Більше файлів ...
+NoShowSartup=&Не показувати цей діалог знову
+
+; Filter editor
+EditFilterCaption=Редагуйте фільтр
+FilterDescription=Опис фільтра:
+Filter=Фільтр:
+AddFilter=&Додати
+RemoveFilter=&Видалити
+
+
+; Messages
+FileModified=Файл "%s" був оновлений ззовні. Перезавантажити його?
+NoCompiler=Перед компіляцією сценарію виберіть компілятор NSIS
+NoDocs=Перед тим, як знайомитися з розширеною документацією на NSIS, прогляньте файл допомоги по NSIS
+OpenFileError=Неможливо відкрити файл %s
+NoCloseCompiling=У той час поки компілюється сценарій вихід неможливий$nlВи хочете зупинити компілятор?
+Untitled=Без_назви %.2d
+EditTextCaption=Редагувати текст
+EditListitemsCaption=Редагувати елементи списку
+StopCompilePrompt=Ви впевнені що хочете зупинити компілятор?
+CompileCanceled=Компілювання скасовано користувачем.
+
+; Ask save dialog
+n_AskSaveDialogCaption=Save Changes
+n_AskSaveChanges=One or more files has changed. Do you want to save the changes?$nl$nlSelect the files you want to save.
+n_Yes=&Yes
+n_No=&No
+n_SaveAll=&Save All
+
+; -------- WIZARD -----------
+EditFile=Редагування запису
+EditFileCaption=Редагувати запис
+EditGroup=Редагувати групу
+EditLink=Редагування ярлика
+EditLinkCaption=Редагувати ярлик
+FileColumn=Файл
+FilelLnkColumn=Ярлик
+FilesSubTitle=Будь ласка вкажіть файли, включені у Ваш додаток.
+FilesTitle=Файли додатку
+AddFiles=&Додати файл
+AddLink=Новий ярлик
+AppInfoSubTitle=Будь ласка вкажіть деяку інформацію у Вашій програмі.
+AppInfoTitle=Інформація про програму
+AppName=&Ім'я програми:
+AppPublisher=&Автор програми:
+AppVersion=&Версія програми:
+AppWeb=Сайт &програми:
+ChangeInstallDir=Дозволити користувачу &вибір диретории для установки додатку
+ChangeStartMenuDir=Дозволити користувачу &изменять имя директории в меню Старт
+ComponentText=Відзначте ті компоненти, які Ви бажаєте встановити, і зніміть відмітку для тих, які Ви встановлювати не бажаєте.
+CompScript=К&омпілювати сценарій
+Compress=С&тиснення:
+CompressBZip2=bzip2
+CompressNone=Немає
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=Настройка
+CreateUninstallIcon=Створити ярлик &видалення програми в меню Старт
+CreateWebIcon=Створити ярлик на &www-ресурс програми в меню Старт
+DefaultAppName=Моя програма
+DefaultAppPublisher=Моя компанія, LLC.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://myUkr.NET
+DefaultCompress=zlib
+DefaultExeInst=setup.exe
+DefaultGUI=Модерн
+DefaultGroup=MainGroup
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Classic button
+DefaultLangInst=Ukrainian
+DefaultUninstPrompt=Ви упевнені, в том, що бажаєте видалити [NAME] і всі його компоненти?
+DefaultUninstSuccesMsg=Видалення програми [NAME] було успішне завершено.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\path\to\file\AppMainExe.exe|$INSTDIR;c:\path\to\file\Example.file|$INSTDIR
+DefaultWizardLicFile=c:\path\to\licence\YourSoftwareLicence.txt
+DefaultWizardSections=MainSection
+DeleteFile=&Видалити файл
+DeleteGroup=Видалити групу
+DeleteLink=Видалити ярлик
+Description=&Опис
+Dest=&Призначення:
+DirDest=&Директорія призначення:
+DirDestColumn=Вибір директорії установки
+DirText=Програма установки встановить [NAME] у вказану директорію.$\r$\n$\r$\nДля того, щоб встановити програму в іншу директорію, натискуйте Огляд і вкажіть директорію що вимагається.
+ExeInst=&Файл установки:
+ExecFinishSubTitle=Будь ласка вкажіть дії після завершення процесу установки
+ExecFinishTitle=Запустити після установки
+ExecProgram=&Додаток:
+ExecProgramParams=П&араметрb:
+ExecReadme=Пр&о програму:
+ExitWizardPrompt=Майстер створення сценарій NSIS не завершений. Якщо Ви вийдете зараз, новий сценарій не буде створений.$nl$nlВийти з Майстра NSIS?
+FinishLabel1=Майстер завершений
+FinishLabel2=Ви успішно завершили Майстер.
+FinishLabel3=Щоб закрити Майстер і створити файл сценарію, натискуйте Завершити.
+GUI=Оболонка:
+GUIClassic=Класика
+GUIModern=Модерн
+GUINone=Немає
+IconsSubTitle=Будь ласка вкажіть які іконки повинні бути створені для Вашого додатку.
+IconsTitle=Іконки додатку
+IfFileExists=&Якщо файл існує
+InsertFileCaption=Введіть ім'я файла
+InstallDir=&Директорія додатку за умовчанням:
+InstallIcon=&Ікона установки:
+LFSCheckBox=Чекбокс
+LFSRadioButtons=Радіобуттон
+LangInst=&Настройка мови:
+LicenceFile=&Файл ліцензії
+LicenceSubTitle=Будь ласка вкажіть директорію і ліцензійну інформацію для Вашої установки.
+LicenceTitle=Директорія додатку і ліцензія
+LicenseForceSelection=Виберіть як користувач повинен приймати ліцензійну угоду 
+LicenseText=Якщо Ви приймаєте умови ліцензійної угоди, натискуйте на кнопку Згоден. Ви повинні прийняти умови угоди для установки [NAME]
+LinkDestColumn=Встновлюємий файл
+ModifyName=Змінити ім'я
+ModifyNamePrompt=Записати якщо ім'я групи:
+NewFile=Новий файл
+NewFileCaption=Новий файл
+NewGroup=Нова група
+NewGroupPrompt=Записати коли ім'я групи
+NoAppName=Будь ласка вкажіть ім'я додатку.
+NoCompress=Будь ласка вкажіть тип стиснення
+NoDir=Будь ласка вкажіть директорію за умовчанням.
+NoExeInst=Будь ласка вкажіть ім'я файла установки.
+NoFoundText="%s" не знайдено.
+NoGUI=Будь ласка вкажіть тип графічної оболонки.
+NoLFS=Класичні кнопки
+NoLang=Будь ласка вкажіть мову установки.
+NoLinkName=Будь ласка вкажіть ім'я ярлика.
+NoSymbolName=Будь ласка вкажіть ім'я символу
+NoSymbolSpaces=Не використовуйте пропуски в іменах символів
+NoValidIOControl="%s" не є дійсним компонентом настройок установки
+NoValidIOIni="%s" не є дійсним файлом настройок установки
+NoVersion=Будь ласка вкажіть версію додатку.
+OptionsSubTitle=Будь ласка вкажіть настройки для Вашої установки.
+OptionsTitle=Настройки установки
+OrgDile=&Початковий файл:
+OverwriteIfNewer=Переписати якщо новіше
+OverwriteOff=Ніколи не переписувати
+OverwriteOn=Завжди переписувати
+OverwriteTry=Спробувати переписати
+RelativePaths=&Конвертувати повні шляхи до файлів у відносні
+SaveChanges=Ви бажаєте зберегти зміни у файлі "%s"?
+SaveScript=&Зберегти сценарій
+SelectInstallComponents=&Дозволити користувачу вибір компонентів для установки
+SelectModeMenu=Режим виділення
+ShortCut=&Ярлик:
+StartMenuDir=Ім'я директорії в меню &Старт для додатку
+StartupCaption=Ласкаво просимо
+UninstPrompt=&Запит на видалення:
+UninstSuccesMsg=Повідомлення при успішному завершенні видалення:
+UninstallIcon=Значок деінсталятора:
+UninstallSubTitle=Будь ласка вкажіть атрибути деінсталятора.
+UninstallTitle=Деінсталятор
+UseUninstaller=Використовувати деінсталятор
+WelcomeLabel1=Ласкаво просимо в Майстер сценарій NSIS
+WelcomeLabel2=Цей майстер дозволить Вам швидко і легко створити сценарій для інсталлера NSIS. Сценарій може бути використаний для створення файла, який може бути відкомпілюваний або збережений. 
+WelcomeLabel3=Пам'ятайте, що не всі можливості Nullsoft Install System доступні через цей Майстер. Прочитайте документацію на Nullsoft Install System для детальної інформації.
+WelcomeLabel4=Натискуйте Далі щоб продовжити, або Відміна для виходу з Майстра.
+WizardCaption=Майстер сценарій NSIS
+

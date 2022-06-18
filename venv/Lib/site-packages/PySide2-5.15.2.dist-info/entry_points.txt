@@ -1,0 +1,6 @@
+[console_scripts]
+pyside2-designer = PySide2.scripts.pyside_tool:designer
+pyside2-lupdate = PySide2.scripts.pyside_tool:main
+pyside2-rcc = PySide2.scripts.pyside_tool:rcc
+pyside2-uic = PySide2.scripts.pyside_tool:uic
+

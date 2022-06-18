@@ -1,0 +1,544 @@
+; Mensajes en epañol de HM NIS EDIT 2.0.2
+; http://espanol.geocities.com/ranametalcr/
+
+[Fonts]
+DialogFontName=MS Shell Dlg
+DialogFontSize=8
+DefaultEditorFontName=Courier New
+DefaultEditorFontSize=10
+
+[Strings]
+; Settings
+LangID=1034
+
+; Main window strings
+MainCaption=HM NIS Edit
+
+; Menus
+FileMenu=&Archivo
+EditMenu=&Edición
+SearchMenu=&Búsqueda
+ViewMenu=&Ver
+FormatMenu=&Formato
+ToolsMenu=&Herramientas
+NSISMenu=&NSIS
+WindowMenu=Ve&ntana
+HelpMenu=&?
+
+;------------------------------------------------------------------------
+; Now you can customize the shortcuts and usage hint of the 
+; menu & tool bar items. The entries need to be in this format:
+; ItemText|ShortCut|UsageHint
+
+; File menu
+BlankFile=&Nuevo script en blanco|Ctrl+N|Crea un nuevo script en blanco
+TemplateFile=&Nuevo script desde plantilla...|Ctrl+T|Crea un script basado en uno ya existente
+WizardFile=Nuevo script desde el asistente...|Ctrl+W|Crea un script con la ayuda del asistente
+NewIOFile=Nuevo archivo de Install Options|Ctrl+I|Crea un nuevo archivo de InstallOptions (Página personalizada)
+FileOpen=&Abrir...|Ctrl+A|Abre un script existente
+Reopen=&Reabrir
+FileSave=&Guardar|Ctrl+G|Guarda el script actual
+FileSaveAll=Guardar todo||Guardar todos los archivos modificados
+FileSaveAs=Guardar &como...||Guarda el script actual con otro nombre o exporta el contenido a otro formato
+FilePrint=&Imprimir|Ctrl+P|Imprime el contenido del script actual
+FileConfigPrint=Configurar impresora...||Configura la impresora
+FileExit=&Salir|Alt+F4|Sale del programa
+
+; Edit menu
+EditUndo=&Deshacer|Ctrl+Z|Deshace la ultima acción
+EditRedo=&Rehacer|Shift+Ctrl+Z|Rehace la ultima acción deshecha
+EditCut=&Cortar|Ctrl+X|Corta el texto seleccionado al portapapeles
+EditCopy=C&opiar|Ctrl+C|Copia el texto seleccionado al portapapeles
+EditCopyAsHTML=Copiar como HTML||Copia el texto seleccionado al portapapeles en formato HTML
+EditPaste=&Pegar|Ctrl+V|Pega el contenido del portapapeles en la posición del cursor
+EditSelectAll=&Seleccionar todo|Ctrl+E|Selecciona todo el texto
+
+; Search menu
+EditFind=B&uscar...|Ctrl+F|Busca texto en la ventana activa
+EditFindNext=&Buscar siguiente|F3|Busca la siguiente coincidencia de la cadena a buscar
+EditReplace=R&emplazar...|Ctrl+R|Remplaza coincidencia de la cadena especificada
+SearchGotoLine=&Ir a número de línea...||Mueve el cursor al número de línea especificado
+ToggleBookmark=&Fijar registro
+GotoBookmark=I&r a registro
+Bookmark=Registro
+
+
+; View menu
+ToolBarsMenu=Barras de herramientas
+ViewBrowser=Browser|F4|Muestra/Oculta el explotador web
+ViewWindowList=Window list|F5|Muestra/Oculta las lista de archivos abiertos
+ViewIOPanel=&Controles de Install Options|F6|Muestra/Oculta el panel de controles de Install Options
+ViewStatusBar=&Barra de estado|F7|Muestra/Oculta la barra de estado
+ViewLogBox=&LogBox|F8|Muestra/Oculta el log box
+ViewSpecialChars=C&aracteres especiales|F10|Muestra retornos de carro, espacios y tabulaciones usando símbolos especiales
+IOToggleDesignMode=A&lternar modo de edición|F12|Alterna entre modo de texto o diseño en páginas de InstallOptions
+ViewOptions=&Opciones...|F11|Muestra la ventana de configuración de opciones
+
+; Format menu
+FormatIndent=&Aumentar sangría|Shift+Ctrl+I|Aumenta la sangría
+FormatUnIndent=&Disminuir sangría|Shift+Ctrl+U|Reduce la sangría
+FormatUpperCase=Ca&mbiar a mayúscula|Ctrl+U|Convierte el texto seleccionado en mayúsculas
+FormatLowerCase=&Cambia a minúscula|Ctrl+L|Convierte el texto seleccionado en minúsculas
+FormatToggleCase=&Invertir capitalización||Invierte mayúsculas y minúsculas en el texto seleccionado
+FormatQuoteSelection=&Comillas|Ctrl+Q|Agrega comillas al texto seleccionado
+FormatWordWrap=Aj&uste de línea
+
+; Tools menu
+ToolsInsertColor=Insertar &color...|Shit+F5|Inserta el código del color seleccionado
+ToolsInsertFile=Insertar nombre de &archivo...|Shift+F6|Inserta el nombre del archivo seleccionado
+CodeTemplates=Plantillas de código
+ToolsEditCodeTemplate=&Editar plantillas de código...
+
+; NSIS menu
+NSISCompileWithProfile=Compilar con perfil
+NSISEditCompProfiles=E&ditar perfiles||
+NSISCompil=&Compilar|Ctrl+F9|Compila el script
+NSISCompilRun=C&ompilar y ejecutar|Shift+F9|Compila el script y ejecuta el instalador producido
+NSISStopCompile=Detener compilación|Esc|Detiene el proceso de compilación
+NSISExec=&Ejecutar instalador|F9|Ejecuta el programa instalador
+NSISConfig=Co&nfigurar...|Ctrl+F11|Cambia la ruta del compilador, define símbolos y establece opciones del compilador
+
+; Window menu
+WindowCascade=&Cascada||
+WindowTileHorizontal=&Mosaico horizontal||
+WindowTileVertical=M&osaico vertical||
+WindowArrangle=O&rganizar iconos||
+WindowPrior=Ventana anterior||
+WindowNext=Ventana posterior||
+WindowList=Lista de ventanas
+WindowClose=Cerrar ventana
+WindowShow=Mostrar ventana
+WindowSMU=Cambiar más usadas|Shift+Ctrl+W|
+
+
+; Help menu
+HelpNSIS=Ayuda de NSIS
+HelpAbout=Acerca de...
+
+; Help menu URL links
+; The entries must have this format: ItemText|ShortCut|URL|ImageIndex 
+; ImageIndex is the image to show in the item; use 41 for home pages, 43 for forums,
+; 45 for generic links and -1 for no image.
+; For add a separator use URLLinkX=-
+URLLink1=Página Web de HM NIS Edit||http://hmne.sourceforge.net/|41
+URLLink2=Página Web de NSIS||http://nsis.sourceforge.net/|41
+URLLink3=Foro del NSIS||http://forums.winamp.com/forumdisplay.php?s=&forumid=65|43
+;URLLink4=-
+;URLLink5=Custom link 1||http://pagetoshow1.com/|45
+;URLLink6=Custom link 2||http://pagetoshow2.com/|45
+
+
+;------------------------------------------------------------------------
+;------------------------------------------------------------------------
+
+; Tool Bars
+TBMenuCaption=Menú
+TBStandardCaption=Standard
+TBEditCaption=Edición
+TBViewCaption=Ver
+TBSearchCaption=Búsqueda
+TBFormatCaption=Formato
+TBNSISCaption=NSIS
+TBWindowCaption=Ventanas
+IOPanelCaption=Controles de Install Options 
+Browser=Navegador
+MoreButtons=Más botones
+
+; Status bar
+CaretPos=Col: %d - Lín: %d
+Modified=Modificado
+Insert=Insertar
+Overwrite=Sobrescribir
+n_ReadOnly=Solo lectura
+
+; Open file captions
+OpenTemplateCaption=Abrir plantilla
+OpenScriptCaption=Abrir script
+
+; IO designer
+BringToFront=&Traer al frente
+SendToBack=&Enviar al fondo
+Delete=Eliminar selección|Ctrl+Del|
+SetTabOrder=&Orden de tabulación...
+ResizeWinto=&Ajustar tamaño
+ResizeItems=UI Moderna|300/140;UI Clasica|266/130
+
+; TabOrder dialog
+TabOrderCaption=Orden de tabulación
+Up=&Subir
+Down=&Bajar
+
+; File filters
+AllFileFilter=Todos los archivos (*.*)|*.*
+NSISFileFilter=Archivos NSIS (*.nsi, *.nsh, *.ini)|*.nsi;*.nsh;*.ini
+ExeFileFilter=Archivos ejecutables (*.exe)|*.exe
+HTMLFileFilter=Archivos HTML (*.htm, *.html)|*.htm;*.html
+INIFileFilter=Archivo de Install options (*.ini)|*.ini
+IconFileFilter=Archivos de icono (*.ico)|*.ico
+LicFileFilter=Archivos de licencia (*.rtf, *.txt)|*.rtf;*.txt
+NSHFileFilter=Archivos cabecera de NSIS (*.nsh)|*.nsh
+RTFFileFilter=Texto enriquecido (*.rtf)|*.rtf
+TextFileFilter=Texto plano (*.txt)|*.txt
+CHMFileFilter=Archivos CHM (*.chm)|*.chm
+HelpFileFilter=Archivos de ayuda (*.chm, *.html)|*.chm;*.html
+TeXFileFilter=Archivos TeX (*.tex)|*.tex
+
+; Message boxes
+ErrorDlgCaption=Error
+InformationDlgCaption=Información
+QuestionDlgCaption=Confirmación
+WarningDlgCaption=Atención
+
+; Buttons
+OK=Aceptar
+Cancel=Cancelar
+Next=Siguiente >
+Back=< Atrás
+Finish=Finalizar
+Apply=Aplicar
+Browse=Examinar...
+
+; About box
+AboutBoxCaption=Acerca de
+
+; Find window
+FindTextCaption=Buscar texto
+FindText=Texto a buscar
+SearchOptions=Opciones de búsqueda
+CaseSensitive=Mayúsculas y minúsculas
+WholeWordOnly=Sólo palabra completa
+SearchFromCursor=Buscar desde el cursor
+SearchSelectedOnly=Solo en texto seleccionado
+Forward=Abajo
+Backward=Arriba
+
+; Replace window
+ReplaceTextCaption=Remplazar texto
+ReplaceText=Texto a remplazar
+ReplaceAll=Remplazar todo
+
+; Goto line window
+GotoLineCaption=Ir a número de línea
+GotoLinePrompt=Por favor escriba el número de línea:
+
+; Options window
+EnvironmentConfigPage=Ambiente
+EditorConfigPage=Editor
+CompilerConfigPage=Compilador
+PluginsConfigPage=Plugins
+
+; Options window Environment Config Page
+GeneralOptions=Opciones generales
+ShowSplashScreen=Mostrar "Splash screen"
+ShowWelcomeDialog=Mostrar ventana de bienvenida
+MultipleInstances=Instancias múltiples
+OpenIniFilesIn=Abrir archivos .ini en diseñador
+OpenFilesOnStartup=Abrir archivos usados recientemente
+UseDefBrowser=Usar explorador por defecto
+Lang=Idioma:
+BrowserHome=Inicio del navegador:
+ToolBarOptions=Opciones de barra de herramientas
+TBSmoothDrag=Arrastre suave en barras de herramientas
+PanelSmoothDrag=Arrastre suave en paneles de herramientas
+TBTheme=Tema:
+Default=Predeterminado
+OfficeXP=OfficeXP
+Stripes=Rayas
+FileAssoc=Asociar archivos
+DefaultEditor=&Registrar como editor por defecto para archivos NSIS
+SuccessfullyRegister=HM NIS Edit fue registrado correctamente como editor por defecto
+IOGridOptions=Deseñador de InstallOptions
+DisplayGrid=Mostrar cuadrícula
+SnapToGrid=Ajustar a cuadrícula
+GridX=Longitud X:
+GridY=Longitud Y:
+CtrlDims=Mostrar tamaño de controles como:
+RightBottom=Right/Bottom
+WidthHeight=Width/Height
+Both=Ambos
+Other=Otros
+SaveOptionsIn=Guardar opciones en:
+Registry=Registro
+
+; Options window Editor Config Page
+DisplayPage=Despliegue
+OptionsPage=Opciones
+HighlighterPage=Colores
+
+; Options window Editor Display Page
+Gutter=Canal
+GutterVisible=Visible
+GutterShowLineNumbers=Mostrar números de líneas
+GutterStartAtZero=Iniciar en cero
+GutterShowLeaderZeros=Rellenar con ceros
+GutterFont=Usar fuente
+GutterColor=Color de canal:
+Font=Fuente
+RightEdge=Margen derecho
+EdgeColumn=Columna del margen:
+EdgeColor=Color del margen:
+LineTabSpacing=Espacio entre líneas
+ExtraLines=Ancho de línea extra:
+TabWidth=Ancho de tabulación:
+Bookmarks=Registros
+BookmarkKeys=Teclas de registros
+BookmarksVisible=Registros visible
+EditorFont=Fuente del editor
+
+; Options window Editor Options Page
+AutoIndent=Sangría automática|Will indent the caret on new lines with the same amount of leading white space as the preceding line
+DragAndDropEditing=Edición Arrastrar/Soltar|Allows you to select a block of text and drag it within the document to another location
+HalfPageScroll=Desplazarse media página|When scrolling with page-up and page-down commands, only scroll a half page at a time
+ScrollByOneLess=Desplazarse uno menos|Forces scrolling to be one less
+ScrollPastEOF=Desplazarse más allá del fin del archivo|Allows the cursor to go past the end of file marker
+ScrollPastEOL=Desplazarse más allá del fin de linea|Allows the cursor to go past the last character into the white space at the end of a line
+ShowScrollHint=Mostrar indicación de desplazamiento|Shows a hint of the visible line numbers when scrolling vertically
+SmartTabs=Smart tabs|When tabbing, the cursor will go to the next non-white space character of the previous line
+TabsToSpaces=Tabulaciones a espacios|Converts a tab character to the number of spaces in Tab Width
+TrimTrailingSpaces=Eliminar espacios sobrantes|Spaces at the end of lines will be trimmed and not saved
+AltSetsColumnMode=Alt cambia el modo de columna|Holding down the Alt Key will put the selection mode into columnar format
+KeepCaretX=Mantener columna del cursor|When moving through lines the X position will always stay the same
+ScrollHintFollows=Indicación de desplazamiento sigue al ratón|The scroll hint follows the mouse when scrolling vertically
+GroupUndo=Deshacer en grupo|When undoing/redoing actions, handle all continous changes of the same kind in one call instead undoing/redoing each command separately
+SmartTabDelete=Smart tab delete|similar to Smart Tabs, but when you delete characters
+RightMouseMoves=Botón derecho mueve el cursor|When clicking with the right mouse for a popup menu, move the cursor to that location
+EnhanceHomeKey=Tecla de inicio mejorada|Enhances home key positioning, similar to visual studio
+HideShowScrollbars=Ocultar barras de desplazamiento|if enabled, then the scrollbars will only show when necessary.  If you have ScrollPastEOL, then it the horizontal bar will always be there (it uses MaxLength instead)
+DisableScrollArrows=Inhabilitar flechas de desplazamiento|Disables the scroll bar arrow buttons when you can't scroll in that direction any more
+ShowSpecialChars=Mostrar caracteres especiales|Muestra retornos de carro, espacios y tabulaciones usando símbolos especiales
+UndoAfterSave=Des&hacer después de guardar|Allow undo operations after save
+ViewUsageHints=Mostrar ayuda de comandos|When checked show the command usage of the command beyond themouse cursor
+
+Caret=Cursor
+InsertCaret=Cursor de inserción:
+OverwriteCaret=Cursor de sobreescritura:
+VerticalLine=Línea Vertical
+HorizontalLine=Línea Horizontal
+HalfBlock=Medio Bloque
+Block=Bloque
+
+; Options window Editor Highlighter Page
+UseHighlighter=&Usar realce de sintaxis
+Element=Elemento
+TextAttri=&Atributos de texto
+Color=Colores:
+Foreground=Primer plano
+Background=Fondo
+FontStyle=Estilo de fuente:
+Bold=Negrilla
+Italic=Itálica
+Underline=Subrayado
+HighlightVarsInsideStrings=&Resaltar variables dentro de cadenas
+
+; Options window compiler options Page
+Paths= Rutas
+Compiler=&Compilador:
+Help=Ayuda:
+Options=Opciones
+NoConfigFile=&No incluir archivo de configuración (nsconfig.nsh)
+NoConsole="%s" no es una aplicación de consola valida.
+NOCD=N&o cambiar directorio al compilar
+SaveScriptsBeforeCompile=Guardar scripts antes de compilar
+Simbols=&Símbolos
+SimbolColumn=Símbolo
+ValueColumn=Valor
+AddSimbol=Agregar
+EditSimbol=Editar
+DeleteSimbol=Eliminar
+EditSimbolCaption=Editar símbolo
+Simbol=&Símbolo:
+Value=&Valor:
+DuplicateSymbol=Nombre de símbolo duplicado
+UseIntegratedBrowser4Help=Usar explorador integrado para la ayuda.
+
+; Compiler profiles
+NewProfileCaption=Nuevo perfil de compilador
+NewProfilePrompt=Ingrese el nombre del nuevo perfil:
+ProfileExists=Un perfil de compilador llamado "%s" ya existe
+CompilerProfilesCaption=Perfiles de compilador
+AddProfile=Nuevo perfil
+EditProfile=Editar perfil
+RenameProfile=Renombrar perfil
+DeleteProfile=Eliminar perfil
+EditCompileProfileCaption=Editar el perfil de compilador %s
+
+; Options window plugins config page
+PluginConfig=&Configurar
+PluginAbout=&Acerca de
+
+; Code templates
+CodeTemplateCaption=Editar plantillas de código
+TemplateNames=Nombre
+NewTemplate=Nueva plantilla
+EditTemplatePrompt=&Escriba el nombre de la plantilla:
+EditTemplate=Editar plantilla
+AutoCompleteShortCut=&Tecla rápida
+TemplateCode=Código de la plantilla
+DuplicateTemplateName=Ya existe una plantilla llamada "%s"
+
+; Welcome window
+EmptyScript=&Crear un nuevo script en blanco
+WizardScript=C&rear un nuevo script usando el asistente
+OpenExistingFile=&Abrir un script existente
+MoreFiles=Más archivos...
+NoShowSartup=&No volver a mostrar este dialogo
+OpenFile= Abrir archivo
+
+; Filter editor
+EditFilterCaption=Editar filtro
+FilterDescription=Descripción del filtro:
+Filter=Filtro:
+AddFilter=&Agregar
+RemoveFilter=&Remover
+
+
+; Messages
+FileModified=El archivo "%s" a sido modificado por otra aplicación. ¿Desea recargarlo?
+NoCompiler=Antes de compilar el script por favor seleccione el compilador NSIS
+NoDocs=Antes de mostrar la documentación del NSIS por favor seleccione el archivo de ayuda del NSIS
+OpenFileError=No se puede abrir el archivo %s
+NoCloseCompiling=No se puede salir mientras se compilan scripts.$nl¿Desea detener el compilador?
+Untitled=Sin título %.2d
+EditTextCaption=Editar texto
+EditListitemsCaption=Editar ítem de la lista
+StopCompilePrompt=¿Está seguro que desea detener el compilador?
+CompileCanceled=Compilación cancelada por el usuario.
+
+; Ask save dialog
+AskSaveDialogCaption=Guardar cambios
+AskSaveChanges=Varios archivos han sido modificados. ¿Desea guardar los cambios?$nl$nlSeleccione los archivos que desea guardar.
+Yes=&Si
+No=&No
+SaveAll=&Guardar todos
+
+; -------- WIZARD -----------
+EditFile=Editar entrada de archivo
+EditFileCaption=Editar archivo
+EditGroup=Editar Grupo
+EditLink=Editar acceso directo
+EditLinkCaption=Editar acceso directo
+FileColumn=Archivo
+FilelLnkColumn=Archivo .lnk
+FilesSubTitle=Por favor especifique los archivos que forman parte de su aplicación.
+FilesTitle=Archivos de la aplicación
+AddFiles=&Agregar archivo
+AddDirTree=A&gregar directorio completo
+AddLink=Nuevo Acceso Directo
+AppInfoSubTitle=Por favor especifique la información básica de su aplicación.
+AppInfoTitle=Información de la aplicación
+AppName=&Nombre de la aplicación:
+AppPublisher=&Publicador:
+AppVersion=&Versión:
+AppWeb=Págin&a Web:
+ChangeInstallDir=&Permitir al usuario cambiar el directorio de instalación.
+ChangeStartMenuDir=&Permitir al usuario cambiar el directorio menú de inicio
+ComponentText=Marque los componentes que desea instalar y desmarque los componentes que no desea instalar
+CompScript=C&ompilar script
+Compress=Compresion:
+CompressBZip2=bzip2
+CompressNone=Ninguno
+CompressZLib=zlib
+CompressLZMA=LZMA
+ConfigCaption=Configuración
+CreateUninstallIcon=C&rear un acceso directo al programa des instalador
+CreateWebIcon=&Crear un vinculo a la página web
+DefaultAppName=Mi aplicación
+DefaultAppPublisher=Mi compañía, inc.
+DefaultAppVersion=1.0
+DefaultAppWeb=http://www.micompañia.com
+DefaultCompress=zlib
+DefaultExeInst=Instalar.exe
+DefaultGUI=Moderna
+DefaultGroup=Principal
+DefaultInstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-install.ico
+DefaultLFS=Botón clásico
+DefaultLangInst=Spanish
+DefaultUninstPrompt=¿Está completamente seguro que desea desinstalar [NAME] junto con todos sus componentes?
+DefaultUninstSuccesMsg=La desinstalación de [NAME] finalizó satisfactoriamente.
+DefaultUninstallIcon=${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico
+DefaultWizardFiles=c:\ruta\al\archivo\EjecutablePrincipal.exe|$INSTDIR;c:\ruta\al\archivo\Archivo.ejemplo|$INSTDIR
+DefaultWizardLicFile=c:\ruta\ala\licencia\TuLicenciaDeSoftware.txt
+DefaultWizardSections=Principal
+DeleteFile=Eli&minar archivo
+DeleteGroup=Eliminar grupo
+DeleteLink=Eliminar acceso directo
+Description=&Descripción
+Dest=&Destino:
+DirDest=&Directorio destino:
+DirDestColumn=Directorio destino
+DirText=Se instalará [NAME] en el siguiente directorio.$\r$\n$\r$\nPara instalar en un directorio distinto, presione Examinar y seleccione otro directorio
+ExeInst=&Archivo instalador:
+ExecFinishSubTitle=Por favor especifique las acciones a tomar al terminar la instalación.
+ExecFinishTitle=Ejecutar después de la instalación
+ExecProgram=&Programa:
+ExecProgramParams=P&arámetros:
+ExecReadme=&Leame:
+ExitWizardPrompt=El asistente para scripts del NSIS no está completo. Si usted sale ahora, el nuevo script no será generado.$nl$nl¿Desea salir del asistente para scripts del NSIS?
+FinishLabel1=Fin del asistente
+FinishLabel2=A completando correctamente el asistente.
+FinishLabel3=Para cerrar el asistente y generar el script que producirá la el programa instalador presione Terminar, si desea cambiar opciones precione Atrás
+GUI=I&nterfase gráfica:
+GUIClassic=Clásica
+GUIModern=Moderna
+GUINone=Ninguna
+IconsSubTitle=Por favor especifique los iconos que se deben crear para su aplicación.
+IconsTitle=Iconos de la aplicación
+IfFileExists=&Si el archivo existe
+InsertFileCaption=Insertar nombre de archivo
+InstallDir=&Directorio de instalación por defecto
+InstallIcon=&Icono del instalador:
+LFSCheckBox=Casilla de selección
+LFSRadioButtons=Botones de radio
+LangInst=I&dioma de la instalación:
+LicenceFile=&Contrato de licencia
+LicenceSubTitle=Por favor especifique el directorio de instalación y el contrato de licencia que mostrará la aplicación.
+LicenceTitle=Directorio y licencia de la aplicación
+LicenseForceSelection= Seleccione cómo el usuario aceptará el contrato de licencia 
+LicenseText=Si acepta todos los términos del acuerdo, seleccione Acepto para continuar. Debe aceptar el acuerdo para instalar [NAME]
+LinkDestColumn=Archivo destino
+ModifyName=Modificar nombre
+ModifyNamePrompt=Escriba el nombre del grupo:
+NewFile= Nuevo archivo
+NewFileCaption=Nuevo archivo
+NewGroup=Nuevo grupo
+NewGroupPrompt=Escriba el nombre del nuevo grupo:
+NoAppName=Debe escribir el nombre de la aplicación.
+NoCompress=Debe especificar el tipo de compresión
+NoDir=Debe escribir el directorio por defecto.
+NoExeInst=Debe escribir el nombre del archivo del instalador.
+NoFoundText=No se encontró "%s"
+NoGUI=Debe especificar el tipo de interfase gráfica
+NoLFS=Botón clásico
+NoLang=Debe especificar el idioma de la instalación
+NoLinkName=Debe especificar el nombre del acceso directo.
+NoSymbolName=Debe escribir el nombre del símbolo
+NoSymbolSpaces=No se permiten espacios en nombres de símbolos
+NoValidIOControl="%s" no es un control de InstallOptions valido
+NoValidIOIni="%s" no es un archivo de InstallOptions valido
+NoVersion=Debe escribir la versión de la aplicación.
+OptionsSubTitle=Por favor especifique las características de su instalación.
+OptionsTitle=Opciones de la instalación
+OrgDile=&Archivo origen:
+OverwriteIfNewer=Si es más nuevo
+OverwriteOff=Nunca sobrescribir
+OverwriteOn=Siempre sobrescribir
+OverwriteTry=Sobrescribir si se puede
+RelativePaths=&Convertir rutas de archivos a rutas relativas
+SaveChanges=¿Desea guardar los cambios realizados al archivo "%s"?
+SaveScript=&Guardar script
+SelectInstallComponents=&Permitir al usuario seleccionar los componentes a instalar
+SelectModeMenu=Modo de selección
+ShortCut=&Acceso directo:
+StartMenuDir=&Nombre del directorio del menú de inicio
+StartupCaption=Bienvenido
+UninstPrompt=&Mensaje de confirmación:
+UninstSuccesMsg=&Desinstalación completa:
+UninstallIcon=I&cono del desinstalador:
+UninstallSubTitle=Por favor especifique las características del desinstalador.
+UninstallTitle=Desinstalador
+UseUninstaller=&Usar desinstalador
+WelcomeLabel1=Bienvenido al asistente de creación de instalaciones del NSIS
+WelcomeLabel2=Este asistente le guiará durante el proceso para crear un script para el Nullsoft Install System. Los resultados serán usados para generar un nuevo script que puede ser compilado o guardad en disco para uso futuro.
+WelcomeLabel3=No todas las características del Nullsoft Install System son cubiertas por este asistente. Consulte la documentación para detalles de como crear instalaciones usando el NSIS.
+WelcomeLabel4=Presione Siguiente para continuar, o Cancelar para salir de asistente.
+WizardCaption=Asistente para creación instalaciónes

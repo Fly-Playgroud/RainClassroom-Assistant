@@ -1,0 +1,9 @@
+importlib_metadata/__init__.py,sha256=1Mg6XKqoxPHroxwLUId9oepcfMCvpWnoVe8L8jgWJTc,24604
+importlib_metadata/_compat.py,sha256=JA7DmId9NZtsj6nj8UjQZuPyktaLCTT3wHo7jWfPZc4,2384
+importlib_metadata/_itertools.py,sha256=5TUj_APJHq3pvjn04hnP2oYBebP2No7HmNH_hkOGwLQ,607
+importlib_metadata/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+importlib_metadata-3.7.0.dist-info/LICENSE,sha256=wNe6dAchmJ1VvVB8D9oTc-gHHadCuaSBAev36sYEM6U,571
+importlib_metadata-3.7.0.dist-info/METADATA,sha256=fVBRPHoBK-dwDQyz0zxn7j47vfTlIN8mRhFT5uHrhKc,3443
+importlib_metadata-3.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+importlib_metadata-3.7.0.dist-info/top_level.txt,sha256=CO3fD9yylANiXkrMo4qHLV_mqXL2sC5JFKgt1yWAT-A,19
+importlib_metadata-3.7.0.dist-info/RECORD,,
