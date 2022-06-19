@@ -127,7 +127,7 @@ class UI(QMainWindow, ):
         self.view.settings().setAttribute(QWebEngineSettings.JavascriptEnabled, True)
         # proFile = QWebEngineProfile(parent=self.view)
 
-        self.view.load(QUrl('http://ykt.3xittec.cn/'))
+        self.view.load(QUrl('https://www.yuketang.cn/')) # 此处填入不同雨课堂版本的登录网址
         self.newTab(self.view)
 
         self.turn_button = QAction(QIcon(':icons/zhuandao.png'), 'Turn', self)
